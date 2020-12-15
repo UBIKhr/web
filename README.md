@@ -1,23 +1,16 @@
-# Victor Hugo
-
-**A Hugo boilerplate for creating truly epic websites**
-
-This is a boilerplate for using [Hugo](https://gohugo.io/) as a static site generator and [Webpack](https://webpack.js.org/) as your asset pipeline.
-
-Victor Hugo setup to use [PostCSS](http://postcss.org/) and [Babel](https://babeljs.io/) for CSS and JavaScript compiling/transpiling.
-
-This project is released under the [MIT license](LICENSE). Please make sure you understand its implications and guarantees.
+# ubik.hr landing page
 
 ## Usage
 
 ### :exclamation: Prerequisites
 
-You need to have the latest/LTS [node](https://nodejs.org/en/download/) and [npm](https://www.npmjs.com/get-npm) versions installed in order to use Victor Hugo.
+* [node](https://nodejs.org/en/download/) v12
+* [yarn](https://classic.yarnpkg.com/en/docs/install/)
 
 Next step, clone this repository and run:
 
 ```bash
-npm install
+yarn install
 ```
 
 This will take some time and will install all packages necessary to run Victor Hugo and its tasks.
@@ -27,10 +20,10 @@ This will take some time and will install all packages necessary to run Victor H
 While developing your website, use:
 
 ```bash
-npm start
+yarn start
 ```
 
-or for developing your website with `hugo server --buildDrafts --buildFuture`, use:
+or for developing website with `hugo server --buildDrafts --buildFuture`, use:
 
 ```bash
 npm run preview
@@ -43,13 +36,13 @@ Then visit http://localhost:3000/ _- or a new browser windows popped-up already 
 To build a static version of the website inside the `/dist` folder, run:
 
 ```bash
-npm run build
+yarn build
 ```
 
 To get a preview of posts or articles not yet published, run:
 
 ```bash
-npm run build:preview
+yarn build:preview
 ```
 
 See [package.json](package.json#L8) for all tasks.
@@ -102,15 +95,9 @@ You can access the environment variable inside the theme files with `getenv "NOD
 
 All tasks starting with _build_ set the environment variable to `production` - the other will set it to `development`.
 
-## Deploying to Netlify
+## Deployment
 
-- Push your clone to your own GitHub repository.
-- [Create a new site on Netlify](https://app.netlify.com/start) and link the repository.
+- Staging to Netlify
+- Production to IPFS
 
-Now Netlify will build and deploy your site whenever you push to git.
-
-You can also click this button:
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/netlify/victor-hugo)
-
-## Enjoy!! 😸
+TBD
