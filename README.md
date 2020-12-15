@@ -1,105 +1,116 @@
-# Easy Setup (Hugo + Netlify + Forestry)
-Build your website with educenter hugo theme by following this easy steps (No Coding Required)
+# Victor Hugo
 
-<a href="http://bit.ly/meghna-hugo-installation" target="_blank" title="meghna hugo installation" rel="nofollow"><img width="100%" src="https://user-images.githubusercontent.com/37659754/70844354-4028be00-1e6a-11ea-8d84-02e9a25e7db8.png"></a>
+**A Hugo boilerplate for creating truly epic websites**
 
-In this tutorial we will show you to make your website live without buying any hosting and touching a single line of code. We made this tutorial based on [meghna hugo](https://github.com/themefisher/meghna-hugo) but you can setup everithing like this.
+This is a boilerplate for using [Hugo](https://gohugo.io/) as a static site generator and [Webpack](https://webpack.js.org/) as your asset pipeline.
 
-### What you need !!
+Victor Hugo setup to use [PostCSS](http://postcss.org/) and [Babel](https://babeljs.io/) for CSS and JavaScript compiling/transpiling.
 
-1. Git acccount (Ex: Github, Gitlab etc ) . In our case we use github.
-2. [Netlify](https://bit.ly/netlify-account) account to host files and add custom domain .
-3. [Forestry](https://bit.ly/forestry-account) account to maintain whole project without code.
+This project is released under the [MIT license](LICENSE). Please make sure you understand its implications and guarantees.
 
+## Usage
 
-### Step 1 : Fork or Clone repository
+### :exclamation: Prerequisites
 
-First we will fork this [educenter hugo](https://github.com/themefisher/educenter-hugo) template.
+You need to have the latest/LTS [node](https://nodejs.org/en/download/) and [npm](https://www.npmjs.com/get-npm) versions installed in order to use Victor Hugo.
 
-### Step 2 : Add your repository in Forestry
+Next step, clone this repository and run:
 
-Go to your [forestry](https://bit.ly/forestry-account)  account and click on `import your site now`. declare your config.toml file [`exampleSite`] and fill up basic settings .
-
-**Or just click this button for one click installation** [![import to forestry](https://assets.forestry.io/import-to-forestryK.svg)](https://app.forestry.io/quick-start?repo=themefisher/educenter-hugo&engine=hugo&version=0.60.1&config=exampleSite)
-
-Now mark everything as done, then go to configuration to change the base url . You can put any url but this have to similar as netlify . So for now put a name which you are going to put in netlify as netlify subdomain.
-
-### Step 3 : Setup and host website with Netlify
-
-Here comes the last step . Go to your [netlify](https://bit.ly/netlify-account) account and click add new site . Choose your git repository to import your website in netlify .  And now you can see the forked `educenter hugo` theme. select it and follow the steps. Then go to `site settings` for change the site name and put your subdoamin name here what you puted on forestry as base url. save it and go to `deploy` from top menu, Wait a while and click on `site preview` or just simply go to the subdomain you puted as base url. **BOOM! Your site is live.** Now you can go to forestry and add, remove or customize every setting and content.
-
-> If you face any issue regarding the installation feel free to onen [open a new issue](https://github.com/themefisher/educenter-hugo/issues)
-
-## Table of Contents
-
-- [Demo](#demo)
-- [Installation](#installation)
-- [Main Features](#main-features)
-- [Reporting Issues](#reporting-issues)
-- [Technical Support or Questions](#technical-support-or-questions-(paid))
-- [Licensing](#licensing)
-- [More Hugo Themes](https://themefisher.com/hugo-themes/)
-
-## Demo
-
-| About  | Course  | Notice  | Scholarship  |
-|---|---|---|---|
-| ![About page](https://user-images.githubusercontent.com/58769763/72678220-25331480-3ace-11ea-98fd-a1be7d839a62.png) | ![Course page](https://user-images.githubusercontent.com/58769763/72678219-25331480-3ace-11ea-84a1-679144fe3997.png) | ![Notice page](https://user-images.githubusercontent.com/58769763/72678221-25cbab00-3ace-11ea-820d-83fe7ee5daa8.png) | ![Scholarship page](https://user-images.githubusercontent.com/58769763/72678218-249a7e00-3ace-11ea-94a8-d8ccf1f1a9ee.png)
-
-**The images are only for demonstration purpose, Please don't use those images.**
-
-[Live Demo](http://demo.themefisher.com/educenter-hugo/).
-
-## Installation
-At the top we have shown an easy hugo installation. but still if you think you want to go with the traditional way then use the following commands:
-
-**Note : You must use `hugo-extended` version to compile SCSS**
-
-```
-$ git clone git@github.com:themefisher/educenter-hugo.git
-$ cd educenter-hugo/exampleSite/
-$ hugo server --themesDir ../..
+```bash
+npm install
 ```
 
-[Full Documentation](https://documentation.themefisher.com/docs/educenter-hugo/).
+This will take some time and will install all packages necessary to run Victor Hugo and its tasks.
 
-## Main features
+### :construction_worker: Development
 
-* **SEO Friendly** All codes are seo friendly. There is fields to put meta data and other seo parameters in every pages.
-* **Multi Language** We have multi language support in premium version . Right now there is two language include in the theme , those are French and English. If you need more we can help you out.
-* **Google Analytics** You can add you google analytics code in theme config file to connect with your google anlytics account .
+While developing your website, use:
 
-## Reporting Issues
+```bash
+npm start
+```
 
-We use GitHub Issues as the official bug tracker for the educenter Template. Please Search [existing issues](https://github.com/themefisher/educenter-hugo/issues). It’s possible someone has already reported the same problem.
-If your problem or idea is not addressed yet, [open a new issue](https://github.com/themefisher/educenter-hugo/issues)
+or for developing your website with `hugo server --buildDrafts --buildFuture`, use:
 
-## Technical Support or Questions (Paid)
+```bash
+npm run preview
+```
 
-If you have questions or need help integrating the product please [contact us](mailto:mehedi@themefisher.com) instead of opening an issue.  
+Then visit http://localhost:3000/ _- or a new browser windows popped-up already -_ to preview your new website. Webpack Dev Server will automatically reload the CSS or refresh the whole page, when stylesheets or content changes.
 
+### :package: Static build
 
-### Donate Us (Author) 
-This project needs you! If you would like to support this project's further development, the creator of this project or the continuous maintenance of this project, feel free to donate. Your donation is highly appreciated . Thank you!
+To build a static version of the website inside the `/dist` folder, run:
 
-* **[Donate $10](https://www.paypal.me/themefisher/10USD)**: Thank's for creating this project, here's a tea (or some juice) for you!
-* **[Donate $20](https://www.paypal.me/themefisher/20USD)**: Wow, I am stunned. Let me take you to the movies!
-* **[Donate $30](https://www.paypal.me/themefisher/30USD)**: I really appreciate your work, let's grab some lunch!
-* **[Donate $40](https://www.paypal.me/themefisher/40USD)**: That's some awesome stuff you did right there, dinner is on me!
-* **[Donate $50](https://www.paypal.me/themefisher/50USD)**: I really really want to support this project, great job!
-* **[Donate $100](https://www.paypal.me/themefisher/100USD)**: You are the man! This project saved me hours (if not days) of struggle and hard work, simply awesome!
-* **[Donate $1500](https://www.paypal.me/themefisher/1500USD)**: Go buddy, buy Macbook Pro for yourself!
+```bash
+npm run build
+```
 
-Of course, you can also choose what you want to donate, all donations are awesome !
+To get a preview of posts or articles not yet published, run:
 
-## Hire Us
-We are available for Hiring of your next HUGO project. Drop Us a mail [mehedi@themefisher.com](mailto:mehedi@themefisher.com)
+```bash
+npm run build:preview
+```
 
+See [package.json](package.json#L8) for all tasks.
 
-| [![Mega-Bundle-HUGO](https://gethugothemes.com/wp-content/uploads/edd/2019/09/Mega-Bundle-HUGO.png)](https://themefisher.com/products/hugo-mega-bundle/) | [![agen](https://gethugothemes.com/wp-content/uploads/edd/2019/09/agen-hugo-theme.jpg)](https://gethugothemes.com/products/agen-hugo/) | [![redlab](https://gethugothemes.com/wp-content/uploads/edd/2019/09/redlab-hugo-thumbnail.jpg)](https://gethugothemes.com/products/redlab-hugo/) |
-|:---:|:---:|:---:|
-| **Hugo Mega Bundle**  | **Agen**  | **Red Lab**  |
-| [![Airspace](https://gethugothemes.com/wp-content/uploads/2019/06/hugo-theme-Airspace.jpg)](https://gethugothemes.com/products/airspace-hugo-theme/) | [![Biztrox](https://gethugothemes.com/wp-content/uploads/2019/12/Biztrox.png)](https://gethugothemes.com/products/hugo-business-theme/) | [![Bexer](https://gethugothemes.com/wp-content/uploads/2019/06/hugo-theme-bexer.jpg)](https://gethugothemes.com/products/bexer-hugo-theme/) |
-| **Airspace** | **Biztrox** | **Bexer** |
-| [![Timer](https://gethugothemes.com/wp-content/uploads/edd/2019/07/Timer.jpg)](https://gethugothemes.com/products/timer-hugo-theme/) | [![Enov](https://gethugothemes.com/wp-content/uploads/2019/09/enov-business-template.jpg)](https://gethugothemes.com/products/enov-hugo/) | [![all](https://gethugothemes.com/wp-content/uploads/2019/12/get-more-hugo-themes.png)](https://gethugothemes.com/shop/) |
-| **Timer** | **Enov** | **More Hugo Themes** |
+## Structure
+
+```
+|--site                // Everything in here will be built with hugo
+|  |--content          // Pages and collections - ask if you need extra pages
+|  |--data             // YAML data files with any data for use in examples
+|  |--layouts          // This is where all templates go
+|  |  |--partials      // This is where includes live
+|  |  |--index.html    // The index page
+|  |--static           // Files in here ends up in the public folder
+|--src                 // Files that will pass through the asset pipeline
+|  |--css              // Webpack will bundle imported css separately
+|  |--index.js         // index.js is the webpack entry for your css & js assets
+```
+
+## Basic Concepts
+
+You can read more about Hugo's template language in their documentation here:
+
+https://gohugo.io/templates/overview/
+
+The most useful page there is the one about the available functions:
+
+https://gohugo.io/templates/functions/
+
+For assets that are completely static and don't need to go through the asset pipeline,
+use the `site/static` folder. Images, font-files, etc, all go there.
+
+Files in the static folder end up in the web root. So a file called `site/static/favicon.ico`
+will end up being available as `/favicon.ico` and so on...
+
+The `src/index.js` file is the entrypoint for webpack and will be built to `/dist/main.js`
+
+You can use **ES6** and use both relative imports or import libraries from npm.
+
+Any CSS file imported into the `index.js` will be run through Webpack, compiled with [PostCSS Next](http://cssnext.io/), and
+minified to `/dist/[name].[hash:5].css`. Import statements will be resolved as part of the build.
+
+## Environment variables
+
+To separate the development and production _- aka build -_ stages, all gulp tasks run with a node environment variable named either `development` or `production`.
+
+You can access the environment variable inside the theme files with `getenv "NODE_ENV"`. See the following example for a conditional statement:
+
+    {{ if eq (getenv "NODE_ENV") "development" }}You're in development!{{ end }}
+
+All tasks starting with _build_ set the environment variable to `production` - the other will set it to `development`.
+
+## Deploying to Netlify
+
+- Push your clone to your own GitHub repository.
+- [Create a new site on Netlify](https://app.netlify.com/start) and link the repository.
+
+Now Netlify will build and deploy your site whenever you push to git.
+
+You can also click this button:
+
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/netlify/victor-hugo)
+
+## Enjoy!! 😸
