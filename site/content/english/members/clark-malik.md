@@ -51,7 +51,7 @@ contact:
     link : "#"
 
 # type
-type: "teacher"
+type: "member"
 ---
 
 ### About Me
