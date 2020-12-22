@@ -45,12 +45,6 @@ about:
     link : "UBIK_Statut.pdf"
 
 
-############################# Course ################################
-course:
-  enable : true
-  title : "Our Course"
-  # course item comes from "content/**/course" folder.
-
 ########################## Call to action ############################
 cta:
   enable : true
@@ -74,13 +68,6 @@ success_story:
   dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris"
   # video link
   video_link : "https://www.youtube.com/watch?v=ResipmZmpDU"
-
-
-############################# event ################################
-event:
-  enable : true
-  title : "Upcoming Events"
-  # event item comes from "content/**/event" folder.
 
 
 ########################### funfacts ############################

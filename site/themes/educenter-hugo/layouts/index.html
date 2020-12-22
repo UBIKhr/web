@@ -81,41 +81,27 @@
 {{ end }}
 <!-- /about us -->
 
-<!-- courses -->
-{{ if $data.homepage.course.enable }}
-<section class="section-sm">
+<!-- blog -->
+{{ if $data.homepage.blog.enable }}
+<section class="section">
   <div class="container">
     <div class="row">
       <div class="col-12">
-        <div class="d-flex align-items-center section-title justify-content-between">
-          <h2 class="mb-0 text-nowrap mr-3">{{ $data.homepage.course.title }}</h2>
-          <div class="border-top w-100 border-primary d-none d-sm-block"></div>
-          <div>
-            <a href="{{ `course` | relLangURL }}" class="btn btn-sm btn-outline-primary ml-sm-3 d-none d-sm-block">{{ i18n "see_all" }}</a>
-          </div>
-        </div>
+        <h2 class="section-title">{{ $data.homepage.blog.title }}</h2>
       </div>
     </div>
-    <!-- course list -->
     <div class="row justify-content-center">
-      <!-- course item -->
-      {{ range first 6 (where site.RegularPages "Type" "course")}}
-      <div class="col-lg-4 col-sm-6 mb-5">
-        {{ .Render "course" }}
-      </div>
+      <!-- blog post -->
+      {{ range first 3 (where site.RegularPages "Type" "post")}}
+      <article class="col-lg-4 col-sm-6 mb-5 mb-lg-0">
+        {{ .Render "post" }}
+      </article>
       {{ end }}
-    </div>
-    <!-- /course list -->
-    <!-- mobile see all button -->
-    <div class="row">
-      <div class="col-12 text-center">
-        <a href="{{ `course` | relLangURL }}" class="btn btn-sm btn-outline-primary d-sm-none d-inline-block">{{ i18n "see_all" }}</a>
-      </div>
     </div>
   </div>
 </section>
 {{ end }}
-<!-- /courses -->
+<!-- /blog -->
 
 <!-- cta -->
 {{ if $data.homepage.cta.enable }}
@@ -145,60 +131,5 @@
 {{ end }}
 <!-- /success story -->
 
-<!-- events -->
-{{ if $data.homepage.event.enable }}
-<section class="section bg-gray">
-  <div class="container">
-    <div class="row">
-      <div class="col-12">
-        <div class="d-flex align-items-center section-title justify-content-between">
-          <h2 class="mb-0 text-nowrap mr-3">{{ $data.homepage.event.title }}</h2>
-          <div class="border-top w-100 border-primary d-none d-sm-block"></div>
-          <div>
-            <a href="{{`event` | relLangURL }}" class="btn btn-sm btn-outline-primary ml-sm-3 d-none d-sm-block text-nowrap">{{ i18n "see_all" }}</a>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="row justify-content-center">
-      <!-- event -->
-      {{ range first 3 (where site.RegularPages "Type" "event")}}
-      <div class="col-lg-4 col-sm-6 mb-5 mb-lg-0">
-        {{ .Render "event" }}
-      </div>
-      {{ end }}
-    </div>
-    <!-- mobile see all button -->
-    <div class="row">
-      <div class="col-12 text-center">
-        <a href="{{`event` | relLangURL }}" class="btn btn-sm btn-outline-primary d-sm-none d-inline-block">{{ i18n "see_all" }}</a>
-      </div>
-    </div>
-  </div>
-</section>
-{{ end }}
-<!-- /events -->
-
-<!-- blog -->
-{{ if $data.homepage.blog.enable }}
-<section class="section">
-  <div class="container">
-    <div class="row">
-      <div class="col-12">
-        <h2 class="section-title">{{ $data.homepage.blog.title }}</h2>
-      </div>
-    </div>
-    <div class="row justify-content-center">
-      <!-- blog post -->
-      {{ range first 3 (where site.RegularPages "Type" "post")}}
-      <article class="col-lg-4 col-sm-6 mb-5 mb-lg-0">
-        {{ .Render "post" }}
-      </article>
-      {{ end }}
-    </div>
-  </div>
-</section>
-{{ end }}
-<!-- /blog -->
 
 {{ end }}

@@ -126,11 +126,6 @@ url = "about"
 weight = 1
 
 [[Languages.en.menu.main]]
-name = "course"
-url = "course"
-weight = 2
-
-[[Languages.en.menu.main]]
 weight = 3
 name = "Pages"
 hasChildren = true
