@@ -1,7 +1,7 @@
 (function ($) {
   'use strict';
 
-  // Preloader js    
+  // Preloader js
   $(window).on('load', function () {
     $('.preloader').fadeOut(100);
   });
@@ -20,7 +20,7 @@
     }
   });
 
-  
+
 
   // Background-images
   $('[data-background]').each(function () {
@@ -31,18 +31,18 @@
 
   //Hero Slider
   $('.hero-slider').slick({
-    autoplay: true,
-    autoplaySpeed: 7500,
+    autoplay: false,
+    /*autoplaySpeed: 7500,
     pauseOnFocus: false,
     pauseOnHover: false,
     infinite: true,
     arrows: true,
-    fade: true,
+    fade: true,*/
     prevArrow: '<button type=\'button\' class=\'prevArrow\'><i class=\'ti-angle-left\'></i></button>',
     nextArrow: '<button type=\'button\' class=\'nextArrow\'><i class=\'ti-angle-right\'></i></button>',
-    dots: true
+    dots: false
   });
-  $('.hero-slider').slickAnimation();
+  // $('.hero-slider').slickAnimation();
 
   // venobox popup
   $(document).ready(function () {
