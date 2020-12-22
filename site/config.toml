@@ -47,10 +47,10 @@ link = "plugins/google-map/gmap.js"
 logo = "images/logo.png"
 # Meta data
 description = "This is meta description"
-author = "Themefisher"
+author = "UBIK"
 # contact info
-address = "9567 Turner Trace Apt. BC C3G8A4"
-email = "info@educenter.com"
+address = "Medulićeva 4, 10000 Zagreb, Hrvatska"
+email = "info@ubik.hr"
 # contact form action
 contact_form_action = "#" # contact form works with https://formspree.io
 # Google Analitycs
@@ -87,7 +87,7 @@ expire_days = 2
 [[params.social]]
 title = "facebook"
 icon = "ti-facebook" # themify icon : https://themify.me/themify-icons
-link = "#"
+link = "https://www.facebook.com/UBIK.hr"
 
 [[params.social]]
 title = "twitter"
@@ -95,19 +95,14 @@ icon = "ti-twitter-alt" # themify icon : https://themify.me/themify-icons
 link = "#"
 
 [[params.social]]
-title = "instagram"
-icon = "ti-instagram" # themify icon : https://themify.me/themify-icons
-link = "#"
-
-[[params.social]]
 title = "github"
 icon = "ti-github" # themify icon : https://themify.me/themify-icons
-link = "#"
+link = "https://github.com/ubikhr"
 
 [[params.social]]
 title = "linkedin"
 icon = "ti-linkedin" # themify icon : https://themify.me/themify-icons
-link = "#"
+link = "https://www.linkedin.com/company/ubik-udruga-za-blockchain-i-kriptovalute/"
 
 
 ################################### English language #####################################
