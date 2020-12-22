@@ -3,3 +3,4 @@ dist/
 site/data/webpack.json
 .idea
 .DS_Store
+resources

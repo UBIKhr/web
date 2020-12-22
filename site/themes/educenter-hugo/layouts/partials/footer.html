@@ -111,11 +111,6 @@
 {{ $script := resources.Get "js/script.js" | minify}}
 <script src="{{ $script.Permalink }}"></script>
 
-{{ $script := .Site.Data.webpack.main }}
-{{ with $script.js }}
-<script src="{{ relURL . }}"></script>
-{{ end }}
-
 {{ "<!-- google analitycs -->" | safeHTML }}
 {{ with site.Params.google_analitycs_id}}
 <script>
