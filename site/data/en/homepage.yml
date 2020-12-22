@@ -48,17 +48,17 @@ about:
 ########################## Call to action ############################
 cta:
   enable : true
-  subtitle : "Click to Join the Advance Workshop"
-  title : "Training In Advannce Networking"
+  subtitle : "Sudjeluj u aktivnim diskusijama"
+  title : "Pridruži se UBIK forumu"
   button:
     enable : true
-    label : "join now"
-    link : "contact"
+    label : "Uključi se"
+    link : "https://forum.ubik.hr"
 
 
 ######################## Success story #############################
 success_story:
-  enable : true
+  enable : false
   bg_image : "images/backgrounds/success-story.jpg"
   title : "Success Stories"
   content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat pariatur. Excepteur sint occaecat.
@@ -71,8 +71,10 @@ success_story:
 
 
 ########################### funfacts ############################
+# funfact is for about page
+
 funfacts:
-  enable : true
+  enable : false
   funfact_item:
     # funfact item loop
     - name : "TEACHERS"
@@ -90,12 +92,9 @@ funfacts:
     - name : "SATISFIED CLIENT"
       count : "1400"
 
-# funfact is for about page
-
-
 
 ############################# blog ################################
 blog:
   enable : true
-  title : "Latest News"
+  title : "Blog and News"
   # blog item comes from "content/**/blog" folder.

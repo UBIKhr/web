@@ -81,6 +81,28 @@
 {{ end }}
 <!-- /about us -->
 
+<!-- cta -->
+{{ if $data.homepage.cta.enable }}
+{{ with $data.homepage.cta }}
+<section class="section bg-primary">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h6 class="text-white font-secondary mb-0">{{ .subtitle | markdownify }}</h6>
+        <h2 class="section-title text-white">{{ .title | markdownify }}</h2>
+        {{ if .button.enable }}
+        {{ with .button }}
+        <a href="{{ .link | absLangURL }}" class="btn btn-light">{{ .label }}</a>
+        {{ end }}
+        {{ end }}
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}
+<!-- /cta -->
+
 <!-- blog -->
 {{ if $data.homepage.blog.enable }}
 <section class="section">
@@ -103,27 +125,6 @@
 {{ end }}
 <!-- /blog -->
 
-<!-- cta -->
-{{ if $data.homepage.cta.enable }}
-{{ with $data.homepage.cta }}
-<section class="section bg-primary">
-  <div class="container">
-    <div class="row">
-      <div class="col-12 text-center">
-        <h6 class="text-white font-secondary mb-0">{{ .subtitle | markdownify }}</h6>
-        <h2 class="section-title text-white">{{ .title | markdownify }}</h2>
-        {{ if .button.enable }}
-        {{ with .button }}
-        <a href="{{ .link | absLangURL }}" class="btn btn-light">{{ .label }}</a>
-        {{ end }}
-        {{ end }}
-      </div>
-    </div>
-  </div>
-</section>
-{{ end }}
-{{ end }}
-<!-- /cta -->
 
 <!-- success story -->
 {{ if $data.homepage.success_story.enable }}
