@@ -17,28 +17,21 @@ slider:
 ############################### Banner feature ###############################
 banner_feature:
   enable : true
-  image : "images/banner/banner-feature.png"
   feature_item:
     # feature item loop
-    - name : "Scholorship News"
-      icon : "ti-book" # icon pack : https://themify.me/themify-icons
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore  dolore magna aliqua. Ut enim ad"
+    - name : "Community"
+      icon : "ti-user" # icon pack : https://themify.me/themify-icons
+      content : "Create a focused and strong community of people involved in blockchain and crypto domain in Croatia and the surrounding area."
 
     # feature item loop
-    - name : "Our Notice Board"
-      icon : "ti-blackboard" # icon pack : https://themify.me/themify-icons
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore  dolore magna aliqua. Ut enim ad"
+    - name : "Information"
+      icon : "ti-info" # icon pack : https://themify.me/themify-icons
+      content : "Provide relevant information, education and knowledge within blockchain technology, cryptocurrency mechanics and the overall market."
 
     # feature item loop
-    - name : "Our Achievements"
-      icon : "ti-agenda" # icon pack : https://themify.me/themify-icons
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore  dolore magna aliqua. Ut enim ad"
-
-    # feature item loop
-    - name : "Admission Now"
-      icon : "ti-write" # icon pack : https://themify.me/themify-icons
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore  dolore magna aliqua. Ut enim ad"
-
+    - name : "Support"
+      icon : "ti-support" # icon pack : https://themify.me/themify-icons
+      content : "Provide legal, financial and technological support in developing regulatory frameworks and strategic blockchain projects."
 
 ############################## about ##################################
 about:
