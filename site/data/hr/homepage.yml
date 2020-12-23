@@ -19,24 +19,24 @@ banner_feature:
   enable : true
   feature_item:
     # feature item loop
-    - name : "Community"
+    - name : "Zajednica"
       icon : "ti-user" # icon pack : https://themify.me/themify-icons
       content : "Stvoriti fokusiranu i snažnu zajednicu ljudi uključenih u blockchain i kripto domenu u Hrvatskoj i okruženju."
 
     # feature item loop
-    - name : "Information"
+    - name : "Informacije"
       icon : "ti-info" # icon pack : https://themify.me/themify-icons
       content : "Pružiti relevantne informacije, edukaciju i znanje unutar blockchain tehnologije, mehanike kriptovaluta i cjelokupnog tržišta."
 
     # feature item loop
-    - name : "Support"
+    - name : "Podrška"
       icon : "ti-support" # icon pack : https://themify.me/themify-icons
       content : "Omogućiti pravnu, financijsku i tehnološku podršku u razvijanju regulatornih okvira i strateških blockchain projekata."
 
 ############################## about ##################################
 about:
   enable : true
-  title : "About UBIK"
+  title : "O udruzi"
   image : "images/about/about-illustration.jpg"
   content : "Udruga za blockchain i kriptovalute (UBIK) osnovana je 13.12.2017. usvajanjem Statuta Udruge na sjednici osnivačke Skupštine. Udruga je upisana u Registar udruga 18.01.2018. te sukladno ciljevima djeluje na području obrazovanja, znanosti i istraživanja. Rad Udruge je javan i svi članovi Udruge imaju pravo sudjelovati u radu Udruge sukladno odredbama Statuta i Zakona te pravo uvida u rad tijela i odluke koje njena tijela donose. Rad Udruge usmjeren je ka ispunjavanju ciljeva Udruge. Plan rada, stoga, logično proizlazi iz ciljeva."
   button:
