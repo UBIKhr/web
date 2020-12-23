@@ -2,7 +2,7 @@
 title: "Belma Gutlić"
 draft: false
 image: "images/members/belma_gutlic.jpg"
-description: "Belma Gutlić je suosnivačica i direktorica blockchain R&D tvrtke NodeFactory, inženjerka te organizatorica BUIDL meetupa."
+description: "Belma Gutlić je suosnivačica i direktorica blockchain R&D tvrtke NodeFactory, FER-ovka te organizatorica BUIDL meetupa."
 type: upravni-odbor
 # contact info
 contact:

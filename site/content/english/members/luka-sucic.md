@@ -2,7 +2,7 @@
 title: "Luka Sučić"
 draft: false
 image: "images/members/luka_sucic.jpeg"
-description: ""
+description: "Poduzetnik koji voli nove i neistražene stvari. Aktivno radi na razvoju proizvoda i ekosustava te kao partner u fondu za blockchain startupe MCC."
 type: upravni-odbor
 # contact info
 contact:
