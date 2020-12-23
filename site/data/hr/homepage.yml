@@ -4,14 +4,14 @@ slider:
   bg_image : "images/hero.png"
   slider_item:
     # slider item loop
-    - title : "Union for blockchain and cryptocurrencies"
+    - title : "Udruga za blockchain i kriptovalute"
       content : ""
       animation_in : "left"
       animation_out : "right"
       # available animation : left, right, up, down
       button:
         enable : true
-        label : "Join us"
+        label : "Pridruži se"
         link : "https://docs.google.com/forms/d/e/1FAIpQLScjT7zIX3FW6s0KRaoX9f6Ul6iPk8_sjiytRuL24STvENS4xw/viewform"
 
 ############################### Banner feature ###############################
@@ -21,17 +21,17 @@ banner_feature:
     # feature item loop
     - name : "Community"
       icon : "ti-user" # icon pack : https://themify.me/themify-icons
-      content : "Create a focused and strong community of people involved in blockchain and crypto domain in Croatia and the surrounding area."
+      content : "Stvoriti fokusiranu i snažnu zajednicu ljudi uključenih u blockchain i kripto domenu u Hrvatskoj i okruženju."
 
     # feature item loop
     - name : "Information"
       icon : "ti-info" # icon pack : https://themify.me/themify-icons
-      content : "Provide relevant information, education and knowledge within blockchain technology, cryptocurrency mechanics and the overall market."
+      content : "Pružiti relevantne informacije, edukaciju i znanje unutar blockchain tehnologije, mehanike kriptovaluta i cjelokupnog tržišta."
 
     # feature item loop
     - name : "Support"
       icon : "ti-support" # icon pack : https://themify.me/themify-icons
-      content : "Provide legal, financial and technological support in developing regulatory frameworks and strategic blockchain projects."
+      content : "Omogućiti pravnu, financijsku i tehnološku podršku u razvijanju regulatornih okvira i strateških blockchain projekata."
 
 ############################## about ##################################
 about:
@@ -48,11 +48,11 @@ about:
 ########################## Call to action ############################
 cta:
   enable : true
-  subtitle : "Participate in active discussions"
-  title : "Join UBIK forum"
+  subtitle : "Sudjeluj u aktivnim diskusijama"
+  title : "Pridruži se UBIK forumu"
   button:
     enable : true
-    label : "Join"
+    label : "Uključi se"
     link : "https://forum.ubik.hr"
 
 
@@ -96,5 +96,5 @@ funfacts:
 ############################# blog ################################
 blog:
   enable : true
-  title : "Blog and News"
+  title : "Blog i novosti"
   # blog item comes from "content/**/blog" folder.
