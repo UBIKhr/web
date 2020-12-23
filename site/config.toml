@@ -10,7 +10,7 @@ summaryLength = "10"
 # disqus short name
 disqusShortname = "educenter" # get your shortname form here : https://disqus.com
 # disable language
-disableLanguages = [] # desable language from here
+disableLanguages = []
 
 
 ############################# Plugins ##############################
@@ -112,9 +112,6 @@ languageCode = "en-us"
 contentDir = "content/english"
 weight = 1
 home = "Home"
-# copyright
-copyright = "Copyright &copy; 2020 a hugo theme by [themefisher](https://themefisher.com)"
-
 
 
 ################### English navigation ####################
@@ -137,5 +134,37 @@ weight = 3
 
 [[Languages.en.menu.main]]
 name = "Contact"
+url = "contact"
+weight = 4
+
+################################### Croatian language #####################################
+[Languages.hr]
+languageName = "Hr"
+languageCode = "hr"
+contentDir = "content/english"
+weight = 1
+home = "Početna"
+
+
+################### English navigation ####################
+
+# main menu
+[[Languages.hr.menu.main]]
+name = "blog"
+url = "blog"
+weight = 2
+
+[[Languages.hr.menu.main]]
+name = "članovi"
+url = "members"
+weight = 2
+
+[[Languages.hr.menu.main]]
+name = "Forum"
+url = "https://forum.ubik.hr"
+weight = 3
+
+[[Languages.hr.menu.main]]
+name = "kontakt"
 url = "contact"
 weight = 4

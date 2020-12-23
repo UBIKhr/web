@@ -13,14 +13,8 @@
 - id: subscribe_newsletter
   translation: Subscribe Newsletter
 
-- id: subscribe
-  translation: Subscribe
-
 - id: contact_us
   translation: Contact Us
-
-- id: latest_article
-  translation: Latest Article
 
 - id: categories
   translation: Categories
@@ -40,20 +34,8 @@
 - id: date
   translation: Date
 
-- id: time
-  translation: time
-
 - id: category
   translation: Category
-
-- id: duration
-  translation: duration
-
-- id: weekly
-  translation: weekly
-
-- id: location
-  translation: location
 
 - id: join
   translation: Join
@@ -61,26 +43,8 @@
 - id: enter_email
   translation: Enter your email…
 
-- id: company
-  translation: company
-
-- id: links
-  translation: links
-
-- id: courses
-  translation: Courses
-
-- id: call
-  translation: call
-
-- id: email
-  translation: email
-
 - id: all
   translation: All
-
-- id: interest
-  translation: SUMMARY OF ACTIVITIES/INTERESTS
 
 - id: upravni-odbor
   translation: Executive board
