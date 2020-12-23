@@ -1,89 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
-  <url>
-    <loc>/web/tags/advice/</loc>
-    <lastmod>2019-07-06T15:27:17+06:00</lastmod>
-  </url>
+  <sitemap>
+    <loc>/web/hr/sitemap.xml</loc>
+    
+      <lastmod>2019-07-06T15:27:17+06:00</lastmod>
+    
+  </sitemap>
   
-  <url>
-    <loc>/web/tags/automation/</loc>
-    <lastmod>2019-07-06T15:27:17+06:00</lastmod>
-  </url>
+  <sitemap>
+    <loc>/web/en/sitemap.xml</loc>
+    
+  </sitemap>
   
-  <url>
-    <loc>/web/categories/automation-system/</loc>
-    <lastmod>2019-07-06T15:27:17+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/web/categories/</loc>
-    <lastmod>2019-07-06T15:27:17+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/web/blog/blog-post-1/</loc>
-    <lastmod>2019-07-06T15:27:17+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/web/blog/</loc>
-    <lastmod>2019-07-06T15:27:17+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/web/tags/</loc>
-    <lastmod>2019-07-06T15:27:17+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/web/</loc>
-    <lastmod>2019-07-06T15:27:17+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/web/contact/</loc>
-  </url>
-  
-  <url>
-    <loc>/web/members/alex-rook/</loc>
-  </url>
-  
-  <url>
-    <loc>/web/author/</loc>
-  </url>
-  
-  <url>
-    <loc>/web/members/clark-malik/</loc>
-  </url>
-  
-  <url>
-    <loc>/web/members/devid-luis/</loc>
-  </url>
-  
-  <url>
-    <loc>/web/members/duis-rio/</loc>
-  </url>
-  
-  <url>
-    <loc>/web/members/jacke-mastio/</loc>
-  </url>
-  
-  <url>
-    <loc>/web/author/john-doe/</loc>
-  </url>
-  
-  <url>
-    <loc>/web/author/mark-dinn/</loc>
-  </url>
-  
-  <url>
-    <loc>/web/members/</loc>
-  </url>
-  
-  <url>
-    <loc>/web/members/zim-cook/</loc>
-  </url>
-  
-</urlset>
+</sitemapindex>

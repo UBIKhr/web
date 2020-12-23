@@ -5,60 +5,68 @@
     <link>/web/members/</link>
     <description>Recent content in Our members on UBIK | Udruga za blockchain i kriptovalute</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>Copyright &amp;copy; 2020 a hugo theme by [themefisher](https://themefisher.com)</copyright><atom:link href="/web/members/index.xml" rel="self" type="application/rss+xml" />
+    <language>hr</language><atom:link href="/web/members/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Alex Rook</title>
-      <link>/web/members/alex-rook/</link>
+      <title>Belma Gutlić</title>
+      <link>/web/members/belma-gutlic/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/web/members/alex-rook/</guid>
-      <description>About Me Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</description>
+      <guid>/web/members/belma-gutlic/</guid>
+      <description></description>
     </item>
     
     <item>
-      <title>Clark Malik</title>
-      <link>/web/members/clark-malik/</link>
+      <title>Boris Agatić</title>
+      <link>/web/members/boris-agatic/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/web/members/clark-malik/</guid>
-      <description>About Me Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</description>
+      <guid>/web/members/boris-agatic/</guid>
+      <description></description>
     </item>
     
     <item>
-      <title>Devid Luis</title>
-      <link>/web/members/devid-luis/</link>
+      <title>Bruno Škvorc</title>
+      <link>/web/members/bruno-skvorc/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/web/members/devid-luis/</guid>
-      <description>About Me Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</description>
+      <guid>/web/members/bruno-skvorc/</guid>
+      <description></description>
     </item>
     
     <item>
-      <title>Duis Rio</title>
-      <link>/web/members/duis-rio/</link>
+      <title>Ivan Glavaš</title>
+      <link>/web/members/ivan-glavas/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/web/members/duis-rio/</guid>
-      <description>About Me Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</description>
+      <guid>/web/members/ivan-glavas/</guid>
+      <description></description>
     </item>
     
     <item>
-      <title>Jacke Mastio</title>
-      <link>/web/members/jacke-mastio/</link>
+      <title>Luka Sučić</title>
+      <link>/web/members/luka-sucic/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/web/members/jacke-mastio/</guid>
-      <description>About Me Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</description>
+      <guid>/web/members/luka-sucic/</guid>
+      <description></description>
     </item>
     
     <item>
-      <title>Zim Cook</title>
-      <link>/web/members/zim-cook/</link>
+      <title>Nikola Škorić</title>
+      <link>/web/members/nikola-skoric/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/web/members/zim-cook/</guid>
-      <description>About Me Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</description>
+      <guid>/web/members/nikola-skoric/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vlaho Hrdalo - predsjednik</title>
+      <link>/web/members/1-vlaho-hrdalo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/web/members/1-vlaho-hrdalo/</guid>
+      <description></description>
     </item>
     
   </channel>

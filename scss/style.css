@@ -794,3 +794,6 @@ link:focus,
 
 .feature-blocks {
   padding-right: 0; }
+
+.member .card-title {
+  font-family: "Poppins", sans-serif; }
