@@ -1,5 +1,6 @@
 baseURL = "/"
 title = "UBIK | Udruga za blockchain i kriptovalute"
+DefaultContentLanguage = "hr"
 
 ######################## default configuration ####################
 theme = "educenter-hugo"
@@ -70,18 +71,10 @@ enable = true
 mailchimp_form_action = "https://ubik.us17.list-manage.com/subscribe/post?u=42d4fc66229f174245872ef6b&amp;id=f9edf27b32"
 mailchimp_form_name = "b_42d4fc66229f174245872ef6b_f9edf27b32" # replace this code with yours
 
-# google map
-[params.map]
-enable = true
-gmap_api = "https://maps.googleapis.com/maps/api/js?key=AIzaSyBu5nZKbeK-WHQ70oqOWo-_4VmwOwKP9YQ"
-map_latitude = "51.5223477"
-map_longitude = "-0.1622023"
-map_marker = "images/marker.png" # marker size 37*55 px
-
 # cookies
 [params.cookies]
 enable = true
-expire_days = 2
+expire_days = 30
 
 ############################# social site ########################
 [[params.social]]

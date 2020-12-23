@@ -1,7 +1,7 @@
 ---
 title: "Luka Sučić"
 draft: false
-image: "images/members/bruno_skvorc.jpeg"
+image: "images/members/luka_sucic.jpeg"
 description: ""
 type: upravni-odbor
 # contact info
