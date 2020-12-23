@@ -10,10 +10,10 @@
           <li class="list-inline-item m-3 text-uppercase active" data-filter="all">{{ i18n "all" }}</li>
           {{ $categories := slice }}
           {{ range .Data.Pages }}
-          {{ $categories = $categories | append .Params.Course }}
+          {{ $categories = $categories | append .Params.Type }}
           {{ end }}
           {{ range ( $categories | uniq ) }}
-          <li class="list-inline-item m-3 text-uppercase" data-filter="{{ . | urlize }}">{{ . | humanize }}</li>
+          <li class="list-inline-item m-3 text-uppercase" data-filter="{{ . | urlize }}">{{ i18n . | humanize }}</li>
           {{ end }}
         </ul>
       </div>
