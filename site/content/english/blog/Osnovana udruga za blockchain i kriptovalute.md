@@ -1,6 +1,6 @@
 ---
 title: "Osnovana udruga za blockchain i kriptovalute"
-date: 2018-30-01T15:27:17+06:00
+date: 2018-01-30T15:27:17+06:00
 draft: false
 # page title background image
 bg_image: "images/backgrounds/page-title.jpg"
