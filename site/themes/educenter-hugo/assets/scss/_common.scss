@@ -16,7 +16,7 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #FFDC11;
+  background-color: $secondary-color;
   z-index: 999999;
   display: flex;
   align-items: center;
@@ -116,8 +116,8 @@ a h4{
     width: 100%;
     top: 0;
     left: 0;
-    background: $secondary-color;
-    opacity: .8;
+    background: $black;
+    opacity: .3;
   }
 }
 
