@@ -4,22 +4,27 @@
   
   <url>
     <loc>/web/tags/advice/</loc>
-    <lastmod>2019-07-06T15:27:17+06:00</lastmod>
+    <lastmod>2018-01-30T15:27:17+06:00</lastmod>
   </url>
   
   <url>
     <loc>/web/tags/automation/</loc>
-    <lastmod>2019-07-06T15:27:17+06:00</lastmod>
+    <lastmod>2018-01-30T15:27:17+06:00</lastmod>
   </url>
   
   <url>
     <loc>/web/categories/automation-system/</loc>
-    <lastmod>2019-07-06T15:27:17+06:00</lastmod>
+    <lastmod>2018-01-30T15:27:17+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/web/blog/</loc>
+    <lastmod>2018-01-30T15:27:17+06:00</lastmod>
   </url>
   
   <url>
     <loc>/web/categories/</loc>
-    <lastmod>2019-07-06T15:27:17+06:00</lastmod>
+    <lastmod>2018-01-30T15:27:17+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -33,18 +38,13 @@
   </url>
   
   <url>
-    <loc>/web/blog/blog-post-1/</loc>
-    <lastmod>2019-07-06T15:27:17+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/web/blog/</loc>
-    <lastmod>2019-07-06T15:27:17+06:00</lastmod>
+    <loc>/web/blog/osnovana-udruga-za-blockchain-i-kriptovalute/</loc>
+    <lastmod>2018-01-30T15:27:17+06:00</lastmod>
   </url>
   
   <url>
     <loc>/web/tags/</loc>
-    <lastmod>2019-07-06T15:27:17+06:00</lastmod>
+    <lastmod>2018-01-30T15:27:17+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -59,7 +59,7 @@
   
   <url>
     <loc>/web/</loc>
-    <lastmod>2019-07-06T15:27:17+06:00</lastmod>
+    <lastmod>2018-01-30T15:27:17+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -70,11 +70,6 @@
                 hreflang="hr"
                 href="/web/"
                 />
-  </url>
-  
-  <url>
-    <loc>/web/blog/osnovana-udruga-za-blockchain-i-kriptovalute/</loc>
-    <lastmod>2018-01-30T15:27:17+06:00</lastmod>
   </url>
   
   <url>
