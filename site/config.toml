@@ -47,7 +47,7 @@ link = "plugins/google-map/gmap.js"
 [params]
 logo = "images/logo.png"
 # Meta data
-description = "This is meta description"
+description = "Zajednica ljudi uključena u blockchain i kripto domenu u Hrvatskoj i regiji."
 author = "UBIK"
 # contact info
 address = "Medulićeva 4, 10000 Zagreb, Hrvatska"
