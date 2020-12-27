@@ -4,6 +4,10 @@
 
 .feature-blocks {
   padding-right: 0;
+
+  @media (max-width: 575px) {
+    padding-left: 0;
+  }
 }
 
 .member {
