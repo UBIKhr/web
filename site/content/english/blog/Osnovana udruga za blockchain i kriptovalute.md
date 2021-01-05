@@ -2,21 +2,11 @@
 title: "Osnovana udruga za blockchain i kriptovalute"
 date: 2018-01-30T15:27:17+06:00
 draft: false
-# meta description
-description : "Dana 13.12.2017. osnovana je Udruga za blockchain i kriptovalute. Osnivačka skupština ove udruge kulminacija je višegodišnjeg rada entuzijasta na stvaranju kriptovalutne zajednice u Zagrebu i Hrvatskoj."
-# post thumbnail
-image: "images/blog/post-1.jpg"
-# post author
+image: "images/blog/osnivanje.jpg"
 author: "Nikola Škorić"
-# taxonomy
-categories: ["Automation System"]
 tags: ["Advice", "Automation"]
-# type
 type: "post"
 ---
-
-# Osnovana udruga za blockchain i kriptovalute
-
 
 Dana 13.12.2017. osnovana je Udruga za blockchain i kriptovalute. Osnivačka skupština ove udruge kulminacija je višegodišnjeg rada entuzijasta na stvaranju kriptovalutne zajednice u Zagrebu i Hrvatskoj.
 
