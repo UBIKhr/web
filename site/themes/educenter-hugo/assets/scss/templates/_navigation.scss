@@ -74,6 +74,14 @@
   color: $white;
 }
 
+.navbar-light .navbar-nav .nav-link {
+  // Only change color of links if navbar not collapsed
+  // That case is handled by bootstrap.
+  @media(min-width:992px) {
+    color: $secondary-color;
+  }
+}
+
 link:focus,
 .navbar-dark .navbar-nav .nav-link:hover {
   color: $white;
