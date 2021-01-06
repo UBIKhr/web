@@ -2,107 +2,107 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on UBIK | Udruga za blockchain i kriptovalute</title>
-    <link>/web/tags/</link>
+    <link>/tags/</link>
     <description>Recent content in Tags on UBIK | Udruga za blockchain i kriptovalute</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>hr</language>
-    <lastBuildDate>Thu, 22 Oct 2020 15:27:17 +0600</lastBuildDate><atom:link href="/web/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 22 Oct 2020 15:27:17 +0600</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Blockchain</title>
-      <link>/web/tags/blockchain/</link>
+      <link>/tags/blockchain/</link>
       <pubDate>Thu, 22 Oct 2020 15:27:17 +0600</pubDate>
       
-      <guid>/web/tags/blockchain/</guid>
+      <guid>/tags/blockchain/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Edukacija</title>
-      <link>/web/tags/edukacija/</link>
+      <link>/tags/edukacija/</link>
       <pubDate>Thu, 22 Oct 2020 15:27:17 +0600</pubDate>
       
-      <guid>/web/tags/edukacija/</guid>
+      <guid>/tags/edukacija/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Upozorenje</title>
-      <link>/web/tags/upozorenje/</link>
+      <link>/tags/upozorenje/</link>
       <pubDate>Thu, 22 Oct 2020 15:27:17 +0600</pubDate>
       
-      <guid>/web/tags/upozorenje/</guid>
+      <guid>/tags/upozorenje/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Kriptovalute</title>
-      <link>/web/tags/kriptovalute/</link>
+      <link>/tags/kriptovalute/</link>
       <pubDate>Thu, 13 Aug 2020 15:27:17 +0600</pubDate>
       
-      <guid>/web/tags/kriptovalute/</guid>
+      <guid>/tags/kriptovalute/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Event</title>
-      <link>/web/tags/event/</link>
+      <link>/tags/event/</link>
       <pubDate>Tue, 16 Jul 2019 15:27:17 +0600</pubDate>
       
-      <guid>/web/tags/event/</guid>
+      <guid>/tags/event/</guid>
       <description></description>
     </item>
     
     <item>
       <title>FinTech</title>
-      <link>/web/tags/fintech/</link>
+      <link>/tags/fintech/</link>
       <pubDate>Thu, 23 May 2019 15:27:17 +0600</pubDate>
       
-      <guid>/web/tags/fintech/</guid>
+      <guid>/tags/fintech/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Podcast</title>
-      <link>/web/tags/podcast/</link>
+      <link>/tags/podcast/</link>
       <pubDate>Thu, 23 May 2019 15:27:17 +0600</pubDate>
       
-      <guid>/web/tags/podcast/</guid>
+      <guid>/tags/podcast/</guid>
       <description></description>
     </item>
     
     <item>
       <title>UBIK</title>
-      <link>/web/tags/ubik/</link>
+      <link>/tags/ubik/</link>
       <pubDate>Mon, 29 Apr 2019 15:27:17 +0600</pubDate>
       
-      <guid>/web/tags/ubik/</guid>
+      <guid>/tags/ubik/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Donacija</title>
-      <link>/web/tags/donacija/</link>
+      <link>/tags/donacija/</link>
       <pubDate>Fri, 04 Jan 2019 15:27:17 +0600</pubDate>
       
-      <guid>/web/tags/donacija/</guid>
+      <guid>/tags/donacija/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Posao</title>
-      <link>/web/tags/posao/</link>
+      <link>/tags/posao/</link>
       <pubDate>Fri, 20 Apr 2018 15:27:17 +0600</pubDate>
       
-      <guid>/web/tags/posao/</guid>
+      <guid>/tags/posao/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Porezna</title>
-      <link>/web/tags/porezna/</link>
+      <link>/tags/porezna/</link>
       <pubDate>Thu, 01 Mar 2018 15:27:17 +0600</pubDate>
       
-      <guid>/web/tags/porezna/</guid>
+      <guid>/tags/porezna/</guid>
       <description></description>
     </item>
     

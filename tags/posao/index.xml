@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posao on UBIK | Udruga za blockchain i kriptovalute</title>
-    <link>/web/tags/posao/</link>
+    <link>/tags/posao/</link>
     <description>Recent content in Posao on UBIK | Udruga za blockchain i kriptovalute</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>hr</language>
-    <lastBuildDate>Fri, 20 Apr 2018 15:27:17 +0600</lastBuildDate><atom:link href="/web/tags/posao/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 20 Apr 2018 15:27:17 +0600</lastBuildDate><atom:link href="/tags/posao/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Lista tvrtki koje pružaju usluge s blockchainom</title>
-      <link>/web/blog/lista-tvrtki-koje-pru%C5%BEaju-usluge-s-blockchainom/</link>
+      <link>/blog/lista-tvrtki-koje-pru%C5%BEaju-usluge-s-blockchainom/</link>
       <pubDate>Fri, 20 Apr 2018 15:27:17 +0600</pubDate>
       
-      <guid>/web/blog/lista-tvrtki-koje-pru%C5%BEaju-usluge-s-blockchainom/</guid>
+      <guid>/blog/lista-tvrtki-koje-pru%C5%BEaju-usluge-s-blockchainom/</guid>
       <description>Jedan od razloga osnivanja UBIK-a je povezivanje i networking među zainteresiranim stranama.</description>
     </item>
     
     <item>
       <title>UBIK sastavlja listu tvrtki koji nude proizvode i usluge na Blockchainu</title>
-      <link>/web/blog/ubik-sastavlja-listu-tvrtki-koji-nude-proizvode-i-usluge-na-blockchainu/</link>
+      <link>/blog/ubik-sastavlja-listu-tvrtki-koji-nude-proizvode-i-usluge-na-blockchainu/</link>
       <pubDate>Fri, 16 Mar 2018 15:27:17 +0600</pubDate>
       
-      <guid>/web/blog/ubik-sastavlja-listu-tvrtki-koji-nude-proizvode-i-usluge-na-blockchainu/</guid>
+      <guid>/blog/ubik-sastavlja-listu-tvrtki-koji-nude-proizvode-i-usluge-na-blockchainu/</guid>
       <description>Jedan od razloga postojanja UBIK-a je povezivanje i networking među zainteresiranim stranama koje imaju interes za neku od tehnologija povezanih s blockchainom.</description>
     </item>
     

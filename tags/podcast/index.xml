@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Podcast on UBIK | Udruga za blockchain i kriptovalute</title>
-    <link>/web/tags/podcast/</link>
+    <link>/tags/podcast/</link>
     <description>Recent content in Podcast on UBIK | Udruga za blockchain i kriptovalute</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>hr</language>
-    <lastBuildDate>Thu, 23 May 2019 15:27:17 +0600</lastBuildDate><atom:link href="/web/tags/podcast/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 23 May 2019 15:27:17 +0600</lastBuildDate><atom:link href="/tags/podcast/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Audio zapis: Panel “Future of Payment Systems” s konferencije Fintech Adria</title>
-      <link>/web/blog/audio-zapis-panel-future-of-payment-systems-s-konferencije-fintech-adria/</link>
+      <link>/blog/audio-zapis-panel-future-of-payment-systems-s-konferencije-fintech-adria/</link>
       <pubDate>Thu, 23 May 2019 15:27:17 +0600</pubDate>
       
-      <guid>/web/blog/audio-zapis-panel-future-of-payment-systems-s-konferencije-fintech-adria/</guid>
+      <guid>/blog/audio-zapis-panel-future-of-payment-systems-s-konferencije-fintech-adria/</guid>
       <description>Na konferenciji Fintech Adria smo snimili panel o budućnosti platnih sustava.</description>
     </item>
     
     <item>
       <title>UBIK Podcast #2: Fintech Adria</title>
-      <link>/web/blog/ubik-podcast-2/</link>
+      <link>/blog/ubik-podcast-2/</link>
       <pubDate>Thu, 23 May 2019 15:27:17 +0600</pubDate>
       
-      <guid>/web/blog/ubik-podcast-2/</guid>
+      <guid>/blog/ubik-podcast-2/</guid>
       <description>Poslušajte kako nam je bilo na konferenciji Fintech Adria, konferencije o novitetima u financijskoj industriji kojoj je UBIK bio su-organizator.</description>
     </item>
     
