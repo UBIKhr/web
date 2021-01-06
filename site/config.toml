@@ -68,8 +68,9 @@ preloader = "images/preloader.gif" # use jpg, png, svg or gif format.
 [params.subscription]
 enable = true
 # mailchimp subsciption
-mailchimp_form_action = "https://ubik.us17.list-manage.com/subscribe/post?u=42d4fc66229f174245872ef6b&amp;id=a28ed76483"
-mailchimp_form_name = "b_42d4fc66229f174245872ef6b_a28ed76483"
+mailchimp_form_action = "https://ubik.us17.list-manage.com/subscribe/post"
+mailchimp_u = "" ## Overridden by env variable
+mailchimp_id = "a28ed76483"
 
 # cookies
 [params.cookies]
