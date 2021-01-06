@@ -1,6 +1,6 @@
+DefaultContentLanguage = "hr"
 baseURL = "/"
 title = "UBIK | Udruga za blockchain i kriptovalute"
-DefaultContentLanguage = "hr"
 
 ######################## default configuration ####################
 theme = "educenter-hugo"
@@ -12,7 +12,6 @@ summaryLength = "10"
 #disqusShortname = "educenter" # get your shortname form here : https://disqus.com
 # disable language
 disableLanguages = ["en"]
-
 
 ############################# Plugins ##############################
 
@@ -42,13 +41,12 @@ link = "plugins/filterizr/jquery.filterizr.min.js"
 [[params.plugins.js]]
 link = "plugins/google-map/gmap.js"
 
-
 #################### default parameters ################################
 [params]
 logo = "images/logo.png"
 # Meta data
-description = "Zajednica ljudi uključena u blockchain i kripto domenu u Hrvatskoj i regiji."
 author = "UBIK"
+description = "Zajednica ljudi uključena u blockchain i kripto domenu u Hrvatskoj i regiji."
 # contact info
 address = "Medulićeva 4, 10000 Zagreb, Hrvatska"
 email = "info@ubik.hr"
@@ -61,16 +59,16 @@ top_header = false
 
 # Preloader
 [params.preloader]
-enable = true
+enable = true 
 preloader = "images/preloader.gif" # use jpg, png, svg or gif format.
 
 # Subscription
 [params.subscription]
 enable = true
 # mailchimp subsciption
-mailchimp_form_action = "https://ubik.us17.list-manage.com/subscribe/post"
+mailchimp_form_action = "https://ubik.us17.list-manage.com/subscribe/post" 
+mailchimp_id = "a28ed76483" 
 mailchimpuser = "" ## Overridden by env variable
-mailchimp_id = "a28ed76483"
 
 # cookies
 [params.cookies]
@@ -79,34 +77,32 @@ expire_days = 30
 
 ############################# social site ########################
 [[params.social]]
-title = "facebook"
 icon = "ti-facebook" # themify icon : https://themify.me/themify-icons
-link = "https://www.facebook.com/UBIK.hr"
+link = "https://www.facebook.com/UBIK.hr" 
+title = "facebook" 
 
 [[params.social]]
-title = "twitter"
 icon = "ti-twitter-alt" # themify icon : https://themify.me/themify-icons
-link = "#"
+link = "#" 
+title = "twitter" 
 
 [[params.social]]
-title = "github"
 icon = "ti-github" # themify icon : https://themify.me/themify-icons
-link = "https://github.com/ubikhr"
+link = "https://github.com/ubikhr" 
+title = "github" 
 
 [[params.social]]
-title = "linkedin"
 icon = "ti-linkedin" # themify icon : https://themify.me/themify-icons
-link = "https://www.linkedin.com/company/ubik-udruga-za-blockchain-i-kriptovalute/"
-
+link = "https://www.linkedin.com/company/ubik-udruga-za-blockchain-i-kriptovalute/" 
+title = "linkedin" 
 
 ################################### English language #####################################
 [Languages.en]
-languageName = "En"
-languageCode = "en-us"
 contentDir = "content/english"
-weight = 2
 home = "Home"
-
+languageCode = "en-us"
+languageName = "En"
+weight = 2
 
 ################### English navigation ####################
 
@@ -133,12 +129,11 @@ weight = 4
 
 ################################### Croatian language #####################################
 [Languages.hr]
-languageName = "Hr"
-languageCode = "hr"
 contentDir = "content/english"
-weight = 1
 home = "Početna"
-
+languageCode = "hr"
+languageName = "Hr"
+weight = 1
 
 ################### Croatian navigation ####################
 
@@ -162,3 +157,6 @@ weight = 3
 name = "kontakt"
 url = "contact"
 weight = 4
+
+[markup.goldmark.renderer]
+unsafe = true
