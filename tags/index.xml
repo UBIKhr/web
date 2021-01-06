@@ -6,13 +6,40 @@
     <description>Recent content in Tags on UBIK | Udruga za blockchain i kriptovalute</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>hr</language>
-    <lastBuildDate>Thu, 22 Oct 2020 15:27:17 +0600</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 06 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Blockchain</title>
       <link>/tags/blockchain/</link>
-      <pubDate>Thu, 22 Oct 2020 15:27:17 +0600</pubDate>
+      <pubDate>Wed, 06 Jan 2021 00:00:00 +0000</pubDate>
       
       <guid>/tags/blockchain/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DeFi</title>
+      <link>/tags/defi/</link>
+      <pubDate>Wed, 06 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/defi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pametni Ugovori</title>
+      <link>/tags/pametni-ugovori/</link>
+      <pubDate>Wed, 06 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/pametni-ugovori/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sigurnost</title>
+      <link>/tags/sigurnost/</link>
+      <pubDate>Wed, 06 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/sigurnost/</guid>
       <description></description>
     </item>
     
