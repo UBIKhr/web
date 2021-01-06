@@ -15,7 +15,7 @@
     "prebuild": "rimraf dist",
     "build": "yarn run build:webpack && yarn run build:hugo",
     "build:preview": "yarn run build:webpack && yarn run build:hugo:preview",
-    "build:hugo": "hugo -d ../dist -s site -v --config config.toml,config-staging.toml",
+    "build:hugo": "hugo -d ../dist -s site -v --config config.toml",
     "build:hugo:preview": "yarn run build:hugo -- -D -F",
     "build:webpack": "cross-env NODE_ENV=production webpack --config webpack.prod.js"
   },
