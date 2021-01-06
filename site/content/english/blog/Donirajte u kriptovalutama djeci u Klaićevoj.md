@@ -4,7 +4,7 @@ date: 2018-12-17T15:27:17+06:00
 draft: false
 image: "images/blog/klaiceva.jpg"
 author: "Ivan Voras"
-tags: ["Advice", "Automation"]
+tags: ["Kriptovalute", "Donacija"]
 type: "post"
 ---
 

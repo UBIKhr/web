@@ -4,7 +4,7 @@ date: 2018-03-19T15:27:17+06:00
 draft: false
 image: "images/blog/akcija.jpg"
 author: "Ivan Voras"
-tags: ["Advice", "Automation"]
+tags: ["UBIK"]
 type: "post"
 ---
 

@@ -4,7 +4,7 @@ date: 2020-08-13T15:27:17+06:00
 draft: false
 image: "images/blog/farming.png"
 author: "Nikola Škorić"
-tags: ["Advice", "Automation"]
+tags: ["Kriptovalute", "Upozorenje", "Edukacija"]
 type: "post"
 ---
 

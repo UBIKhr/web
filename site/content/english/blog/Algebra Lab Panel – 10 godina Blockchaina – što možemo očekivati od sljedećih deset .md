@@ -4,7 +4,7 @@ date: 2018-10-15T15:27:17+06:00
 draft: false
 image: "images/blog/algebra-panel.jpg"
 author: "Luka Klancir"
-tags: ["Advice", "Automation"]
+tags: ["Event", "Blockchain"]
 type: "post"
 ---
 

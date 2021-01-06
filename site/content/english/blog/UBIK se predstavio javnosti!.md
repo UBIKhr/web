@@ -4,7 +4,7 @@ date: 2018-02-17T15:27:17+06:00
 draft: false
 image: "images/blog/public.jpg"
 author: "Luka Klancir"
-tags: ["Advice", "Automation"]
+tags: ["UBIK"]
 type: "post"
 ---
 

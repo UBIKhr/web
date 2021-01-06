@@ -4,7 +4,7 @@ date: 2019-05-23T15:27:17+06:00
 draft: false
 image: "images/blog/fta.jpg"
 author: "Ivan Voras"
-tags: ["Advice", "Automation"]
+tags: ["Podcast", "FinTech"]
 type: "post"
 ---
 

@@ -3,7 +3,7 @@ title: "Održana izborna skupština UBIK-a 2019. s glasanjem na blockchainu"
 date: 2019-04-29T15:27:17+06:00
 draft: false
 author: "Ivan Voras"
-tags: ["Advice", "Automation"]
+tags: ["UBIK", "Blockchain"]
 type: "post"
 ---
 

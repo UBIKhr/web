@@ -4,7 +4,7 @@ date: 2018-03-01T15:27:17+06:00
 draft: false
 image: "images/blog/calculator.jpg"
 author: "UBIK"
-tags: ["Advice", "Automation"]
+tags: ["UBIK", "Porezna"]
 type: "post"
 ---
 

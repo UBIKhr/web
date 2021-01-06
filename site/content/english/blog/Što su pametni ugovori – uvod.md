@@ -4,7 +4,7 @@ date: 2018-03-26T15:27:17+06:00
 draft: false
 image: "https://i.imgur.com/nhUXXVS.jpg"
 author: "Ivan Voras"
-tags: ["Advice", "Automation"]
+tags: ["Blockchain", "Edukacija"]
 type: "post"
 ---
 

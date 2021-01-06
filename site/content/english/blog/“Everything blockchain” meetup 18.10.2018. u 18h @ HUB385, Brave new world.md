@@ -4,7 +4,7 @@ date: 2018-10-07T15:27:17+06:00
 draft: false
 image: "images/blog/bravenewworld.png"
 author: "Ivan Voras"
-tags: ["Advice", "Automation"]
+tags: ["Blockchain", "Event"]
 type: "post"
 ---
 

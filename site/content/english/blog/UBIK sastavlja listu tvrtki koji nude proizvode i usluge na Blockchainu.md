@@ -4,7 +4,7 @@ date: 2018-03-16T15:27:17+06:00
 draft: false
 image: "https://i.imgur.com/zPkHF8f.png"
 author: "Ivan Voras"
-tags: ["Advice", "Automation"]
+tags: ["Blockchain", "Posao"]
 type: "post"
 ---
 

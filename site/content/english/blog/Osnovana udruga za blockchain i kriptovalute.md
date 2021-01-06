@@ -4,7 +4,7 @@ date: 2018-01-30T15:27:17+06:00
 draft: false
 image: "images/blog/osnivanje.jpg"
 author: "Nikola Škorić"
-tags: ["Advice", "Automation"]
+tags: ["UBIK"]
 type: "post"
 ---
 

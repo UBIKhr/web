@@ -4,7 +4,7 @@ date: 2018-05-21T15:27:17+06:00
 draft: false
 #image: "/images/blog/fraud-alert.jpg"
 author: "Luka Klancir"
-tags: ["Advice", "Automation"]
+tags: ["Blockchain", "Event"]
 type: "post"
 ---
 

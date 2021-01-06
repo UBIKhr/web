@@ -4,7 +4,7 @@ date: 2019-01-04T15:27:17+06:00
 draft: false
 image: "images/blog/iznos-prikupljen.png"
 author: "Ivan Voras"
-tags: ["Advice", "Automation"]
+tags: ["Kriptovalute", "Donacija"]
 type: "post"
 ---
 

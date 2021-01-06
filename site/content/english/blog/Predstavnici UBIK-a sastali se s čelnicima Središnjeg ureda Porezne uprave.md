@@ -4,7 +4,7 @@ date: 2018-02-11T15:27:17+06:00
 draft: false
 image: "images/blog/porezna.jpg"
 author: "Luka Klancir"
-tags: ["Advice", "Automation"]
+tags: ["UBIK", "Porezna"]
 type: "post"
 ---
 

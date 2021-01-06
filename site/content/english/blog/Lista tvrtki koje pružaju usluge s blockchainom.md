@@ -4,7 +4,7 @@ date: 2018-04-20T15:27:17+06:00
 draft: false
 #image: "/images/blog/"
 author: "Ivan Voras"
-tags: ["Advice", "Automation"]
+tags: ["Blockchain", "Posao"]
 type: "post"
 ---
 

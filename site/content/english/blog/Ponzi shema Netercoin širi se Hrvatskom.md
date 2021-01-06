@@ -4,7 +4,7 @@ date: 2018-05-09T15:27:17+06:00
 draft: false
 image: "/images/blog/fraud-alert.jpg"
 author: "Ivan Vuk"
-tags: ["Advice", "Automation"]
+tags: ["Kriptovalute", "Upozorenje"]
 type: "post"
 ---
 

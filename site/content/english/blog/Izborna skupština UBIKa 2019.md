@@ -3,7 +3,7 @@ title: "Izborna skupština UBIK-a 2019."
 date: 2019-04-19T15:27:17+06:00
 draft: false
 author: "Ivan Voras"
-tags: ["Advice", "Automation"]
+tags: ["UBIK"]
 type: "post"
 ---
 

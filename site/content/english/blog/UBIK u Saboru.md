@@ -4,7 +4,7 @@ date: 2018-04-11T15:27:17+06:00
 draft: false
 image: "images/blog/sabor.jpeg"
 author: "Luka Klancir"
-tags: ["Advice", "Automation"]
+tags: ["UBIK"]
 type: "post"
 ---
 

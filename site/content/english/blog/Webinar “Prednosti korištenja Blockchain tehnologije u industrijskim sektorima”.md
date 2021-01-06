@@ -4,7 +4,7 @@ date: 2019-07-16T15:27:17+06:00
 draft: false
 image: "images/blog/blockchain-webinar-ubik-big.jpg"
 author: "Ivan Voras"
-tags: ["Advice", "Automation"]
+tags: ["Blockchain", "Event"]
 type: "post"
 ---
 

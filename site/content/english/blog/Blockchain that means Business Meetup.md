@@ -4,7 +4,7 @@ date: 2019-04-01T15:27:17+06:00
 draft: false
 image: "images/blog/blockchain-that-means-business.jpg"
 author: "Boris Agatić"
-tags: ["Advice", "Automation"]
+tags: ["Event", "Blockchain"]
 type: "post"
 ---
 

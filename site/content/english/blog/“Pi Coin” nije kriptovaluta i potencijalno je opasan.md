@@ -4,7 +4,7 @@ date: 2020-10-22T15:27:17+06:00
 draft: false
 image: "images/blog/picoin.jpg"
 author: "Ivan Voras"
-tags: ["Advice", "Automation"]
+tags: ["Blockchain", "Upozorenje", "Edukacija"]
 type: "post"
 ---
 
