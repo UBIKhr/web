@@ -20,8 +20,7 @@
                   <li class="list-inline-item mr-3 ml-0"><i class="ti-calendar"></i>
                     {{ .PublishDate.Format "02 Jan, 2006" }}</li>
                   <!-- author -->
-                  <li class="list-inline-item mr-3 ml-0"><i class="ti-user"></i> <a
-                      href="{{ `author/` | relLangURL }}{{ .Params.Author | urlize }}">{{ .Params.Author | title }}</a>
+                  <li class="list-inline-item mr-3 ml-0"><i class="ti-user"></i> <span>{{ .Params.Author | title }}</span>
                   </li>
                 </ul>
                 <h4 class="card-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
