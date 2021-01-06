@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Edukacija on UBIK | Udruga za blockchain i kriptovalute</title>
+    <link>/web/tags/edukacija/</link>
+    <description>Recent content in Edukacija on UBIK | Udruga za blockchain i kriptovalute</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>hr</language>
+    <lastBuildDate>Thu, 22 Oct 2020 15:27:17 +0600</lastBuildDate><atom:link href="/web/tags/edukacija/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>“Pi Coin” nije kriptovaluta i potencijalno je opasan</title>
+      <link>/web/blog/pi-coin-nije-kriptovaluta-i-potencijalno-je-opasan/</link>
+      <pubDate>Thu, 22 Oct 2020 15:27:17 +0600</pubDate>
+      
+      <guid>/web/blog/pi-coin-nije-kriptovaluta-i-potencijalno-je-opasan/</guid>
+      <description>Izjava UBIK-a o proizvodu “Pi Coin” :
+Već dulje vrijeme se na tržištu nalazi “Pi coin”, najčešće u obliku da njegovi korisnici traže nove korisnike i šire informacije i dezinformacije s ciljem da prošire svoju mrežu preporuka, odnosno povećaju broj korisnika koji su do “Pi coina” došli upravo putem njih.</description>
+    </item>
+    
+    <item>
+      <title>Stanje Kriptovaluta kroz farming - Upozorenje </title>
+      <link>/web/blog/stanje-kriptovaluta-kroz-farmin-upozorenje/</link>
+      <pubDate>Thu, 13 Aug 2020 15:27:17 +0600</pubDate>
+      
+      <guid>/web/blog/stanje-kriptovaluta-kroz-farmin-upozorenje/</guid>
+      <description>Čini se da je pravi trenutak za upozoriti na trenutno stanje na tržištu kriptovaluta.</description>
+    </item>
+    
+    <item>
+      <title>Što su pametni ugovori – uvod</title>
+      <link>/web/blog/%C5%A1to-su-pametni-ugovori-uvod/</link>
+      <pubDate>Mon, 26 Mar 2018 15:27:17 +0600</pubDate>
+      
+      <guid>/web/blog/%C5%A1to-su-pametni-ugovori-uvod/</guid>
+      <description>Pametni ugovori su koncept koji se zadnjih godina često spominje u istom kontekstu kao blockchain, sa sličnom kombinacijom potencijala za velike promjene i doze tehničke složenosti koja čini da sam koncept nije jasan većini koji su čuli za njega.</description>
+    </item>
+    
+  </channel>
+</rss>
