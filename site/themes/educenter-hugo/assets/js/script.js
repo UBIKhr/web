@@ -55,6 +55,7 @@
     if (containerEl) {
       $('.filtr-container').filterizr({
         layout: 'sameHeight',
+        animationDuration: 0,
       });
     }
     //Active changer
