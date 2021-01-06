@@ -24,7 +24,7 @@ Tu je ujedno i sljedeća greška u Ivankovićevom članku. Algoritam **ne likvid
 
 26.11. cijena DAI tokena na platformi Coinbase Pro narasla je na 1.3 USD, što je 30% više od uobičajenih 1 USD. Tu je druga greška Ivankovićevog članka: *Compound Pro* na kojeg više puta aludira u svom tekstu ne postoji. Platforma o kojoj se radi je Coinbase Pro, najveća centralizirana kriptovalutna burza u SADu, no zbog sličnosti imena ne treba previše zamjeriti takvu bezazlenu grešku. 
 
-![Skok cijene DAIa na Coinbase platformi](https://i.imgur.com/FQnXKyN.png)
+![Skok cijene DAIa na Coinbase platformi](images/blog/spike.png)
 
 Compound platforma koristila je isključivo Coinbase Pro kao izvor USD cijene DAI tokena, pa je time nagli skok cijene uzrokovao pad omjera kolateralizacije dugova na Compound platformi kod svih korisnika koji su posudili DAI. To je omogućilo likvidaciju pod-kolateraliziranih dugova od kojih su neki bili veći (~50 milijuna DAI).
 
@@ -38,7 +38,7 @@ U pravilima tog programa piše "ako omjer kolateralizacije padne, bilo koji kori
 
 Za razliku od g. Ivankovića, koji dalje kaže: "Što likvidacija znači u slučaju ovog pametnog ugovora, nije jasno". Evidentno je da g. Ivankoviću nije jasno. Svakome tko se imalo razumije u tematiku o je jasno što _"likvidacija znači"_. Vjerujemo da i među novinarima eminentnog hrvatskog časopisa Mreža ima tehnički potkovanih novinara kojima shvaćanje procesa likvidacije na Compoundu neće predstavljati poteškoću i nadamo se da će urednički kolegij Mreže ubuduće znati prepoznati kada autorovo poznavanje materije nije na razini zadatka. G. Ivankoviću, u međuvremenu, preporučujemo da pročita poglavlje o likvidaciji u vodiču "[Compound Finance for Dummies](https://ethereumprice.org/guides/article/compound-finance-explained/#liquidation)".
 
-![](https://i.imgur.com/MP8v6Sb.png)
+![](images/blog/dummies.png)
 
 
 Ivanković nastavlja: "No, kako je ugovor točno likvidiran, ... još nije odgovoreno". Naravno to je pitanje odgovoreno. Likvidator je dobio nagradu za likvidaciju isplaćenu iz likvidiranog kolaterala.  Kao što smo već spomenuli, likvidatori su korisnici platforme koji ili nekom skriptom ili manualno pokreću funkciju likvidacije na pod-kolateraliziranim dugovima sukladno pravilima sustava koje svi korisnici prihvaćaju prilikom ulaska u sustav.
@@ -75,7 +75,7 @@ Zadnji odjeljak članka, “Alkemija novog doba”, neupućenom čitatelju ostav
 
 Autor u svom osvrtu spominje i flash crash američkih burzi iz 2010. godine, što smatramo da je izvrstan kontrapunkt incidentu o kojem upravo govorimo. U ovom članku iznjeli smo u kratkim crtama činjenicama potkrepljen opis samog događaja, a na raznim blogovima koji se bave ovom temom moguće je pročitati zbilja detaljne analize koje jasno opisuju što se prilikom ovog incidenta na Compoundu događalo. Jasno je zašto se incident desio, s kojim motivacijama i kako se odvio. S druge strane, nakon 10 godina istraživanja, tisuća stranica izvještaja američkih regulatora i jednog sudskog procesa, sve što o flash crashu iz 2010. sa sigurnoću možemo reći da je značajan faktor u svemu bio trenutak kad je u [jednom londonskom predgrađu tridesetogodišnjeg momka mama pozvala da siđe na ručak](https://www.reuters.com/article/us-usa-security-fraud-idUSKBN0NC21220150422). Kako je to točno dovelo do flash crasha - ne zna se. Zna da se samo da je to definitivno imalo značajan utjecaj, a ostatak priče je - alkemija.
 
-![](https://i.imgur.com/LyhxD9b.png)
+![](images/blog/alkemija.png)
 
 
 Akteri u tradicionalnoj financijskoj industriji navikli su živjeti u svijetu gdje je malo kome, ako ikome, jasno što se na tržištu u stvari događa. G. Ivanković dolazi iz jedne industrije gdje je sasvim normalno da se 10 godina istražuje flash crash koji je izbrisao bilijun (eng. trillion) dolara vrijednosti u roku od pola sata i da se ne dođe do jasnih zaključaka. Prelazak u svijet gdje su sve transakcije javne, sve motivacije jasne i svi mehanizmi svima poznati može predstavljati šok za kognitivni aparat navikao na alkemiju. Moguće je da g. Ivankoviću možda nije niti jasno da je svijet u kojem su financijske transakcije transparetne uopće moguć. I to iz potpuno istih razloga iz kojih nekom alkemičaru nikako ne bi bila jasna znanstvena metoda kojom je Hantaro Nagaoka 1924. iz žive proizveo zlato.
