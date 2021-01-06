@@ -10,13 +10,13 @@ type: "post"
 
 U sklopu događaja “Brave New World” u HUB385 (Petračićeva 4, Zagreb) održati ćemo meetup pod nazivom “Everything blockchain” – s idejom približavanja blockchain tehnologija široj javnosti. Meetup će početi panelom nekoliko najvećih stručnjaka u Hrvatskoj koji se bave različitim aspektima ove tehnologije, radi upoznavanja s njihovim područjem rada, nakon ćega će biti otvorena diskusija i druženje. Trenutni popis panelista je:
 
-    Blaž Bolanča
-    Bruno Škvorc
-    Lovro Petrac
-    Luka Burazer
-    Nikica Tomašić
-    Nikola Škorić
-    Sonja Prstec
+- Blaž Bolanča
+- Bruno Škvorc
+- Lovro Petrac
+- Luka Burazer
+- Nikica Tomašić
+- Nikola Škorić
+- Sonja Prstec
 
 Ovo je meetup korisnika, entuzijasta i developera koji su zainteresirani za koncepte i realizaciju blockchaina i kriptovaluta.Prijaviti se mogu svi bez obzira na prijašnje iskustvo, bitno je samo volja za učenjem i znatiželja o ovim novim tehnologijama koje imaju potencijal promijeniti svijet.
 

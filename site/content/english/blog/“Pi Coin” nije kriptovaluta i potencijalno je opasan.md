@@ -18,4 +18,4 @@ Kriptovalute ne zahtijevaju korištenje jedne jedine aplikacije kojom se može k
 
 PI se lažno oglašava kao kriptovaluta, njegovim autorima nije problem na taj način dezinformirati svoje korisnike, i iako ne traži ulaganja novca, danas su osobne informacije iznimno popularan način monetizacije. No, bez kriptovalute u pozadini, u najboljem slučaju PI može biti samo uspješna viralna marketinška kampanja.
 
-Član upravnog odbora UBIK-a Bruno Škvorc je napisao detaljnu analizu razlika između PI-a i kriptovaluta koju možete pogledati ovdje.
+Član upravnog odbora UBIK-a Bruno Škvorc je napisao detaljnu analizu razlika između PI-a i kriptovaluta koju možete pogledati [ovdje](https://hackmd.io/LZZth3arQda-CUM7CFaBKA?view).

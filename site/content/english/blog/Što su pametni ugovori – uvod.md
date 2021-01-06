@@ -18,25 +18,23 @@ Dio gdje može biti potrebna treća strana, je da ovom programskom kodu pametnih
 
 Pametni ugovori se mogu koristiti za automatizaciju ili izbacivanje posrednika kod mnogih aktivnosti, na primjer:
 
-    Osiguranje: ako autorizirani agenti upišu u blockchain da su uvjeti za isplatu osiguranja zadovoljeni, isplata će se automatski napraviti
-    Na primjer: medicinsko osiguranje: ako liječnik potpiše da je pacijent bolestan (tj. upiše taj podatak u blockchain), bolesniku će se automatski isplaćivati naknada za bolovanje
-    Na primjer: mirovinsko osiguranje: ako liječnik (ili državno tijelo) potpiše da je osoba ispunila uvjete (na primjer godine staža) za mirovinu, osobi će se automatski isplaćivati mirovina
-    Kladionice: osobe uplaćuju na račun pametnog ugovora, i kad se događaj završi i povjerljiva strana upiše u blockchain tko je pobjednik, oni koji su pogodili automatski dobivaju uplate
-    Plaćanje glazbe ili video zapisa: ako je izvršena uplata za slušanje određenog glazbenog albuma ili filma, uplatitelj automatski dobija pravo slušati ga odnosno gledati
-    Praćenje materijal kroz nabavni i proizvodni proces koji uključuje veliki broj tvrtki: ako se sve tvrtke slažu oko korištenja istih pametnih ugovora, roba može biti praćenja od proizvođača do krajnjeg kupca kroz više skladišta, prijevoznih sredstava automatski, i primo-predaja se može automatski odvijati ako su ispunjeni zahtjevi pametnih ugovora.
+- Osiguranje: ako autorizirani agenti upišu u blockchain da su uvjeti za isplatu osiguranja zadovoljeni, isplata će se automatski napraviti
+- Na primjer: medicinsko osiguranje: ako liječnik potpiše da je pacijent bolestan (tj. upiše taj podatak u blockchain), bolesniku će se automatski isplaćivati naknada za bolovanje
+- Na primjer: mirovinsko osiguranje: ako liječnik (ili državno tijelo) potpiše da je osoba ispunila uvjete (na primjer godine staža) za mirovinu, osobi će se automatski isplaćivati mirovina
+- Kladionice: osobe uplaćuju na račun pametnog ugovora, i kad se događaj završi i povjerljiva strana upiše u blockchain tko je pobjednik, oni koji su pogodili automatski dobivaju uplate
+- Plaćanje glazbe ili video zapisa: ako je izvršena uplata za slušanje određenog glazbenog albuma ili filma, uplatitelj automatski dobija pravo slušati ga odnosno gledati
+- Praćenje materijal kroz nabavni i proizvodni proces koji uključuje veliki broj tvrtki: ako se sve tvrtke slažu oko korištenja istih pametnih ugovora, roba može biti praćenja od proizvođača do krajnjeg kupca kroz više skladišta, prijevoznih sredstava automatski, i primo-predaja se može automatski odvijati ako su ispunjeni zahtjevi pametnih ugovora.
 
 Pametni ugovori su programski kod, što znači da nisu ograničeni samo na scenarije oblika “ako se dogodi X, napraviti će se Y” nego se mogu koristiti doslovno za bilo što, dok god je to unutar ograničenja da podaci moraju biti zapisani u blockchainu. Primjeri aktivnosti kod kojih se koriste “pametni ugovori” bez da se radi o nekim ugovorima su:
 
-    Autenticirana pohrana podataka: programski kod samo provjerava da li je podatak upisan u blockchain od određenog autora / izvora
-    Komunikacija: podaci koje jedna strana upiše u blockchain, druga strana ili više njih mogu čitati
-    Izračuni / analitika podataka u blockchainu: programski kod izvodi izračun nad podacima zapisanima u blockchainu i šalje ga korisniku
-    Standardizacija podataka: umjesto da svaka strana u blockchain zapisuje podatke samostalno, u obliku koji je razumljiv drugim stranama, podaci se upisuju kroz pametni ugovor koji ih prilagođava ako je potrebno
+- Autenticirana pohrana podataka: programski kod samo provjerava da li je podatak upisan u blockchain od određenog autora / izvora
+- Komunikacija: podaci koje jedna strana upiše u blockchain, druga strana ili više njih mogu čitati
+- Izračuni / analitika podataka u blockchainu: programski kod izvodi izračun nad podacima zapisanima u blockchainu i šalje ga korisniku
+- Standardizacija podataka: umjesto da svaka strana u blockchain zapisuje podatke samostalno, u obliku koji je razumljiv drugim stranama, podaci se upisuju kroz pametni ugovor koji ih prilagođava ako je potrebno
 
 Predmeti interakcije u pametnim ugovorima su podaci i adrese. Adrese su posebno izračunati brojevi koji mogu biti pridruženi fizičkim ili pravnim osobama, ili bilo kakvom drugom entitetu iz “stvarnog svijeta” ali ne moraju biti. Putem blockchaina i pametnih ugovora mogu interaktirati potpuno automatizirani sustavi iza kojih ne stoji nikakav entitet.
 
 Pametni ugovori su stoga vrlo fleksibilan alat čije mogućnosti sežu izvan ostvarivanja konkretnih ugovora. Uz blockchain koji omogućava da se pametni ugovori događaju bez potrebe za povjerenjem prema trećim stranama, potencijalne primjene u državnom, financijskom i telekomunikacijskom sektoru mogu dovesti do velikog povećanja efikasnosti, transparentnosti i uštede, a s druge strane mogu biti alat za društvene promjene koje su posve neovisne o tim sektorima.
-
- 
 
 Autor članka je Ivan Voras, jedan od suosnivača UBIK-a, konzultant i developer za projekte na blockchainu i pametnim ugovorima.
 Kontakt adresa autora je ivoras@idejanakvadrat.hr
