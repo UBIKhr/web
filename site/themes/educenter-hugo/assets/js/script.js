@@ -54,7 +54,7 @@
     var containerEl = document.querySelector('.filtr-container');
     if (containerEl) {
       $('.filtr-container').filterizr({
-        layout: 'sameHeight',
+        layout: 'sameWidth',
         animationDuration: 0,
       });
     }
