@@ -1,18 +1,5 @@
 {{ "<!-- sidebar -->" | safeHTML }}
 <aside class="col-lg-4 order-1 order-lg-2">
-  {{ "<!-- categories -->" | safeHTML }}
-  <div class="bg-white mb-5">
-    <h4 class="mb-4">{{ i18n "categories" }}</h4>
-    {{- if isset site.Taxonomies "categories" }}
-    {{- if not (eq (len site.Taxonomies.categories) 0) }}
-    <ul class="list-unstyled">
-      {{- range $name, $items := site.Taxonomies.categories }}
-      <li class="border-bottom"><a href="{{ `categories/` | relLangURL }}{{ $name | urlize | lower }}" class="d-block pb-3 mt-3">{{ $name | title | humanize }}</a></li>
-      {{- end }}
-    </ul>
-    {{- end }}
-    {{- end }}
-  </div>
   {{ "<!-- tags -->" | safeHTML }}
   <div class="bg-white mb-5">
     <h4 class="mb-4">{{ i18n "tags" }}</h4>
