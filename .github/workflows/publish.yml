@@ -36,7 +36,7 @@ jobs:
       - name: Build
         run: yarn build
         env:
-          HUGO_PARAMS_mailchimp_u: ${{ secrets.HUGO_PARAMS_mailchimp_u }}
+          HUGO_PARAMS_SUBSCRIPTION_mailchimpuser: ${{ secrets.HUGO_PARAMS_MAILCHIMP_U }}
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@3.7.1
