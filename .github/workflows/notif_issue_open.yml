@@ -16,5 +16,5 @@ jobs:
           token: ${{ secrets.TELEGRAM_TOKEN }}
           format: markdown
           message:
-            "UBIKhr/web **novi** [issue #${{ github.event.issue.number }}](https://github.com/UBIKhr/web/issue/${{ github.event.issue.number }}: ${{ github.event.issue.title }})."
+            "UBIKhr/web **novi** [issue #${{ github.event.issue.number }}](https://github.com/UBIKhr/web/issues/${{ github.event.issue.number }}): ${{ github.event.issue.title }}."
     
