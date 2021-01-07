@@ -22,6 +22,7 @@ jobs:
     name: Issue comment
     if: ${{ !github.event.issue.pull_request }}
     runs-on: ubuntu-latest
+    steps:
       - name: Send TG message
         uses: appleboy/telegram-action@master
         with:
