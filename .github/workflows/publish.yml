@@ -51,4 +51,5 @@ jobs:
         with:
           to: ${{ secrets.TELEGRAM_TO }}
           token: ${{ secrets.TELEGRAM_TOKEN }}
-          args: ${{ github.event_name }}
+          message:
+            Blog je ažuriran. [Vidi promjene](https://github.com/UBIKhr/web/commit/${{ GITHUB_SHA }}).
