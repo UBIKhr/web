@@ -16,5 +16,5 @@ jobs:
           token: ${{ secrets.TELEGRAM_TOKEN }}
           format: markdown
           message:
-            "UBIKhr/web [PR #${{ github.event.pull_request.number }}](https://github.com/UBIKhr/web/pulls/${{ github.event.pull_request.number }}): ${{ github.event.pull_request.title }}. je zatvoren"
+            "UBIKhr/web [PR #${{ github.event.pull_request.number }}](https://github.com/UBIKhr/web/pulls/${{ github.event.pull_request.number }}): ${{ github.event.pull_request.title }} je zatvoren."
     
