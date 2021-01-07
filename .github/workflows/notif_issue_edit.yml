@@ -2,7 +2,7 @@ name: Issue notification
 
 on:
   issues:
-    types: [opened, closed, edited]
+    types: [edited]
 
 jobs:
   notify:
@@ -16,5 +16,5 @@ jobs:
           token: ${{ secrets.TELEGRAM_TOKEN }}
           format: markdown
           message:
-            "UBIKhr/web [issue #${{ github.event.issue.number }}](https://github.com/UBIKhr/web/issue/${{ github.event.issue.number }}) (issue ${{ github.event.issue.state }})."
+            "UBIKhr/web [issue #${{ github.event.issue.number }}](https://github.com/UBIKhr/web/issue/${{ github.event.issue.number }}: ${{ github.event.issue.title }}) **editiran**."
     
