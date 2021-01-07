@@ -215,4 +215,5 @@ budućnosti financija i dalje slušamo glasove prošlosti.
 ---
 
 Da biste ostali u toku s najnovijim kripto događanjima predlažemo da se prijavite na naš
-[novi forum](https://forum.ubik.hr).
+[novi forum](https://forum.ubik.hr), a da ostavite komentar na ovaj članak,
+[pridružite se raspravi](https://forum.ubik.hr/d/34-odogovor-na-kritiku-pametnih-ugovora).
