@@ -1,4 +1,4 @@
-name: Issue notification
+name: Issue notification - edit
 
 on:
   issues:
