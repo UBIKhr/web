@@ -52,4 +52,4 @@ jobs:
           to: ${{ secrets.TELEGRAM_TO }}
           token: ${{ secrets.TELEGRAM_TOKEN }}
           message:
-            Blog je ažuriran. [Vidi promjene](https://github.com/UBIKhr/web/commit/${{ GITHUB_SHA }}).
+            Blog je ažuriran. [Vidi promjene](https://github.com/UBIKhr/web/commit/${GITHUB_SHA}).
