@@ -54,7 +54,7 @@ ukoliko u bilo kojem momentu omjer kolateralizacije padne ispod neke propisane v
 koji korisnik protokola ima mogućnost likvidirati taj odnos i biti nagrađen.**
 
 Tu je ujedno i sljedeća greška u Ivankovićevom članku. Algoritam **ne likvidira pozicije
-automatski**. Likvidaciju mora mora izvesti korisnik sustava preko automatizirane skripte ili ručno.
+automatski**. Likvidaciju mora izvesti korisnik sustava preko automatizirane skripte ili ručno.
 Likvidator dobiva proviziju za izvršenje likvidacije, pa se time stvara otvoreno tržište za praćenje
 stanja Compound dugova koji ujedno čini cijeli sustav stabilnijim.
 
