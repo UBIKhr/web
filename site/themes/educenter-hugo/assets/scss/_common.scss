@@ -23,12 +23,6 @@ body {
   justify-content: center;
 }
 
-ol,
-ul {
-  list-style-type: none;
-  margin: 0px;
-}
-
 img {
   vertical-align: middle;
   border: 0;
@@ -343,7 +337,7 @@ textarea.form-control{
   }
 
   ul {
-    padding-left: 0;
+    padding-left: 20px;
 
     li {
       position: relative;
@@ -365,11 +359,14 @@ textarea.form-control{
   }
 
   table {
+    display: block;
     text-align: left;
     width: 100%;
     max-width: 100%;
     margin-bottom: 1rem;
     border: 1px solid #dee2e6;
+    overflow: auto;
+    max-height: 520px;
 
     th,
     td {
@@ -393,6 +390,11 @@ textarea.form-control{
 
 
   blockquote {
+    padding: 1rem;
+    border: 1px solid #dee2e6;
+    border-radius: 4px;
+    background: #f8f9fe;
+
     p {
       margin-bottom: 0;
       color: $text-color;
