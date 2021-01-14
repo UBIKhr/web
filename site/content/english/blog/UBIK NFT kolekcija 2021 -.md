@@ -30,4 +30,4 @@ Ovo definitivno nije patetična izjava koja se šalje “prvoborcima” nego ist
 
 NFT se izdaje na osobno ime i služit će u budućoj komunikaciji udruge ali i kao digitalna verzija spomenika. Osim sentimentalne vrijednosti, token ujedno i daje "claim" za jednu UBIK hoodicu, kategorije "legendary". Radi se o jedinstvenoj hoodici koja će se dodjeljivati svim članovima upravnog odbora nakon što odstupe sa službene dužnosti koja će imati u sebi i transakcijski hash ovog NFT tokena. 
 
-Upravni Odbor UBIK-a i cijelokupno članstvo se želi zahvaliti : Luki Klanciru, Ivanu Vorasu, Nikoli Jokiću i Vedranu Kajiću. Hvala svima od srca na svemu do sada i vidimo se uskoro na prvom UBIK eventu 2021 (stay tuned).
+Upravni Odbor UBIK-a i cijelokupno članstvo se želi zahvaliti: Luki Klanciru, Ivanu Vorasu, Nikoli Jokiću i Vedranu Kajiću. Hvala svima od srca na svemu do sada i vidimo se uskoro na prvom UBIK eventu 2021 (stay tuned).
