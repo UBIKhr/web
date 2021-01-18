@@ -6,7 +6,16 @@
     <description>Recent content in Blog on UBIK | Udruga za blockchain i kriptovalute</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>hr</language>
-    <lastBuildDate>Wed, 06 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 17 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>UBIK-ova prva NFT kolekcija</title>
+      <link>/blog/ubik-nft-kolekcija/</link>
+      <pubDate>Sun, 17 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/ubik-nft-kolekcija/</guid>
+      <description>Počela je nova 2021. godina i u najboljoj maniri “New Year New Me” krilatice i mi smo odlučili okrenuti novi list, nadam se da ste primjetili.</description>
+    </item>
+    
     <item>
       <title>Odgovor na kritiku pametnih ugovora</title>
       <link>/blog/odgovor-na-kritiku-pametnih-ugovora/</link>
@@ -233,15 +242,6 @@ Blockchain tehnologija puno je više od upravljanja kriptovalutama.</description
       
       <guid>/blog/osnovana-udruga-za-blockchain-i-kriptovalute/</guid>
       <description>Dana 13.12.2017. osnovana je Udruga za blockchain i kriptovalute. Osnivačka skupština ove udruge kulminacija je višegodišnjeg rada entuzijasta na stvaranju kriptovalutne zajednice u Zagrebu i Hrvatskoj.</description>
-    </item>
-    
-    <item>
-      <title>UBIK-ova prva NFT kolekcija</title>
-      <link>/blog/ubik-nft-kolekcija/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/blog/ubik-nft-kolekcija/</guid>
-      <description>Počela je nova 2021. godina i u najboljoj maniri “New Year New Me” krilatice i mi smo odlučili okrenuti novi list, nadam se da ste primjetili.</description>
     </item>
     
   </channel>

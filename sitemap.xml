@@ -3,12 +3,37 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/tags/blockchain/</loc>
-    <lastmod>2021-01-06T00:00:00+00:00</lastmod>
+    <loc>/blog/</loc>
+    <lastmod>2021-01-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/blog/</loc>
+    <loc>/tags/nft/</loc>
+    <lastmod>2021-01-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2021-01-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2021-01-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/blog/ubik-nft-kolekcija/</loc>
+    <lastmod>2021-01-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/%C4%8Dlanovi/</loc>
+    <lastmod>2021-01-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/blockchain/</loc>
     <lastmod>2021-01-06T00:00:00+00:00</lastmod>
   </url>
   
@@ -29,16 +54,6 @@
   
   <url>
     <loc>/tags/sigurnost/</loc>
-    <lastmod>2021-01-06T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
-    <lastmod>2021-01-06T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/</loc>
     <lastmod>2021-01-06T00:00:00+00:00</lastmod>
   </url>
   
@@ -241,10 +256,6 @@
   </url>
   
   <url>
-    <loc>/tags/nft/</loc>
-  </url>
-  
-  <url>
     <loc>/members/nikola-skoric/</loc>
   </url>
   
@@ -253,15 +264,7 @@
   </url>
   
   <url>
-    <loc>/blog/ubik-nft-kolekcija/</loc>
-  </url>
-  
-  <url>
     <loc>/members/1-vlaho-hrdalo/</loc>
-  </url>
-  
-  <url>
-    <loc>/tags/%C4%8Dlanovi/</loc>
   </url>
   
 </urlset>
