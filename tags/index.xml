@@ -133,5 +133,23 @@
       <description></description>
     </item>
     
+    <item>
+      <title>NFT</title>
+      <link>/tags/nft/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/nft/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>članovi</title>
+      <link>/tags/%C4%8Dlanovi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/%C4%8Dlanovi/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
