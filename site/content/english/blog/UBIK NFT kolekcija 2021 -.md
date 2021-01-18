@@ -6,7 +6,7 @@ image: "images/blog/ubik_NFT.png"
 author: "UO UBIK"
 tags: ["NFT", "članovi"]
 type: "post"
-
+---
 Počela je nova 2021. godina i u najboljoj maniri “New Year New Me” krilatice i mi smo odlučili okrenuti novi list, nadam se da ste primjetili. Izabrali smo novi upravni odbor, predstavili plan razvoja za 2021., osnovali savjetodavni odbor i reorganizirali sustav članstva te pripremamo godinu bogatu aktivnostima. Više o tome malo kasnije. Sada bismo se htjeli osvrnuti na osobni doprinos nekih pojedinaca koji su uskočili u vatru u trenutcima kada je bilo najkompliciranije i podsjetiti da te zasluge nikada neće biti zaboravljene. Ovo definitivno nije patetična izjava koja se šalje “prvoborcima” nego isticanje činjenica. 
 
 Da se osiguramo da se zaista ne zaboravi, odlučili smo kao udruga izdati posebnu seriju [NFT](https://bitfalls.com/hr/2018/10/15/the-last-nft-non-fungible-token-explanation-post-youll-ever-need/)-eva. Oni će biti izdavani svim prethodnim članovima upravnog odbora udruge koji su zadužili ne samo udrugu neko i kripto zajednicu u Hrvatskoj općenito. NFT-eve možete vidjeti na linkovima niže: 
