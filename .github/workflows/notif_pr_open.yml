@@ -16,5 +16,5 @@ jobs:
           token: ${{ secrets.TELEGRAM_TOKEN }}
           format: markdown
           message:
-            "UBIKhr/web novi [PR #${{ github.event.pull_request.number }}](https://github.com/UBIKhr/web/pulls/${{ github.event.pull_request.number }}): ${{ github.event.pull_request.title }}."
+            "UBIKhr/web novi [PR #${{ github.event.pull_request.number }}](https://github.com/UBIKhr/web/pull/${{ github.event.pull_request.number }}): ${{ github.event.pull_request.title }}."
     
