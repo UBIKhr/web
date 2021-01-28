@@ -13,8 +13,40 @@
   {{ if .IsTranslated }}
   {{ range .Page.AllTranslations }}
   <link rel="alternate" hreflang="{{ .Lang }}" href="{{ .Permalink }}">
+  <meta property="og:locale" content="{{ .Lang }}">
   {{ end }}
   {{ end }}
+
+  {{ "<!-- Open Graph data / Facebook Card data -->" | safeHTML }}
+  {{ $image := print "https://ubik.hr/" site.Params.logo }}
+  {{ if .Params.image }}
+  {{ $image = print "https://ubik.hr/" .Params.image }}
+  {{ end }}
+
+  <meta property="og:title" content="{{ .Title }}">
+  {{ if eq .Section "blog" }}
+  <meta property="og:type" content="article">
+  {{ else }}
+  <meta property="og:type" content="website">
+  {{ end }}
+  <meta property="og:image" content="{{ $image }}">
+  {{ if .Description }}
+  <meta property="og:description" content="{{ .Description }}">
+  {{ else }}
+  <meta property="og:description" content="{{ .Site.Params.Description }}">
+  {{ end }}
+
+  {{ "<!-- Twitter Card data -->" | safeHTML }}
+  <meta name="twitter:title" content="{{ .Title }}">
+  <meta name="twitter:card" content="summary">
+  {{ if .Description }}
+  <meta property="twitter:description" content="{{ .Description }}">
+  {{ else }}
+  <meta property="twitter:description" content="{{ .Site.Params.Description }}">
+  {{ end }}
+  <meta name="twitter:creator" content="@UbiKhr">
+  <meta name="twitter:image" content="{{ $image }}" />
+  <meta name="twitter:image:src" content="{{ $image }}" />
 
   {{ "<!-- plugins -->" | safeHTML }}
   {{ range site.Params.plugins.css }}
