@@ -4,7 +4,7 @@ date: 2021-01-27
 draft: false
 image: "images/blog/uvod/kriptovalute.png"
 author: "Bruno Škvorc"
-tags: ["uvod", "kriptovalute"]
+tags: ["uvod", "kriptovalute", "edukacija"]
 type: "post"
 ---
 
