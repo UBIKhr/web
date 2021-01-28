@@ -9,12 +9,7 @@ VERSION:	Versoin Number
 -------------------------------------------------------------------*/
 /*  typography */
 @import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700");
-@font-face {
-  font-family: "futura-bold";
-  src: url("../fonts/Futura-Bold.woff") format("woff");
-  font-weight: normal;
-  font-style: normal; }
-
+@import url("https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&display=swap");
 body {
   line-height: 1.2;
   font-family: "Poppins", sans-serif;
@@ -279,7 +274,7 @@ a h4:hover {
   color: #1e1e4b !important; }
 
 .font-secondary {
-  font-family: "futura-bold"; }
+  font-family: "Hind"; }
 
 .mb-10 {
   margin-bottom: 10px !important; }
@@ -736,7 +731,7 @@ link:focus,
 .card-date {
   position: absolute;
   background: #323437;
-  font-family: "futura-bold";
+  font-family: "Hind";
   text-align: center;
   padding: 10px;
   color: #fff;
