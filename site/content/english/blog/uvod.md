@@ -201,3 +201,8 @@ projekt prijevara ili legitiman:
 
 Mnogo je crvenih zastava koje su lako prepoznatljive. Kroz sva pitanja gore i objašnjenja zašto su
 relevantna prolazimo u nadolazećem članku "Kako prepoznati kripto prijevare".
+
+---
+
+Ovaj članak možete komentirati u
+[pripadajućoj forum raspravi](https://forum.ubik.hr/d/38-nov-sam-u-kriptovalutama-gdje-poceti).
