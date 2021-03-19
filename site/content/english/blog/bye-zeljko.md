@@ -1,10 +1,10 @@
 ---
-title: "Željko, suckaš"
+title: "Bankaru nema tko da piše"
 date: 2021-03-19T10:27:17+06:00
 draft: false
 image: "images/blog/funeral.jpg"
 author: "UBIK UO"
-tags: ["breakup", "hfsp", "neznanje"]
+tags: ["zeljko ivankovic", "hfsp", "neznanje"]
 type: "post"
 ---
 
