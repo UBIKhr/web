@@ -1,6 +1,6 @@
 ---
 title: "Željko, suckaš"
-date: 2021-03-16T13:27:17+06:00
+date: 2021-03-19T10:27:17+06:00
 draft: false
 image: "images/blog/funeral.jpg"
 author: "UBIK UO"
