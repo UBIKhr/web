@@ -5,13 +5,13 @@ slider:
   slider_item:
     # slider item loop
     - title : "Udruga za blockchain i kriptovalute"
-      content : ""
+      content : "Obrazovanje, znanost, istraživanje te širenje svijesti o blockchain tehnologiji."
       animation_in : "left"
       animation_out : "right"
       # available animation : left, right, up, down
       button:
         enable : true
-        label : "Pridruži se"
+        label : "Postani član"
         link : "https://docs.google.com/forms/d/e/1FAIpQLScjT7zIX3FW6s0KRaoX9f6Ul6iPk8_sjiytRuL24STvENS4xw/viewform"
 
 ############################### Banner feature ###############################
@@ -20,34 +20,36 @@ banner_feature:
   feature_item:
     # feature item loop
     - name : "Zajednica"
-      icon : "ti-user" # icon pack : https://themify.me/themify-icons
+      image : "images/banner/community.png" 
       content : "Stvoriti fokusiranu i snažnu zajednicu ljudi uključenih u blockchain i kripto domenu u Hrvatskoj i okruženju."
 
     # feature item loop
     - name : "Informacije"
-      icon : "ti-info" # icon pack : https://themify.me/themify-icons
+      image : "images/banner/information.png" 
       content : "Pružiti relevantne informacije, edukaciju i znanje unutar blockchain tehnologije, mehanike kriptovaluta i cjelokupnog tržišta."
 
     # feature item loop
     - name : "Podrška"
-      icon : "ti-support" # icon pack : https://themify.me/themify-icons
+      image : "images/banner/support.png" 
       content : "Omogućiti pravnu, financijsku i tehnološku podršku u razvijanju regulatornih okvira i strateških blockchain projekata."
 
 ############################## about ##################################
 about:
   enable : true
   title : "O udruzi"
-  image : "images/about/about-illustration.jpg"
+  bg_image : "images/about/about.png"
+  image : "images/about/Rectangle.png"
   content : "Udruga za blockchain i kriptovalute (UBIK) osnovana je 13.12.2017. usvajanjem Statuta Udruge na sjednici osnivačke Skupštine. Udruga je upisana u Registar udruga 18.01.2018. te sukladno ciljevima djeluje na području obrazovanja, znanosti i istraživanja. Rad Udruge je javan i svi članovi Udruge imaju pravo sudjelovati u radu Udruge sukladno odredbama Statuta i Zakona te pravo uvida u rad tijela i odluke koje njena tijela donose. Rad Udruge usmjeren je ka ispunjavanju ciljeva Udruge. Plan rada, stoga, logično proizlazi iz ciljeva."
   button:
     enable : true
-    label : "Statut"
-    link : "UBIK_Statut.pdf"
+    label : "Postani član"
+    link : "https://docs.google.com/forms/d/e/1FAIpQLScjT7zIX3FW6s0KRaoX9f6Ul6iPk8_sjiytRuL24STvENS4xw/viewform"
 
 
 ########################## Call to action ############################
 cta:
   enable : true
+  bg_image : "images/backgrounds/forum.png"
   subtitle : "Sudjeluj u aktivnim diskusijama"
   title : "Pridruži se UBIK forumu"
   button:

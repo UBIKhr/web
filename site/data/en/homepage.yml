@@ -5,7 +5,7 @@ slider:
   slider_item:
     # slider item loop
     - title : "Union for blockchain and cryptocurrencies"
-      content : ""
+      content : "Education, research, information and raising awareness on blockchain technologies"
       animation_in : "left"
       animation_out : "right"
       # available animation : left, right, up, down
@@ -41,8 +41,8 @@ about:
   content : "Udruga za blockchain i kriptovalute (UBIK) osnovana je 13.12.2017. usvajanjem Statuta Udruge na sjednici osnivačke Skupštine. Udruga je upisana u Registar udruga 18.01.2018. te sukladno ciljevima djeluje na području obrazovanja, znanosti i istraživanja. Rad Udruge je javan i svi članovi Udruge imaju pravo sudjelovati u radu Udruge sukladno odredbama Statuta i Zakona te pravo uvida u rad tijela i odluke koje njena tijela donose. Rad Udruge usmjeren je ka ispunjavanju ciljeva Udruge. Plan rada, stoga, logično proizlazi iz ciljeva."
   button:
     enable : true
-    label : "Statut"
-    link : "UBIK_Statut.pdf"
+    label : "Join us"
+    link : "https://docs.google.com/forms/d/e/1FAIpQLScjT7zIX3FW6s0KRaoX9f6Ul6iPk8_sjiytRuL24STvENS4xw/viewform"
 
 
 ########################## Call to action ############################

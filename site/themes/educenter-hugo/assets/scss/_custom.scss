@@ -1,0 +1,110 @@
+.navbar-brand .logo {
+  width: 150px;
+}
+
+.feature-blocks {
+  padding-right: 0;
+
+  @media (max-width: 575px) {
+    padding-left: 0;
+  }
+}
+
+.member {
+  .card-title {
+    font-family: $primary-font;
+  }
+}
+
+.container .row p img {
+  max-width: 100%;
+  max-height: 400px;
+}
+
+.container .row p a {
+  text-decoration: underline !important;
+}
+
+.bg-cover {
+  height: 100vh;
+  background-size: contain;
+  background-position: bottom right;
+  background-repeat: no-repeat;
+}
+
+.bg-about {
+  background-position: bottom right;
+  background-repeat: no-repeat;
+}
+
+.bg-primary {
+  background: $primary-color !important;
+}
+
+.bg-secondary {
+  background: $secondary-color !important;
+}
+
+.bg-blue {
+  background: $blue;
+}
+
+.bg-cta {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center left;
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+.bg-blog {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top left;
+}
+
+.img-about {
+  visibility: hidden;
+
+  @media (min-width: 992px) {
+    visibility: visible;
+  }
+}
+
+.btn-blog {
+  border: none;
+  color: $text-color-accent;
+}
+
+.overline {
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.card-right {
+  display: flex;
+}
+
+.card-left {
+  display: flex;
+  flex-direction: row;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.card-text {
+  font: $secondary-font;
+}
+
+.section-sm {
+  padding-top: 160px;
+}
+
+.card-img {
+  width: 100%;
+}
+
+.btn-newsletter {
+  display: block;
+}
+
