@@ -1,26 +1,52 @@
-.filter-controls{
-  li{
+.filter-controls {
+  li {
     cursor: pointer;
-    transition: .1s ease;
-    &.active{
+    transition: 0.1s ease;
+    &.active {
       font-weight: 600;
       color: $primary-color;
     }
-    &:hover{
+    &:hover {
       color: $primary-color;
     }
   }
 }
 
-.tag-list{
-  a{
+.tag-list {
+  a {
     display: block;
-    padding: 5px 10px;
-    background: $light;
+    padding: 15px 20px;
+    background: $body-color;
+    text-transform: uppercase;
     color: $text-color;
-    &:hover{
+    border-radius: 100px;
+    margin-right: 1rem;
+    &:hover {
       background-color: $primary-color;
       color: $white;
     }
   }
+}
+
+.form-control-contact {
+  background: #00192c;
+  border: none;
+  border-bottom: 1px solid white;
+  padding-bottom: 1.5rem;
+  padding-top: 1.5rem;
+  width: 90%;
+
+  &:focus {
+    border-color: $primary-color;
+    background: #021c54;
+    box-shadow: none;
+  }
+}
+
+.bg-contact {
+  background-size: contain;
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  margin-top: 120px;
+  margin-right: -120px;
 }

@@ -1,12 +1,12 @@
 /*  typography */
-@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700");
-@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&display=swap");
 
 body {
   line-height: 1.2;
   font-family: $primary-font;
   -webkit-font-smoothing: antialiased;
-  font-size: 15px;
+  font-size: 16px;
   color: $text-color;
 }
 
@@ -14,9 +14,9 @@ p,
 .paragraph {
   font-weight: 400;
   color: $text-color;
-  font-size: 15px;
+  font-size: 18px;
   line-height: 1.9;
-  font-family: $primary-font;
+  font-family: $secondary-font;
 }
 
 h1,
@@ -25,15 +25,16 @@ h3,
 h4,
 h5,
 h6 {
-  color: $text-color-dark;
+  color: $text-color;
   font-family: $primary-font;
-  font-weight: 700;
+  font-weight: 400;
   line-height: 1.2;
 }
 
 h1,
 .h1 {
-  font-size: 60px;
+  font-size: 84px;
+  font-weight: 200;
   @include mobile {
     font-size: 45px;
   }
@@ -41,7 +42,8 @@ h1,
 
 h2,
 .h2 {
-  font-size: 40px;
+  font-size: 66px;
+  font-weight: 200;
   @include mobile {
     font-size: 30px;
   }
@@ -49,7 +51,7 @@ h2,
 
 h3,
 .h3 {
-  font-size: 25px;
+  font-size: 41px;
   @include mobile {
     font-size: 20px;
   }

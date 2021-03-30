@@ -6,15 +6,15 @@
   <div class="newsletter">
     <div class="container">
       <div class="row">
-        <div class="col-md-9 ml-auto bg-primary py-5 newsletter-block">
+        <div class="col-sm-12 col-md-12 col-lg-12 bg-blue py-5 newsletter-block">
           <h3 class="text-white">{{ i18n "subscribe_newsletter" }}</h3>
           <form action="{{ .mailchimp_form_action }}" method="post" name="mc-embedded-subscribe-form" target="_blank">
             <div class="input-wrapper">
-              <input type="email" class="form-control border-0" id="MERGE0" name="MERGE0" placeholder="{{ i18n "enter_email" }}">
+              <input type="email" class="form-control" id="MERGE0" name="MERGE0" placeholder="{{ i18n "enter_email" }}">
               <input type="hidden" name="u" value="{{ .mailchimpuser }}">
               <input type="hidden" name="id" value="{{ .mailchimp_id }}">
 
-              <button type="submit" name="subscribe" class="btn btn-primary">{{ i18n "join" }}</button>
+              <button type="submit" name="subscribe" class="btn btn-primary btn-newsletter">{{ i18n "join" }}</button>
             </div>
           </form>
         </div>
@@ -24,24 +24,58 @@
   {{ end }}
   {{ end }}
   <!-- footer content -->
-  <div class="footer bg-footer section border-bottom">
+  <div class="footer bg-footer section border-bottom" >
     <div class="container">
       <div class="row">
-        <div class="col-lg-4 col-sm-8 mb-5 mb-lg-0">
+        <div class="col-lg-5 col-sm-8 mb-5 mb-lg-0">
+          <a class="navbar-brand mb-4" href="{{ site.BaseURL | relLangURL }}">
+            <img class="logo"
+              src="{{ site.Params.logo | absURL }}" alt="{{ site.Title }}"></a>
           <ul class="list-unstyled text-secondary">
+            <li class="mb-4">{{ site.Params.ubik | markdownify }}</li>
             <li class="mb-4">{{ site.Params.address | markdownify }}</li>
             <li class="mb-4">{{ site.Params.email | markdownify }}</li>
+            <li class="mb-4">{{ site.Params.phone | markdownify }}</li>
+            <li class="mb-4">{{ site.Params.oib | markdownify }}</li>
+            <li class="mb-4">{{ site.Params.regbr | markdownify }}</li>
+            <li class="mb-4">{{ site.Params.account | markdownify }}</li>
           </ul>
         </div>
 
-        <!-- social -->
+        <div class="col-lg-4 col-sm-8 mb-5 mb-lg-0">
+          <ul class="list-unstyled" style="margin-top: 4rem;">
+                 <li class="footer-list-item">
+              <a class="footer-link" href="{{ site.BaseURL | absLangURL }}">{{ site.Params.Home }}</a>
+            </li>
+            {{ range site.Menus.main }}
+            {{ if .HasChildren }}
+            <li class="footer-list-item dropdown">
+              <a class="footer-link dropdown-toggle" href="#" role="button" data-toggle="dropdown">
+                {{ .Name }}
+              </a>
+              <div class="dropdown-menu">
+                {{ range .Children }}
+                <a class="dropdown-item" href="{{ .URL | absLangURL }}">{{ .Name }}</a>
+                {{ end }}
+              </div>
+            </li>
+            {{ else }}
+            <li class="footer-list-item">
+              <a class="footer-link" href="{{ .URL | absLangURL }}">{{ .Name }}</a>
+            </li>
+            {{ end }}
+            {{ end }}
+          </ul>
+        </div>
+
+        <!-- social 
         <div class="col-lg-3 offset-lg-5 row align-items-end">
           <ul class="list-inline">
             {{ range site.Params.social }}
             <li class="list-inline-item"><a class="d-inline-block p-2" href="{{ .link | safeURL }}"><i class="{{ .icon }} text-secondary"></i></a></li>
             {{ end }}
           </ul>
-        </div>
+        </div> -->
       </div>
     </div>
   </div>

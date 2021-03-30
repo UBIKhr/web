@@ -48,8 +48,13 @@ logo = "images/logo.png"
 author = "UBIK"
 description = "Zajednica ljudi uključena u blockchain i kripto domenu u Hrvatskoj i regiji."
 # contact info
+ubik = "Udruga za blockchain i kriptovalute - UBIK"
 address = "Medulićeva 4, 10000 Zagreb, Hrvatska"
-email = "info@ubik.hr"
+email = "Email: info@ubik.hr"
+phone = "Kontakt telefon: 01/4106-456"
+oib = "49493768738"
+regbr = "Registarski broj: 21012855"
+account = "Transakcijski račun: HR0324020061100858697"
 # contact form action
 contact_form_action = "https://formspree.io/f/mjvpjgyj" # contact form works with https://formspree.io
 # Google Analitycs
@@ -157,6 +162,7 @@ weight = 3
 name = "kontakt"
 url = "contact"
 weight = 4
+
 
 [markup.goldmark.renderer]
 unsafe = true
