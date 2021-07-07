@@ -1,5 +1,5 @@
 ---
-title: "Upozorenje na opasnosti od ulaganja u centralnobankarske valute"
+title: "Rizici povezani s centralnobankarskim valutama"
 date: 2021-07-07T11:32:17+01:00
 draft: false
 image: "images/blog/tradfi.jpeg"
