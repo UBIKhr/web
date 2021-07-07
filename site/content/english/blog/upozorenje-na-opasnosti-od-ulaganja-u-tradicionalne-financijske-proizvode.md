@@ -31,4 +31,6 @@ Upravo zbog toga danas primjećujemo iste trendove na koje međutim regulatori n
 Neovisno pak o kojoj se tradicionalnoj valuti radi, ako istu držite u poslovnoj banci važno je znati da taj iznos više nije vaš nego imate puko potraživanje prema banci na taj iznos, koji vam banka možda može ispuniti a možda i ne, s obzirom na to da poslovne banke za depozite pravnih i fizičkih osoba nemaju puno pokriće. Stoga je važno napomenuti da u slučaju nepovoljnih tržišnih kretanja, postoji visok rizik da poslovne banke neće moći pravodobno (likvidnost) ni vrijednosno (solventnost) zadovoljiti potražnju klijenata za novcem, posebno uz nova pravila koja neke banke uvode vezano uz ograničenja raspolaganja gotovinom. Depoziti u poslovnim bankama osigurani su od strane države do iznosa od 100.000 EUR, stoga nikako ne preporučamo imanje depozita u iznosu većem od 100.000 EUR, a iznose ispod ovog limita preporučamo samo ako imate puno povjerenje u Vladu Republike Hrvatske i njezinu sposobnost da se kompetentno suoči s bankarskom krizom većih razmjera.
 
 S obzirom na sve navedeno, pozivamo građane i predstavnike pravnih osoba da se prije ulaganja u valute koje izdaju središnje banke ili prije njihovog polaganja u poslovne banke, samostalno informiraju o rizicima takvog postupanja.
+
+
 Vaš UBIK
