@@ -31,6 +31,9 @@ Srijeda, 7.7.2021.
 - Sigurnost na internetu (predavač Mak Muftić)
    - Primjeri čestih napada na internetu te detaljnije upoznavanje sa napadima poput phishinga
    
+- Kako prepoznati scam projekt (predavač Bruno Škvorc)
+   - Razumijevanje ponzi shema i kako sigurnije investirati   
+   
 - Kako slati i primati kriptovalute (predavač Luka Sučić)
    - Upoznavanje sa radom i tipovima walleta te praktični rad
 
