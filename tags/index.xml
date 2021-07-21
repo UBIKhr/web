@@ -6,13 +6,31 @@
     <description>Recent content in Tags on UBIK | Udruga za blockchain i kriptovalute</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>hr</language>
-    <lastBuildDate>Wed, 07 Jul 2021 11:32:17 +0100</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 19 Jul 2021 15:27:17 +0600</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Edukacija</title>
       <link>/tags/edukacija/</link>
-      <pubDate>Wed, 07 Jul 2021 11:32:17 +0100</pubDate>
+      <pubDate>Mon, 19 Jul 2021 15:27:17 +0600</pubDate>
       
       <guid>/tags/edukacija/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Event</title>
+      <link>/tags/event/</link>
+      <pubDate>Mon, 19 Jul 2021 15:27:17 +0600</pubDate>
+      
+      <guid>/tags/event/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Uvod</title>
+      <link>/tags/uvod/</link>
+      <pubDate>Mon, 19 Jul 2021 15:27:17 +0600</pubDate>
+      
+      <guid>/tags/uvod/</guid>
       <description></description>
     </item>
     
@@ -71,15 +89,6 @@
     </item>
     
     <item>
-      <title>uvod</title>
-      <link>/tags/uvod/</link>
-      <pubDate>Wed, 27 Jan 2021 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/uvod/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>NFT</title>
       <link>/tags/nft/</link>
       <pubDate>Sun, 17 Jan 2021 00:00:00 +0000</pubDate>
@@ -121,15 +130,6 @@
       <pubDate>Wed, 06 Jan 2021 00:00:00 +0000</pubDate>
       
       <guid>/tags/pametni-ugovori/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Event</title>
-      <link>/tags/event/</link>
-      <pubDate>Tue, 16 Jul 2019 15:27:17 +0600</pubDate>
-      
-      <guid>/tags/event/</guid>
       <description></description>
     </item>
     

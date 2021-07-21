@@ -828,3 +828,11 @@ link:focus,
 
 .container .row p a {
   text-decoration: underline !important; }
+
+figure.image {
+  display: flex;
+  align-items: center;
+  flex-direction: column; }
+  figure.image h4 {
+    font-size: 0.85rem;
+    color: rgba(0, 0, 0, 0.54); }
