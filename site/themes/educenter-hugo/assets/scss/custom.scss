@@ -25,13 +25,21 @@
   text-decoration: underline !important;
 }
 
-figure.image {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
+figure {
 
-  h4 {
-    font-size: 0.85rem;
-    color: rgba(0, 0, 0, 0.54);
+  &.image {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    h4 {
+      font-size: 0.85rem;
+      color: rgba(0, 0, 0, 0.54);
+    }
+  }
+
+  img {
+    max-width: 100%;
   }
 }
+

@@ -20,21 +20,23 @@ Program radionice bio je sljedeći:
 
 Utorak, 6.7.2021.
 
-- Osnove kriptografije (predavač Nikola Škorić)
+- Osnove kriptografije (predavač [Nikola Škorić](https://www.linkedin.com/in/nskoric/))
 
   - Upoznavanje s kriptografskim pojmovima poput privatnog i javnog ključa, adrese i hasha
 
-- Osnove blockchaina (predavačica Belma Gutlić)
+- Osnove blockchaina (predavačica [Belma Gutlić](https://www.linkedin.com/in/belmagutlic/))
   - Prednosti blockchain tehnologije, rudarenje te ostali konsenzus mehanizmi (PoW/PoS/PoA) i
     transakcije
 
 Srijeda, 7.7.2021.
 
-- Sigurnost na internetu (predavač Mak Muftić)
+- Sigurnost na internetu (predavač [Mak Muftić](https://www.linkedin.com/in/mak-muftic))
   - Primjeri čestih napada na internetu te detaljnije upoznavanje s napadima poput phishinga
-- Kako prepoznati scam projekt (predavač Bruno Škvorc)
+
+- Kako prepoznati scam projekt (predavač [Bruno Škvorc](https://www.linkedin.com/in/swader/))
   - Razumijevanje ponzi shema i kako sigurnije investirati
-- Kako slati i primati kriptovalute (predavač Luka Sučić)
+
+- Kako slati i primati kriptovalute (predavač [Luka Sučić](https://www.linkedin.com/in/lukasucic/))
   - Upoznavanje s radom i tipovima walleta te praktični rad
 
 Svi polaznici i polaznice za svoj vrijedni rad i usvojeno znanje dobili su i
