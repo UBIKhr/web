@@ -836,3 +836,6 @@ figure.image {
   figure.image h4 {
     font-size: 0.85rem;
     color: rgba(0, 0, 0, 0.54); }
+
+figure img {
+  max-width: 100%; }
