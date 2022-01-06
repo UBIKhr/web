@@ -1,9 +1,25 @@
+/* eslint-disable */
 (function ($) {
   'use strict';
 
   // Preloader js
   $(window).on('load', function () {
     $('.preloader').fadeOut(100);
+  });
+
+  // Current navigation link
+  $(document).ready(function ($) {
+    var url = window.location.pathname;
+    if(url.length > 1) {
+      url = window.location.pathname.replace(/\/+$/, '');
+    }
+    var activePage = url;
+    $('.nav-item').each(function () {
+      var linkPage = $(this).find('.nav-link').attr('href');
+        if (activePage == linkPage) {
+            $(this).find('.nav-link').addClass("current");
+        }
+    });
   });
 
   // Sticky Menu
@@ -105,5 +121,6 @@
     });
   });
 
-
 })(jQuery);
+
+

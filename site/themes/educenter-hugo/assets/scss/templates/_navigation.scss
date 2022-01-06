@@ -1,3 +1,12 @@
+.not-fixed-top {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+
+
 .top-header {
   font-size: 12px;
   transition: transform 0.2s ease;
@@ -42,7 +51,7 @@
 .nav-item {
   .nav-link {
     text-transform: uppercase;
-    font-weight: 600;
+    font-weight: normal;
   }
 
   margin: 0 15px;
@@ -178,4 +187,9 @@ link:focus,
       }
     }
   }
+}
+
+.current {
+  color: $text-color-accent !important;
+  font-weight: bold !important;
 }
