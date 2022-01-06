@@ -1,13 +1,60 @@
 .filter-controls {
   li {
+    margin: 0 15px;
+    position: relative;
+    padding: 20px 0px;
+
     cursor: pointer;
     transition: 0.1s ease;
+
+    &::before {
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      height: 6px;
+      width: 100%;
+      content: "";
+      background: $border-color;
+      transform: scaleY(0);
+      transform-origin: top;
+      transition: transform 0.3s ease;
+    }
+
+    &:hover,
     &.active {
       font-weight: 600;
-      color: $primary-color;
+      color: $border-color;
+    &::before {
+      transform: scaleY(0.3);
+      transform-origin: bottom;
     }
-    &:hover {
-      color: $primary-color;
+  }
+  }
+}
+
+.categories-item {
+  margin: 0 15px;
+  position: relative;
+  padding: 20px 0px;
+  
+  &::before {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 6px;
+    width: 100%;
+    content: "";
+    background: $white;
+    transform: scaleY(0);
+    transform-origin: top;
+    transition: transform 0.3s ease;
+  }
+
+  &:hover,
+  &.active {
+    &::before {
+      transform: scaleY(1);
+      transform-origin: bottom;
     }
   }
 }

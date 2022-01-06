@@ -49,5 +49,8 @@
 - id: upravni-odbor
   translation: Executive board
 
+- id: temeljni-clanovi
+  translation: Founding members
+
 - id: latest_article
   translation: Latest articles
