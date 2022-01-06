@@ -16,6 +16,9 @@
 - id: contact_us
   translation: Kontaktiraj nas
 
+- id: our_members
+  translation: Naši članovi
+
 - id: categories
   translation: Kategorije
 
@@ -46,11 +49,12 @@
 - id: all
   translation: Svi
 
-- id: upravni-odbor
+- id: upravni_odbor
   translation: Upravni odbor
 
-- id: temeljni-clanovi
+- id: temeljni_clanovi
   translation: Temeljni članovi
 
 - id: latest_article
   translation: Ostali članci
+
