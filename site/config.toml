@@ -88,7 +88,7 @@ title = "facebook"
 
 [[params.social]]
 icon = "ti-twitter-alt" # themify icon : https://themify.me/themify-icons
-link = "#" 
+link = "https://twitter.com/ubikhr" 
 title = "twitter" 
 
 [[params.social]]
