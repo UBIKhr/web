@@ -68,14 +68,21 @@
           </ul>
         </div>
 
-        <!-- social 
+        <!-- social  -->
         <div class="col-lg-3 offset-lg-5 row align-items-end">
           <ul class="list-inline">
             {{ range site.Params.social }}
-            <li class="list-inline-item"><a class="d-inline-block p-2" href="{{ .link | safeURL }}"><i class="{{ .icon }} text-secondary"></i></a></li>
+              {{ if not (in .title "telegram" ) }}
+                <li class="list-inline-item"><a class="d-inline-block p-2" href="{{ .link | safeURL }}"><i class="{{ .icon }} text-secondary"></i></a></li>
+              {{ end }}
+            {{ end }}
+            {{ range site.Params.social }}
+              {{ if (in .title "telegram" ) }}
+                <li class="list-inline-item"><a class="d-inline-block p-2" href="{{ .link | safeURL }}"><img src="{{ .icon }}" alt="{{ .title }}"></img></a></li>
+              {{ end }}
             {{ end }}
           </ul>
-        </div> -->
+        </div>
       </div>
     </div>
   </div>
