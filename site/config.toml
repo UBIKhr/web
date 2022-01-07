@@ -101,6 +101,16 @@ icon = "ti-linkedin" # themify icon : https://themify.me/themify-icons
 link = "https://www.linkedin.com/company/ubik-udruga-za-blockchain-i-kriptovalute/" 
 title = "linkedin" 
 
+[[params.social]]
+icon = "ti-youtube" # themify icon : https://themify.me/themify-icons
+link = "https://www.youtube.com/channel/UCkGBfraJol0oLQEYmkxb_ug" 
+title = "youtube"
+
+[[params.social]]
+icon = "/icons/icons8-telegram-app.svg" # icons8 icon : https://icons8.com/icons/set/telegram
+link = "https://t.me/ubikcommunity"
+title = "telegram"
+
 ################################### English language #####################################
 [Languages.en]
 contentDir = "content/english"
