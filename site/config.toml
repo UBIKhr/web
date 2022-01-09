@@ -44,6 +44,8 @@ link = "plugins/google-map/gmap.js"
 #################### default parameters ################################
 [params]
 logo = "images/logo.png"
+# Footer image
+footer_background_image = "images/Footer.png"
 # Meta data
 author = "UBIK"
 description = "Zajednica ljudi uključena u blockchain i kripto domenu u Hrvatskoj i regiji."

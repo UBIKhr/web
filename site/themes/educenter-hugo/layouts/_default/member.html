@@ -1,6 +1,7 @@
 <div class="card border-0 rounded-0 hover-shadow mb-5 member">
   <img class="card-img-top rounded-0" src="{{ .Params.image | relURL }}" alt="{{ .Title }}">
   <div class="card-body">
+    <div class="card-role">{{ .Params.Role }}</div>
     <h4 class="card-title">{{ .Title }}</h4>
     <p>{{ .Params.Description }}</p>
     <ul class="list-inline">
