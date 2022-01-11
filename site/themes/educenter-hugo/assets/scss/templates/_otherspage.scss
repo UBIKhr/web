@@ -101,3 +101,22 @@
 .members-title{
   font-weight: 300;
 }
+
+.bg-dotted {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  left: 1%;
+  top: 50%;
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+
+.bg-lines {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 200%;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
