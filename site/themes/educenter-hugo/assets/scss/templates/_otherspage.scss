@@ -120,3 +120,33 @@
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
+
+.bg-pattern {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  left: 0%;
+  bottom: 10%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.bg-dottedblog {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  left: -1%;
+  top: 400%;
+  background-repeat: no-repeat;
+  background-position: bottom left;
+}
+
+.bg-blogtxt {
+  height: 100%;
+  width: 90%;
+  position: absolute;
+  top: 124%;
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  right: 9%;
+}

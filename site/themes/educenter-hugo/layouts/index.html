@@ -113,6 +113,8 @@
 <!-- blog -->
 {{ if $data.homepage.blog.enable }}
 <section class="bg-blog section">
+  <div class="bg-lines" data-background="{{ site.Params.lines_background_image | absURL }}"></div>
+  <div class="bg-dottedblog" data-background="{{ site.Params.dottedblog_background_image | absURL }}"></div>
   <div class="container">
     <div class="row">
       <div class="col-12">

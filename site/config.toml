@@ -50,6 +50,12 @@ footer_background_image = "images/backgrounds/footer.png"
 members_background_image = "images/backgrounds/members_page.png"
 # Dotted background image
 dotted_background_image = "images/backgrounds/dotted.png"
+# Pattern background image
+pattern_background_image = "images/backgrounds/pattern.png"
+# Dotted blog background image
+dottedblog_background_image = "images/backgrounds/blog.png"
+# Blog text background image
+blogtxt_background_image = "images/backgrounds/blogtxt.png"
 # Lines background image
 lines_background_image = "images/backgrounds/lines.png"
 # Meta data
