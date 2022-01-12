@@ -124,6 +124,9 @@
   bottom: 10%;
   background-size: contain;
   background-repeat: no-repeat;
+  @include desktop-xxl {
+    background-size: initial;
+  }
 }
 
 .bg-blogtext {
