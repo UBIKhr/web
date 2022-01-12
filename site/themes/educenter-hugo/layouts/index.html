@@ -118,13 +118,13 @@
   <div class="container">
     <div class="row">
       <div class="col-12">
-        <h2 class="section-title text-uppercase" style="font-size: 24px; font-weight: 600;">{{ $data.homepage.blog.title }}</h2>
+        <h2 class=" section-title blog-section-title text-uppercase" style="font-size: 24px; font-weight: 600;">{{ $data.homepage.blog.title }}</h2>
       </div>
     </div>
     <div class="row justify-content-center">
       <!-- blog post -->
-      {{ range first 3 (where site.RegularPages "Type" "post")}}
-      <article class="col-12 mb-5 mb-lg-4">
+      {{ range first 2 (where site.RegularPages "Type" "post")}}
+      <article class="col-12 mb-5 mb-lg-5">
         {{ .Render "post" }}
       </article>
       {{ end }}
