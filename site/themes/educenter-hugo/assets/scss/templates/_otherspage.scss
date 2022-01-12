@@ -110,10 +110,6 @@
   top: 50%;
   background-repeat: no-repeat;
   background-position: bottom right;
-  @include desktop-xxl {
-    top: 0%;
-    background-position: center right;
-  }
 }
 
 .bg-pattern {
@@ -124,9 +120,6 @@
   bottom: 10%;
   background-size: contain;
   background-repeat: no-repeat;
-  @include desktop-xxl {
-    background-size: initial;
-  }
 }
 
 .bg-blogtext {
@@ -137,11 +130,6 @@
   background-repeat: no-repeat;
   background-position: bottom right;
   right: 7%;
-  @include desktop-xxl {
-    bottom: 4%;
-    top: initial;
-    right: 3%;
-  }
 }
 
 .bg-members-image {
@@ -155,10 +143,7 @@
   height: 100%;
   width: 100%;
   position: absolute;
-  top: 200%;
+  top: 150%;
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  @include desktop-xxl {
-    top: 80%;
-  }
 }
