@@ -1,4 +1,5 @@
 ---
+role: "Predsjednik"
 title: "Vlaho Hrdalo - predsjednik"
 draft: false
 image: "images/members/vlaho_hrdalo.jpeg"

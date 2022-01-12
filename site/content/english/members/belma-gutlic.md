@@ -1,4 +1,5 @@
 ---
+role: "Predsjednik"
 title: "Belma Gutlić"
 draft: false
 image: "images/members/belma_gutlic.jpg"

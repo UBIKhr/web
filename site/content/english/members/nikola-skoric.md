@@ -1,4 +1,5 @@
 ---
+role: "Predsjednik"
 title: "Nikola Škorić"
 draft: false
 image: "images/members/nikola_skoric.jpeg"

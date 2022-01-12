@@ -1,0 +1,100 @@
+/* footer */
+.newsletter {
+  margin-bottom: -120px;
+  position: relative;
+  z-index: 1;
+
+  &-block {
+    padding-left: 120px;
+
+    @include mobile {
+      padding-left: 15px;
+    }
+  }
+}
+
+.input-wrapper {
+  position: relative;
+
+  button {
+    position: absolute;
+    right: 25px;
+    top: 50%;
+    transform: translateY(-50%);
+
+    @include desktop {
+      position: relative;
+      margin-top: 4rem;
+      margin-right: auto;
+      margin-left: 2rem;
+    }
+  }
+}
+
+.form-control {
+  background: #021c54;
+  border-radius: 100px;
+  padding-left: 25px;
+  width: 60%;
+
+  &:focus {
+    border-color: $primary-color;
+    background: #021c54;
+    box-shadow: none;
+  }
+}
+
+.newsletter-block {
+  margin-left: -150px;
+
+  @include desktop {
+    margin-left: 20px;
+  }
+
+  .form-control {
+    height: 74px;
+  }
+}
+
+.bg-footer {
+  background-color: $primary-color;
+  background-position: center right;
+  background-repeat: no-repeat;
+}
+
+.logo-footer {
+  margin-top: -20px;
+  display: inline-block;
+}
+
+.footer {
+  border-color: #494a43 !important;
+  padding-top: 175px;
+  padding-bottom: 50px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.footer-list-item {
+  .footer-link {
+    text-transform: uppercase;
+    font-weight: 500;
+  }
+
+  margin: 30px 15px;
+  position: relative;
+}
+
+.bg-footer-image {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  mix-blend-mode: color-dodge;
+  background-size: contain;
+  background-position: bottom right;
+  background-repeat: no-repeat;
+}
+
+/* /footer */

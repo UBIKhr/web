@@ -92,6 +92,7 @@
 {{ if $data.homepage.cta.enable }}
 {{ with $data.homepage.cta }}
 <section class="section bg-cta" data-background="{{ .bg_image | absURL }}" >
+  <div class="bg-lines-home" data-background="{{ site.Params.lines_background_image | absURL }}"></div>
   <div class="container">
     <div class="row">
       <div class="col-12 text-sm-left text-lg-left" style="padding-left: 50%;">
@@ -113,6 +114,7 @@
 <!-- blog -->
 {{ if $data.homepage.blog.enable }}
 <section class="bg-blog section">
+  <div class="bg-blog-section" data-background="{{ site.Params.homepage_blog_section_background_image | absURL }}"></div>
   <div class="container">
     <div class="row">
       <div class="col-12">
