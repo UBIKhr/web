@@ -53,9 +53,9 @@ dotted_background_image = "images/backgrounds/dotted.png"
 # Pattern background image
 pattern_background_image = "images/backgrounds/pattern.png"
 # Dotted blog background image
-dottedblog_background_image = "images/backgrounds/blog.png"
+homepage_blog_section_background_image = "images/backgrounds/blog.png"
 # Blog text background image
-blogtxt_background_image = "images/backgrounds/blogtxt.png"
+blogtext_background_image = "images/backgrounds/blogtext.png"
 # Lines background image
 lines_background_image = "images/backgrounds/lines.png"
 # Meta data

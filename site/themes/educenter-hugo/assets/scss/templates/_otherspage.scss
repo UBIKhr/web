@@ -110,15 +110,10 @@
   top: 50%;
   background-repeat: no-repeat;
   background-position: bottom right;
-}
-
-.bg-lines {
-  height: 100%;
-  width: 100%;
-  position: absolute;
-  top: 200%;
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
+  @include desktop-xxl {
+    top: 0%;
+    background-position: center right;
+  }
 }
 
 .bg-pattern {
@@ -131,22 +126,36 @@
   background-repeat: no-repeat;
 }
 
-.bg-dottedblog {
+.bg-blogtext {
   height: 100%;
   width: 100%;
   position: absolute;
-  left: -1%;
-  top: 400%;
-  background-repeat: no-repeat;
-  background-position: bottom left;
-}
-
-.bg-blogtxt {
-  height: 100%;
-  width: 90%;
-  position: absolute;
-  top: 124%;
+  top: 118%;
   background-repeat: no-repeat;
   background-position: bottom right;
-  right: 9%;
+  right: 7%;
+  @include desktop-xxl {
+    bottom: 4%;
+    top: initial;
+    right: 3%;
+  }
+}
+
+.bg-members-image {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background-repeat: no-repeat;
+}
+
+.bg-lines-members {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 200%;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  @include desktop-xxl {
+    top: 80%;
+  }
 }
