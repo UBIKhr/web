@@ -49,10 +49,10 @@
 - id: all
   translation: Svi
 
-- id: upravni_odbor
+- id: upravni-odbor
   translation: Upravni odbor
 
-- id: temeljni_clanovi
+- id: temeljni-clanovi
   translation: Temeljni članovi
 
 - id: latest_article

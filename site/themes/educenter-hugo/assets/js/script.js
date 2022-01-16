@@ -66,20 +66,20 @@
   });
 
   // // filter
-  // $(document).ready(function () {
-  //   var containerEl = document.querySelector('.filtr-container');
-  //   if (containerEl) {
-  //     $('.filtr-container').filterizr({
-  //       layout: 'sameWidth',
-  //       animationDuration: 0,
-  //     });
-  //   }
-  //   Active changer
-  //   $('.filter-controls li').on('click', function () {
-  //     $('.filter-controls li').removeClass('active');
-  //     $(this).addClass('active');
-  //   });
-  // });
+  $(document).ready(function () {
+    var containerEl = document.querySelector('.filtr-container');
+    if (containerEl) {
+      $('.filtr-container').filterizr({
+        layout: 'sameWidth',
+        animationDuration: 0,
+      });
+    }
+    // Active changer
+    $('.filter-controls li').on('click', function () {
+      $('.filter-controls li').removeClass('active');
+      $(this).addClass('active');
+    });
+  });
 
   //  Count Up
   function counter() {

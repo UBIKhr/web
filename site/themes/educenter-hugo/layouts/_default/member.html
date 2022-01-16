@@ -7,7 +7,7 @@
     <ul class="list-inline">
       {{ range .Params.Contact }}
       <li class="list-inline-item">
-        <a class="text-color" href="{{ .link | safeURL }}"><i class="{{ .icon }}"></i></a>
+        <a class="text-color contact-icon" href="{{ .link | safeURL }}"><i class="{{ .icon }}"></i></a>
       </li>
       {{ end }}
     </ul>
