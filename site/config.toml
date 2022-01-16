@@ -56,6 +56,8 @@ pattern_background_image = "images/backgrounds/pattern.png"
 homepage_blog_section_background_image = "images/backgrounds/blog.png"
 # Blog text background image
 blogtext_background_image = "images/backgrounds/blogtext.png"
+# Blog text left background image
+blogtextleft_background_image = "images/backgrounds/blogtextleft.png"
 # Lines background image
 lines_background_image = "images/backgrounds/lines.png"
 # Meta data
