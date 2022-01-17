@@ -95,7 +95,7 @@ a h4 {
 
 /* overlay */
 
-/*.overlay {
+.overlay {
   position: relative;
 
   &::before {
@@ -105,10 +105,10 @@ a h4 {
     width: 100%;
     top: 0;
     left: 0;
-    background: $black;
+    background: linear-gradient(to top, #00192c 60%, #002278);
     opacity: 0.3;
   }
-} */
+} 
 
 .outline-0 {
   outline: 0 !important;
