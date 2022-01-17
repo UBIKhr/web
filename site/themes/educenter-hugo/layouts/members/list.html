@@ -20,7 +20,7 @@
     <!-- members list -->
     <div class="row filtr-container">
       <!-- member -->
-      {{ range .Data.Pages.ByTitle }}
+      {{ range .Data.Pages.Reverse }}
       <div data-category="{{ .Params.Type | urlize }}" class="col-lg-4 col-sm-6 filtr-item">
         {{ .Render "member" }}
       </div>

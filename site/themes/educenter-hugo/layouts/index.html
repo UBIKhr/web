@@ -17,7 +17,7 @@
               data-animation-in="fadeIn{{.animation_in | title }}" data-delay-in=".1">{{ .title | markdownify }}</h1>
             <p class="text-hero mb-70" data-animation-out="fadeOut{{.animation_out | title }}" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeIn{{.animation_in | title }}" data-delay-in=".4">{{ .content | markdownify }}</p>
             {{ if .button.enable }}
-            <a href="/become-a-member" target="_blank" rel="noopener noreferrer" class="btn btn-primary" data-animation-out="fadeOut{{.animation_out | title }}" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeIn{{.animation_in | title }}" data-delay-in=".7">{{ .button.label }}</a>
+            <a href="{{ .button.link | absLangURL }}" target="_blank" rel="noopener noreferrer" class="btn btn-primary" data-animation-out="fadeOut{{.animation_out | title }}" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeIn{{.animation_in | title }}" data-delay-in=".7">{{ .button.label }}</a>
             {{ end }}
           </div>
         </div>
@@ -72,7 +72,7 @@
         <p style="margin-bottom: 30px;">{{ .content | markdownify }}</p>
         {{ if .button.enable }}
         {{ with .button }}
-        <a href="/become-a-member" class="btn btn-primary" target="_blank" rel="noopener noreferrer">{{ .label }}</a>
+        <a href="{{ .link | absLangURL }}" class="btn btn-primary" target="_blank" rel="noopener noreferrer">{{ .label }}</a>
         {{ end }}
         {{ end }}
       </div>
