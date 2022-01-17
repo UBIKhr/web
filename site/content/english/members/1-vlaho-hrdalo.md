@@ -1,6 +1,6 @@
 ---
 role: "Predsjednik"
-title: "Vlaho Hrdalo - predsjednik"
+title: "Vlaho Hrdalo"
 draft: false
 image: "images/members/vlaho_hrdalo.jpeg"
 description: "Vlaho Hrdalo je odvjetnik koji se u svom profesionalnom i znanstvenom radu fokusira na fintech, blockchain i kriptovalute."
