@@ -16,6 +16,7 @@
   }
 
   @include desktop-lg {
+    margin-top: 300px;
     padding-right: 50px;
     padding-left: 50px;
     padding-top: 30px;
@@ -26,7 +27,7 @@
   }
 
   @include desktop {
-    margin-top: 250px;
+    margin-top: 300px;
     padding: 50px;
 
     h3 {

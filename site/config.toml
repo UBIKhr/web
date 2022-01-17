@@ -127,6 +127,10 @@ icon = "/icons/icons8-telegram-app.svg" # icons8 icon : https://icons8.com/icons
 link = "https://t.me/ubikcommunity"
 title = "telegram"
 
+[[params.member]]
+name = "Postani član"
+url = "become-a-member"
+weight = 5
 ################################### English language #####################################
 [Languages.en]
 contentDir = "content/english"
@@ -188,6 +192,12 @@ weight = 3
 name = "kontakt"
 url = "contact"
 weight = 4
+
+[[Languages.hr.menu.main]]
+name = "Postani član"
+url = "become-a-member"
+weight = 5
+
 
 
 [markup.goldmark.renderer]
