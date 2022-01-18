@@ -1,5 +1,5 @@
 ---
-role: "Predsjednik"
+role: 
 title: "Boris Agatić"
 draft: false
 image: "images/members/boris_agatic.jpg"

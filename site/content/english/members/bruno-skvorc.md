@@ -1,5 +1,5 @@
 ---
-role: "Predsjednik"
+role: 
 title: "Bruno Škvorc"
 draft: false
 image: "images/members/bruno_skvorc.jpeg"

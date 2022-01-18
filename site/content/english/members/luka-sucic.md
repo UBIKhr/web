@@ -1,5 +1,5 @@
 ---
-role: "Predsjednik"
+role: 
 title: "Luka Sučić"
 draft: false
 image: "images/members/luka_sucic.jpeg"

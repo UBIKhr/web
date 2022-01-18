@@ -1,5 +1,5 @@
 ---
-role: "Predsjednik"
+role: 
 title: "Ivan Glavaš"
 draft: false
 image: "images/members/ivan_glavas.jpg"
