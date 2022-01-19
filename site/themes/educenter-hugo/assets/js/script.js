@@ -36,8 +36,6 @@
     }
   });
 
-
-
   // Background-images
   $('[data-background]').each(function () {
     $(this).css({

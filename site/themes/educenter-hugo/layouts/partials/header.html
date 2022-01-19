@@ -45,10 +45,15 @@
                 {{ end }}
               </div>
             </li>
-            {{ else }}
+            {{ else if ne .URL "become-a-member"}}
               <li class="nav-item">
                 <a class="nav-link" href="{{ .URL | absLangURL }}">{{ .Name }}</a>
               </li>
+            {{ end }}
+            {{ if eq .URL "become-a-member"}}
+            <li class="nav-item show">
+              <a class="nav-link" href="{{ .URL | absLangURL }}">{{ .Name }}</a>
+            </li>
             {{ end }}
             {{ end }}
           </ul>
@@ -79,6 +84,11 @@
           </select>
           {{ end }}
         </div>
+        {{ range site.Menus.main }}
+        {{if eq .URL "become-a-member"}}
+        <div class="become-a-member"><a href="{{ .URL | absLangURL }}">{{ .Name }}</a></div>
+        {{ end }}
+        {{ end }}
       </nav>
     </div>
   </div>

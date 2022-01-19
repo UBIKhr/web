@@ -193,3 +193,26 @@ link:focus,
   color: $text-color-accent !important;
   font-weight: bold !important;
 }
+
+.become-a-member {
+  @include desktop {
+      display: none;
+    }
+    display: inline-block;
+    white-space: nowrap;
+    padding: 40px 0;
+    padding-left: 80px;
+}
+
+.become-a-member a {
+  font-weight: 700;
+  color: #00F4F5;
+  text-transform: uppercase;
+}
+
+.show {
+  @include desktop {
+    display: inline-block;
+  }
+  display: none;
+}

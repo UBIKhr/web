@@ -96,7 +96,6 @@ a h4 {
 /* overlay */
 
 .overlay {
-  position: relative;
 
   &::before {
     position: absolute;
@@ -105,7 +104,7 @@ a h4 {
     width: 100%;
     top: 0;
     left: 0;
-    background: linear-gradient(to top, #00192c 60%, #002278);
+    background: linear-gradient(to top, $primary-color 40%, $secondary-blue);
     opacity: 0.3;
   }
 } 
