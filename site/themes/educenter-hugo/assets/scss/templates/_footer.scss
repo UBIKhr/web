@@ -47,12 +47,28 @@
 .newsletter-block {
   margin-left: -150px;
 
-  @include desktop {
-    margin-left: 20px;
+  h3 {
+    @include tablet {
+      text-align: center;
+      margin-bottom: 16px
+    }
+  }
+  .btn {
+    @include tablet {
+      width: 100%;
+      right: 0px;
+      margin-left: 0px;
+    }
+  }
+  @include mobile {
+    margin-left: 0px;
   }
 
   .form-control {
     height: 74px;
+    @include tablet {
+      width: 100%;
+    }
   }
 }
 

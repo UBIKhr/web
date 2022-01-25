@@ -107,7 +107,7 @@ a h4 {
     background: linear-gradient(to top, $primary-color 40%, $secondary-blue);
     opacity: 0.3;
   }
-} 
+}
 
 .outline-0 {
   outline: 0 !important;
@@ -235,7 +235,7 @@ a h4 {
   padding: 200px 0 80px;
   background-repeat: no-repeat;
   background-size: cover;
-  
+
 }
 
 .custom-breadcrumb {
@@ -296,6 +296,9 @@ textarea.form-control {
   justify-content: center;
   .page-item {
     margin: 0 10px;
+    @include mobile {
+      margin: 0 4px;
+    }
 
     &.active {
       .page-link {
@@ -308,7 +311,7 @@ textarea.form-control {
       border-radius: 100px;
       padding: 8px 14px;
       text-align: center;
-  
+
       }
     }
 

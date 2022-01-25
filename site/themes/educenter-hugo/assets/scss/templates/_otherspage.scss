@@ -1,8 +1,14 @@
 .filter-controls {
+  @include mobile {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
   li {
     margin: 0 15px;
     position: relative;
     padding: 20px 0px;
+    line-height: 1.5em;
 
     cursor: pointer;
     transition: 0.1s ease;
@@ -24,11 +30,12 @@
     &.active {
       font-weight: 600;
       color: $border-color;
-    &::before {
-      transform: scaleY(0.3);
-      transform-origin: bottom;
+
+      &::before {
+        transform: scaleY(0.3);
+        transform-origin: bottom;
+      }
     }
-  }
   }
 }
 
@@ -36,7 +43,7 @@
   margin: 0 15px;
   position: relative;
   padding: 20px 0px;
-  
+
   &::before {
     position: absolute;
     left: 0;
@@ -68,6 +75,7 @@
     color: $text-color;
     border-radius: 100px;
     margin-right: 1rem;
+
     &:hover {
       background-color: $primary-color;
       color: $white;
@@ -83,76 +91,104 @@
   padding-top: 1.5rem;
   width: 90%;
 
+  @include mobile {
+    width: 100%;
+  }
+
   &:focus {
     border-color: $primary-color;
     background: #021c54;
     box-shadow: none;
   }
-}
 
-.bg-contact {
-  background-size: contain;
-  background-position: bottom right;
-  background-repeat: no-repeat;
-  margin-top: 120px;
-  margin-right: -120px;
-}
 
-.members-title{
-  font-weight: 300;
-}
+  .bg-contact {
+    background-size: contain;
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    margin-top: 120px;
+    margin-right: -120px;
+    @include mobile {
+      margin-right: 0;
+    }
+  }
 
-.bg-dotted {
-  height: 100%;
-  width: 100%;
-  position: absolute;
-  top: 60%;
-  background-repeat: no-repeat;
-  background-position: bottom right;
-}
+  .members-title {
+    font-weight: 300;
+  }
 
-.bg-pattern {
-  height: 100%;
-  width: 100%;
-  position: absolute;
-  left: 0%;
-  bottom: 10%;
-  background-size: contain;
-  background-repeat: no-repeat;
-}
+  .bg-dotted {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 60%;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+  }
 
-.bg-blogtext {
-  height: 100%;
-  width: 100%;
-  position: absolute;
-  top: 118%;
-  background-repeat: no-repeat;
-  background-position: bottom right;
-  right: 7%;
-}
+  .bg-pattern {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0%;
+    bottom: 10%;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
 
-.bg-blogtextleft {
-  height: 100%;
-  width: 100%;
-  position: absolute;
-  background-repeat: no-repeat;
-  background-position: bottom left;
-  left: 3%;
-  margin-top: 10%;
-}
+  .bg-blogtext {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 118%;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    right: 7%;
+  }
 
-.bg-members-image {
-  height: 100%;
-  width: 100%;
-  position: absolute;
-  background-repeat: no-repeat;
-}
+  .bg-blogtextleft {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    margin-top: 10%;
+    @include desktop {
+      left: 3%;
+    }
+    @include mobile {
+      left: 0%;
+    }
+  }
 
-.bg-lines-members {
-  height: 100%;
-  width: 100%;
-  position: absolute;
-  top: 190%;
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
+  .bg-members-image {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-repeat: no-repeat;
+  }
+
+  .bg-lines-members {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 190%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+
+  .filtr-container {
+    @include mobile {
+      margin-left: 0;
+    }
+  }
+
+  .contact-section {
+    .btn {
+      @include mobile {
+        width: 100%;
+      }
+    }
+  }
+
 }

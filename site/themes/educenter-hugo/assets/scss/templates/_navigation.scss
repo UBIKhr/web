@@ -13,6 +13,8 @@
   transform-origin: top;
   font-weight: 600;
 
+
+
   &.hide {
     transform: scaleY(0);
     transform-origin: top;
@@ -126,6 +128,10 @@ link:focus,
 }
 
 .navbar {
+  padding: 0;
+  @include desktop {
+    padding: 20px 0;
+  }
   .dropdown {
     &:hover {
       .dropdown-menu {
