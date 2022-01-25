@@ -1,0 +1,135 @@
+.navbar-brand .logo {
+  width: 150px;
+}
+
+.feature-blocks {
+  padding-right: 0;
+
+  @media (max-width: 575px) {
+    padding-left: 0;
+  }
+}
+
+.member {
+  .card-title {
+    font-family: $primary-font;
+  }
+  .card-role {
+    font-weight: 400;
+    color: $light-blue;
+    font-size: 18px;
+    line-height: 1.111;
+    font-family: $secondary-font;
+  }
+}
+
+.container .row p img {
+  max-width: 100%;
+  max-height: 400px;
+}
+
+.container .row p a {
+  text-decoration: underline !important;
+}
+
+.bg-cover {
+  height: 100vh;
+  background-size: contain;
+  background-position: bottom right;
+  background-repeat: no-repeat;
+}
+
+.bg-about {
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  @include tablet {
+    background-size: contain;
+  }
+}
+
+.bg-primary {
+  background: $primary-color !important;
+}
+
+.bg-secondary {
+  background: $secondary-color !important;
+}
+
+.bg-blue {
+  background: $blue;
+}
+
+.bg-cta {
+  position: relative;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center left;
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+.bg-blog {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top left;
+}
+
+.img-about {
+  @include desktop-lg {
+    display: initial;
+  }
+  @include desktop {
+    display: none !important;
+  }
+}
+
+.btn-blog {
+  border: none;
+  color: $text-color-accent;
+}
+
+.overline {
+  font-size: $font-size-overline;
+  text-transform: uppercase;
+}
+
+.card-right {
+  display: flex;
+}
+
+.card-left {
+  display: flex;
+  flex-direction: row;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.card-text {
+  font: $secondary-font;
+}
+
+.section-sm {
+  padding-top: 160px;
+}
+
+.card-img {
+  width: 100%;
+}
+
+.btn-newsletter {
+  display: block;
+}
+
+.contact-icon {
+  padding: 12px 12px;
+  background: $body-color;
+  border-radius: 20px;
+}
+
+article:first-child {
+  .card-body {
+    @include tablet {
+      background-color: rgba(0,0,0,0.35);
+    }
+  }
+}

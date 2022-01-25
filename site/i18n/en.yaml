@@ -16,6 +16,9 @@
 - id: contact_us
   translation: Contact Us
 
+- id: our_members
+  translation: Our members
+
 - id: categories
   translation: Categories
 
@@ -46,8 +49,35 @@
 - id: all
   translation: All
 
-- id: upravni-odbor
+- id: upravni_odbor
   translation: Executive board
+
+- id: temeljni_clanovi
+  translation: Foundation members
 
 - id: latest_article
   translation: Latest articles
+
+- id: student
+  translation: Student
+
+- id: member
+  translation: Members
+
+- id: foundation_member
+  translation: Foundation member
+
+- id: student_pricing
+  translation: 150 HRK
+
+- id: member_pricing
+  translation: 1000 HRK
+
+- id: foundation_member_pricing
+  translation: 2500 HRK
+
+- id: annualy
+  translation: annualy
+
+- id: select
+  translation: Select

@@ -1,10 +1,9 @@
 <!-- page title -->
-<section class="page-title-section overlay" style="background-image: url('{{ .Params.Bg_image | relURL}}'),url('{{`images/backgrounds/chain-header.png`| relURL}}');" >
+<section class="page-title-section overlay">
   <div class="container">
     <div class="row">
       <div class="col-md-8">
-        <li class="list-inline-item text-white h3 text-primary font-secondary font-weight-bold">{{ .Title }}</li>
-
+        <li class="list-inline-item text-white h3 text-primary font-primary font-weight-bold">{{ .Title }}</li>
         <p class="text-lighten">{{ .Params.Description | markdownify }}</p>
       </div>
     </div>
