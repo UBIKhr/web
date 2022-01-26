@@ -96,7 +96,6 @@ a h4 {
 /* overlay */
 
 .overlay {
-  position: relative;
 
   &::before {
     position: absolute;
@@ -105,7 +104,7 @@ a h4 {
     width: 100%;
     top: 0;
     left: 0;
-    background: $black;
+    background: linear-gradient(to top, $primary-color 40%, $secondary-blue);
     opacity: 0.3;
   }
 }
@@ -205,6 +204,10 @@ a h4 {
   margin-bottom: 100px !important;
 }
 
+.mt-100 {
+  margin-top: 100px !important;
+}
+
 .pl-150 {
   padding-left: 150px;
 }
@@ -232,6 +235,7 @@ a h4 {
   padding: 200px 0 80px;
   background-repeat: no-repeat;
   background-size: cover;
+
 }
 
 .custom-breadcrumb {
@@ -292,20 +296,34 @@ textarea.form-control {
   justify-content: center;
   .page-item {
     margin: 0 10px;
+    @include mobile {
+      margin: 0 4px;
+    }
 
     &.active {
       .page-link {
-        color: $text-color-accent;
-        border-color: $text-color-accent;
-        border-radius: 50%;
+      color: $white;
+      text-transform: uppercase;
+      background-color: transparent;
+      border: 2px solid ;
+      border-color: $border-color;
+      box-sizing: border-box;
+      border-radius: 100px;
+      padding: 8px 14px;
+      text-align: center;
+
       }
     }
 
     &:first-child .page-link,
     &:last-child .page-link {
-      border-radius: 0;
+      color: $white;
+      text-transform: uppercase;
       background-color: transparent;
-      border: none;
+      border: 2px solid ;
+      border-color: $border-color;
+      box-sizing: border-box;
+      border-radius: 100px;
     }
 
     .page-link {
@@ -413,4 +431,9 @@ textarea.form-control {
   height: 85px;
   width: 85px;
   object-fit: cover;
+}
+
+.flex-center {
+  align-items: center;
+  justify-content: center;
 }

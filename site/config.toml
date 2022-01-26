@@ -44,6 +44,22 @@ link = "plugins/google-map/gmap.js"
 #################### default parameters ################################
 [params]
 logo = "images/logo.png"
+# Footer image
+footer_background_image = "images/backgrounds/footer.png"
+# Members image
+members_background_image = "images/backgrounds/members_page.png"
+# Dotted background image
+dotted_background_image = "images/backgrounds/dotted.png"
+# Pattern background image
+pattern_background_image = "images/backgrounds/pattern.png"
+# Dotted blog background image
+homepage_blog_section_background_image = "images/backgrounds/blog.png"
+# Blog text background image
+blogtext_background_image = "images/backgrounds/blogtext.png"
+# Blog text left background image
+blogtextleft_background_image = "images/backgrounds/blogtextleft.png"
+# Lines background image
+lines_background_image = "images/backgrounds/lines.png"
 # Meta data
 author = "UBIK"
 description = "Zajednica ljudi uključena u blockchain i kripto domenu u Hrvatskoj i regiji."
@@ -88,7 +104,7 @@ title = "facebook"
 
 [[params.social]]
 icon = "ti-twitter-alt" # themify icon : https://themify.me/themify-icons
-link = "#" 
+link = "https://twitter.com/ubikhr" 
 title = "twitter" 
 
 [[params.social]]
@@ -101,6 +117,20 @@ icon = "ti-linkedin" # themify icon : https://themify.me/themify-icons
 link = "https://www.linkedin.com/company/ubik-udruga-za-blockchain-i-kriptovalute/" 
 title = "linkedin" 
 
+[[params.social]]
+icon = "ti-youtube" # themify icon : https://themify.me/themify-icons
+link = "https://www.youtube.com/channel/UCkGBfraJol0oLQEYmkxb_ug" 
+title = "youtube"
+
+[[params.social]]
+icon = "/icons/icons8-telegram-app.svg" # icons8 icon : https://icons8.com/icons/set/telegram
+link = "https://t.me/ubikcommunity"
+title = "telegram"
+
+[[params.member]]
+name = "Postani član"
+url = "become-a-member"
+weight = 5
 ################################### English language #####################################
 [Languages.en]
 contentDir = "content/english"
@@ -162,6 +192,12 @@ weight = 3
 name = "kontakt"
 url = "contact"
 weight = 4
+
+[[Languages.hr.menu.main]]
+name = "Postani član"
+url = "become-a-member"
+weight = 5
+
 
 
 [markup.goldmark.renderer]

@@ -1,6 +1,6 @@
 <article class="card rounded-0">
   <div class="row card-right">
-    <div class="col-lg-6">
+    <div class="col-lg-7">
       <div class="card-body">
       <!-- post meta -->
         <ul class="list-inline mb-3">
@@ -10,12 +10,12 @@
           <li class="list-inline-item mr-3 ml-0 overline"><i class="ti-user"></i> <a
             href="{{ `author/` | relLangURL }}{{ .Params.Author | urlize }}">{{ .Params.Author | title }}</a></li>
         </ul>
-        <h3 class="card-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
-        <p class="card-text">{{ .Summary | truncate 100 }}</p>
+        <h4 class="card-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
+        <p class="card-text">{{ .Summary | truncate 400 }}</p>
         <a href="{{ .Permalink }}" class="btn btn-sm btn-blog">{{ i18n "read_more" }}</a>
       </div>
     </div>
-    <div class="col-lg-6">
+    <div class="col-lg-5">
       <img class="card-img rounded-0" src="{{ .Params.image | relURL }}" alt="{{ .Title }}">
     </div>
   </div>

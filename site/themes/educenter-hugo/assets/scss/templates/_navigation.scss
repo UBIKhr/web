@@ -1,8 +1,19 @@
+.not-fixed-top {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+
+
 .top-header {
   font-size: 12px;
   transition: transform 0.2s ease;
   transform-origin: top;
   font-weight: 600;
+
+
 
   &.hide {
     transform: scaleY(0);
@@ -42,7 +53,7 @@
 .nav-item {
   .nav-link {
     text-transform: uppercase;
-    font-weight: 600;
+    font-weight: normal;
   }
 
   margin: 0 15px;
@@ -55,7 +66,7 @@
     height: 6px;
     width: 100%;
     content: "";
-    background: $white;
+    background: $text-color-accent;
     transform: scaleY(0);
     transform-origin: top;
     transition: transform 0.3s ease;
@@ -117,6 +128,10 @@ link:focus,
 }
 
 .navbar {
+  padding: 0;
+  @include desktop {
+    padding: 20px 0;
+  }
   .dropdown {
     &:hover {
       .dropdown-menu {
@@ -178,4 +193,32 @@ link:focus,
       }
     }
   }
+}
+
+.current {
+  color: $text-color-accent !important;
+  font-weight: bold !important;
+}
+
+.become-a-member {
+  @include desktop {
+      display: none;
+    }
+    display: inline-block;
+    white-space: nowrap;
+    padding: 40px 0;
+    padding-left: 80px;
+}
+
+.become-a-member a {
+  font-weight: 700;
+  color: #00F4F5;
+  text-transform: uppercase;
+}
+
+.show {
+  @include desktop {
+    display: inline-block;
+  }
+  display: none;
 }

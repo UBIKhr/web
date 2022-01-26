@@ -1,0 +1,97 @@
+{{ define "main" }}
+
+<section class="section mt-100 overlay">
+  <div class="container">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <h1>Lorem ipsum</h1>
+          <p class="text-hero mb-70">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4 col-sm-12">
+          <div class="pricingTable">
+            <div class="pricingTable-header">
+              <i class="fa fa-adjust"></i>
+              <div class="price-value">
+                {{ i18n "student_pricing" }}<span class="month">{{ i18n "annualy" }} </span>
+              </div>
+            </div>
+            <h3 class="heading">{{ i18n "student" }}</h3>
+            <div class="pricing-content">
+              <ul>
+                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+              </ul>
+            </div>
+            <div class="pricingTable-signup">
+              <a href="#">{{ i18n "select" }}</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-sm-12">
+          <div class="pricingTable pink">
+            <div class="pricingTable-header">
+              <i class="fa fa-briefcase"></i>
+              <div class="price-value">
+                {{ i18n "member_pricing" }} <span class="month">{{ i18n "annualy" }}</span>
+              </div>
+            </div>
+            <h3 class="heading">{{ i18n "member" }}</h3>
+            <div class="pricing-content">
+              <ul>
+                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+              </ul>
+            </div>
+            <div class="pricingTable-signup">
+              <a href="#">{{ i18n "select" }}</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-12">
+          <div class="pricingTable light-blue">
+            <div class="pricingTable-header">
+              <i class="fa fa-cube"></i>
+              <div class="price-value">
+                {{ i18n "foundation_member_pricing" }}
+                <span class="month">{{ i18n "annualy" }}</span>
+              </div>
+            </div>
+            <h3 class="heading">{{ i18n "foundation_member" }}</h3>
+            <div class="pricing-content">
+              <ul>
+                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+              </ul>
+            </div>
+            <div class="pricingTable-signup">
+              <a href="#">{{ i18n "select" }}</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row flex-center mt-100">
+          <div>
+            <a
+              href="https://docs.google.com/forms/d/e/1FAIpQLScjT7zIX3FW6s0KRaoX9f6Ul6iPk8_sjiytRuL24STvENS4xw/viewform"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="btn btn-primary"
+              data-delay-out="5"
+              data-duration-in=".3"
+              data-delay-in=".7"
+              >Postani član</a
+            >
+          </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{{ end }}

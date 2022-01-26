@@ -17,7 +17,7 @@
               data-animation-in="fadeIn{{.animation_in | title }}" data-delay-in=".1">{{ .title | markdownify }}</h1>
             <p class="text-hero mb-70" data-animation-out="fadeOut{{.animation_out | title }}" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeIn{{.animation_in | title }}" data-delay-in=".4">{{ .content | markdownify }}</p>
             {{ if .button.enable }}
-            <a href="{{ .button.link | absLangURL }}" target="_blank" rel="noopener noreferrer" class="btn btn-primary" data-animation-out="fadeOut{{.animation_out | title }}" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeIn{{.animation_in | title }}" data-delay-in=".7">{{ .button.label }}</a>
+            <a href="/become-a-member" target="_self" rel="noopener noreferrer" class="btn btn-primary become-a-member-btn" data-animation-out="fadeOut{{.animation_out | title }}" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeIn{{.animation_in | title }}" data-delay-in=".7">{{ .button.label }}</a>
             {{ end }}
           </div>
         </div>
@@ -43,13 +43,13 @@
             {{ with .image }}
               <div>
               <img class="img-banner" src="{{ . | absURL }}" alt="about image">
-              </div> 
+              </div>
             {{ end }}
             <div class="text-banner">
               <h3 class="mb-xl-4 mb-lg-3 mb-4 text-center">{{ .name | markdownify }}</h3>
               <p class="text-center">{{ .content | markdownify }}</p>
             </div>
-            
+
           </div>
           {{ end }}
         </div>
@@ -64,15 +64,15 @@
 <!-- about us -->
 {{ if $data.homepage.about.enable }}
 {{ with $data.homepage.about }}
-<section class="bg-about section" style="padding-bottom: 320px;" data-background="{{ .bg_image | absURL }}" >
+<section class="bg-about section about-section" style="padding-bottom: 320px;" data-background="{{ .bg_image | absURL }}" >
   <div class="container">
-    <div class="row align-items-center">
+    <div class="row">
       <div class="col-sm-12 col-md-12 col-lg-6 order-2 order-md-1">
         <h2 class="section-title">{{ .title | markdownify }}</h2>
-        <h5 style="margin-bottom: 30px;">{{ .content | markdownify }}</h5>
+        <p style="margin-bottom: 30px;">{{ .content | markdownify }}</p>
         {{ if .button.enable }}
         {{ with .button }}
-        <a href="{{ .link | absLangURL }}" class="btn btn-primary" target="_blank" rel="noopener noreferrer">{{ .label }}</a>
+        <a href="/become-a-member" class="become-a-member-btn btn btn-primary" target="_self" rel="noopener noreferrer">{{ .label }}</a>
         {{ end }}
         {{ end }}
       </div>
@@ -91,10 +91,11 @@
 <!-- cta -->
 {{ if $data.homepage.cta.enable }}
 {{ with $data.homepage.cta }}
-<section class="section bg-cta" data-background="{{ .bg_image | absURL }}" >
+<section class="section bg-cta cta-section" data-background="{{ .bg_image | absURL }}" >
+  <div class="bg-lines-home" data-background="{{ site.Params.lines_background_image | absURL }}"></div>
   <div class="container">
     <div class="row">
-      <div class="col-12 text-sm-left text-lg-left" style="padding-left: 50%;">
+      <div class="col-12 text-sm-left text-lg-left cta-col">
         <h6 class="text-accent text-uppercase font-secondary mb-0">{{ .subtitle | markdownify }}</h6>
         <h2 class="section-title">{{ .title | markdownify }}</h2>
         {{ if .button.enable }}
@@ -113,16 +114,18 @@
 <!-- blog -->
 {{ if $data.homepage.blog.enable }}
 <section class="bg-blog section">
+  <div class="bg-blog-section" data-background="{{ site.Params.homepage_blog_section_background_image | absURL }}"></div>
+  <div class="bg-blogtextleft" data-background="{{ site.Params.blogtextleft_background_image | absURL }}"></div>
   <div class="container">
     <div class="row">
       <div class="col-12">
-        <h2 class="section-title text-uppercase" style="font-size: 24px; font-weight: 600;">{{ $data.homepage.blog.title }}</h2>
+        <h2 class=" section-title blog-section-title text-uppercase" style="font-size: 24px; font-weight: 600;">{{ $data.homepage.blog.title }}</h2>
       </div>
     </div>
     <div class="row justify-content-center">
       <!-- blog post -->
-      {{ range first 3 (where site.RegularPages "Type" "post")}}
-      <article class="col-12 mb-5 mb-lg-4">
+      {{ range first 2 (where site.RegularPages "Type" "post")}}
+      <article class="col-12 mb-5 mb-lg-5">
         {{ .Render "post" }}
       </article>
       {{ end }}

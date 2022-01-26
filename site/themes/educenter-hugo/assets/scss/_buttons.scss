@@ -1,7 +1,8 @@
 /* Button style */
 .btn {
-  font-size: 21px;
+  font-size: $font-size-button;
   font-family: $primary-font;
+  line-height: $line-height-button;
   padding: 20px 70px;
   border-radius: 0;
   font-weight: 500;
@@ -41,7 +42,7 @@
 }
 
 .btn-sm {
-  font-size: 14px;
+  font-size: $font-size-button-sm;
   padding: 14px 40px;
   text-transform: uppercase;
 
@@ -57,7 +58,7 @@
 }
 
 .btn-xs {
-  font-size: 12px;
+  font-size: $font-size-button-xs;
   padding: 10px 20px;
 }
 
