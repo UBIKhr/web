@@ -133,3 +133,10 @@ article:first-child {
     }
   }
 }
+
+.blog-list {
+  .card-img {
+    max-height: 320px;
+    object-fit: cover;
+  }
+}
