@@ -103,6 +103,12 @@
         <a href="{{ .link | absLangURL }}" target="_blank" rel="noopener noreferrer" class="btn btn-primary">{{ .label }}</a>
         {{ end }}
         {{ end }}
+
+        {{ if .buttont.enable }}
+        {{ with .buttont }}
+        <a href="{{ .link | absLangURL }}" target="_blank" rel="noopener noreferrer" class="btn btn-primary buttont">{{ .label }}</a>
+        {{ end }}
+        {{ end }}
       </div>
     </div>
   </div>
