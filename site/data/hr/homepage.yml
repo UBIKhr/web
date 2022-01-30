@@ -20,17 +20,17 @@ banner_feature:
   feature_item:
     # feature item loop
     - name : "Zajednica"
-      image : "images/banner/community.png" 
+      image : "images/banner/community.png"
       content : "Stvoriti fokusiranu i snažnu zajednicu ljudi uključenih u blockchain i kripto domenu u Hrvatskoj i okruženju."
 
     # feature item loop
     - name : "Informacije"
-      image : "images/banner/information.png" 
+      image : "images/banner/information.png"
       content : "Pružiti relevantne informacije, edukaciju i znanje unutar blockchain tehnologije, mehanike kriptovaluta i cjelokupnog tržišta."
 
     # feature item loop
     - name : "Podrška"
-      image : "images/banner/support.png" 
+      image : "images/banner/support.png"
       content : "Omogućiti pravnu, financijsku i tehnološku podršku u razvijanju regulatornih okvira i strateških blockchain projekata."
 
 ############################## about ##################################
@@ -39,7 +39,7 @@ about:
   title : "O udruzi"
   bg_image : "images/about/about.png"
   image : "images/about/Rectangle.png"
-  content : "Udruga za blockchain i kriptovalute (UBIK) osnovana je 13.12.2017. usvajanjem Statuta Udruge na sjednici osnivačke Skupštine. Udruga je upisana u Registar udruga 18.01.2018. te sukladno ciljevima djeluje na području obrazovanja, znanosti i istraživanja. Rad Udruge je javan i svi članovi Udruge imaju pravo sudjelovati u radu Udruge sukladno odredbama Statuta i Zakona te pravo uvida u rad tijela i odluke koje njena tijela donose. Rad Udruge usmjeren je ka ispunjavanju ciljeva Udruge. Plan rada, stoga, logično proizlazi iz ciljeva."
+  content : "Udruga za blockchain i kriptovalute osnovana je 2017. godine s ciljem okupljanja rastuće zajednice interesenata za ovu novu tehnologiju. Od samog početka UBIK se koncentrirao na organiziranje radionica i edukacija s ciljem približavanja materije općoj publici, ali istovremeno vodeći razgovore s regulatorima kako bi se osigurao nesmetan razvoj ekosustava. Od osnivanja broj članova kontinuirano raste, kako fizičkih tako i pravnih dok operativno funkcioniranje počiva na potpori temeljnih članova. I u izazovnom periodu pandemije koronavirusa UBIK je uspijevao redovito održavati susrete s članovima i tako zadržati prisutnost i relevantnost."
   button:
     enable : true
     label : "Postani član"
@@ -51,11 +51,15 @@ cta:
   enable : true
   bg_image : "images/backgrounds/forum.png"
   subtitle : "Sudjeluj u aktivnim diskusijama"
-  title : "Pridruži se UBIK forumu"
+  title : "Pridruži se zajednici"
   button:
     enable : true
-    label : "Uključi se"
+    label : "Forum"
     link : "https://forum.ubik.hr"
+  buttont:
+    enable: true
+    label: "Telegram"
+    link: "https://t.me/ubikcommunity"
 
 
 ######################## Success story #############################

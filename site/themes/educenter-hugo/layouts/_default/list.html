@@ -2,15 +2,15 @@
 
 <!-- blogs -->
 <section class="section overlay">
-    <div class="bg-pattern" data-background="{{ site.Params.pattern_background_image | absURL }}"></div>
-    <div class="bg-dotted" data-background="{{ site.Params.dotted_background_image | absURL }}"></div>
-    <div class="bg-blogtext" data-background="{{ site.Params.blogtext_background_image | absURL }}"></div>
-    <div class="container separate-blog">
+  <div class="bg-pattern" data-background="{{ site.Params.pattern_background_image | absURL }}"></div>
+  <div class="bg-dotted" data-background="{{ site.Params.dotted_background_image | absURL }}"></div>
+  <div class="bg-blogtext" data-background="{{ site.Params.blogtext_background_image | absURL }}"></div>
+  <div class="container blog-list">
         <div class="row">
             {{ $blogs := first 3 (where .Data.Pages "Type" "post") }}
-            <div class="col-lg-9 d-flex justify-content-center flex-column" style="height: 550px">
+            <div class="col-lg-9 d-flex justify-content-center flex-column">
                 {{ $blog := index $blogs 0}}
-                <img class="card-img rounded-0" src="{{ $blog.Params.image | relURL }}" style="max-height: 100%">
+                <img class="card-img rounded-0" src="{{ $blog.Params.image | relURL }}">
                 <div class="position-relative">
 
                     <div class="position-absolute blog-meta-container">
@@ -28,7 +28,7 @@
                 </div>
             </div>
             <div class="col-lg-3" style="padding: 0">
-                <div class="row" style="height: 550px">
+                <div class="row">
                     <div class="col-lg-12 d-flex justify-content-center flex-column">
                         {{ $blog := index $blogs 1}}
                         <img class="card-img rounded-0" src="{{ $blog.Params.image | relURL }}">
