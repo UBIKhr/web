@@ -125,6 +125,16 @@
   background: $body-color;
   border-radius: 20px;
 }
+.blog-meta-container {
+  background: rgba(0,0,0,0.5);
+  padding: 16px 24px;
+  bottom: 0;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
 
 article:first-child {
   .card-body {
