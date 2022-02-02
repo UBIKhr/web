@@ -70,6 +70,7 @@
       $('.filtr-container').filterizr({
         layout: 'sameWidth',
         animationDuration: 0,
+        filter: 'upravni-odbor',
       });
     }
     // Active changer
