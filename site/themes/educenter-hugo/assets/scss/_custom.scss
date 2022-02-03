@@ -10,7 +10,20 @@
   }
 }
 
+.filtr-container [data-category="temeljni-clanovi"] {
+  z-index: 1000 !important;
+}
+
 .member {
+  &.foundational {
+    max-height: 140px;
+    img {
+      max-height: 120px;
+      padding: 10px;
+      object-fit: contain;
+    }
+  }
+
   .card-title {
     font-family: $primary-font;
   }
