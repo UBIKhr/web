@@ -2,7 +2,7 @@
 role: 
 title: "ELECTROCOIN d.o.o."
 draft: false
-image: "images/about/about-illustration.jpg"
+image: "images/members/foundational/electrocoin.svg"
 description: 
 type: temeljni-clanovi
 # contact info
@@ -25,5 +25,5 @@ contact:
   # contact item loop
   - name : 
     icon : "ti-world"
-    link : 
+    link : https://electrocoin.hr
 ---

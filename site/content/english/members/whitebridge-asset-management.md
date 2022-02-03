@@ -1,8 +1,8 @@
 ---
 role: 
-title: "GRIFFON ASSET MANAGEMENT d.o.o."
+title: "WHITEBRIDGE ASSET MANAGEMENT d.o.o."
 draft: false
-image: "images/about/about-illustration.jpg"
+image: "images/members/foundational/whitebridge.svg"
 description: 
 type: temeljni-clanovi
 # contact info
@@ -25,5 +25,5 @@ contact:
   # contact item loop
   - name : 
     icon : "ti-world"
-    link : 
+    link : https://www.whitebridge-am.com
 ---

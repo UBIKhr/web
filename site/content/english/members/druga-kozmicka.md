@@ -2,7 +2,7 @@
 role: 
 title: "DRUGA KOZMICKA d.o.o."
 draft: false
-image: "images/about/about-illustration.jpg"
+image: "images/members/foundational/drugakozmicka.jpeg"
 description: 
 type: temeljni-clanovi
 # contact info

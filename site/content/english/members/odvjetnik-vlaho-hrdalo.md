@@ -2,7 +2,7 @@
 role: 
 title: "ODVJETNIK VLAHO HRDALO"
 draft: false
-image: "images/about/about-illustration.jpg"
+image: "images/members/foundational/odvjetnikvlaho.png"
 description: 
 type: temeljni-clanovi
 # contact info
@@ -25,5 +25,5 @@ contact:
   # contact item loop
   - name : 
     icon : "ti-world"
-    link : 
+    link : http://www.hok-cba.eu/imenik/pregled/9305
 ---

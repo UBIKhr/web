@@ -2,7 +2,7 @@
 role: 
 title: "NODE FACTORY d.o.o"
 draft: false
-image: "images/about/about-illustration.jpg"
+image: "images/members/foundational/chainsafe.png"
 description: 
 type: temeljni-clanovi
 # contact info
@@ -25,5 +25,5 @@ contact:
   # contact item loop
   - name : 
     icon : "ti-world"
-    link : 
+    link : https://chainsafe.io
 ---
