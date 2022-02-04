@@ -1,7 +1,8 @@
 {{ if eq .Params.Type "temeljni-clanovi"}}
   <a href="{{ .Params.Contact | safeURL }}">
     <div class="card border-0 rounded-0 hover-shadow member foundational">
-      <img class="card-img-top rounded-0" src="{{ .Params.image | relURL }}" alt="{{ .Title }}">
+      <img class="card-img-top rounded-0" src="{{ .Params.image | relURL }}" alt="{{ .Title }}"
+           style="background-color: {{ .Params.background }}" />
     </div>
   </a>
 {{ else }}

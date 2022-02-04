@@ -7,5 +7,6 @@ description:
 type: temeljni-clanovi
 # contact info
 contact:
+background: "white"
 ---
 

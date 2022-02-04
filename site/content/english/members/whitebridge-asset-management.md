@@ -7,4 +7,5 @@ description:
 type: temeljni-clanovi
 # contact info
 contact: https://www.whitebridge-am.com
+background: "white"
 ---

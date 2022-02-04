@@ -7,5 +7,6 @@ description:
 type: temeljni-clanovi
 # contact info
 contact: http://www.hok-cba.eu/imenik/pregled/9305
+background: "white"
 ---
 

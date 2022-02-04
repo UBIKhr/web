@@ -17,10 +17,15 @@
 .member {
   &.foundational {
     max-height: 140px;
+    display: flex;
+    align-items: center;
+
     img {
       max-height: 120px;
       padding: 10px;
       object-fit: contain;
+      width: fit-content;
+      max-width: 100%;
     }
     margin-bottom: 5rem !important;
   }
