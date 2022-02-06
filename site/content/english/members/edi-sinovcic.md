@@ -3,7 +3,8 @@ role:
 title: "Edi Sinovčić"
 draft: false
 image: "images/members/edi_sinovcic.jpeg"
-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+description: "Osnivač blockchain development studija Shard Labs specijaliziranog za razvoj distribuiranih skalabilnih
+ sustava, donedavno i suradnik u Ethereum Foundationu."
 type: upravni-odbor
 type: upravni-odbor
 # contact info
