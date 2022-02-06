@@ -44,6 +44,7 @@ link = "plugins/google-map/gmap.js"
 #################### default parameters ################################
 [params]
 logo = "images/logo.png"
+webpreview = "images/logo-bg.jpeg"
 # Footer image
 footer_background_image = "images/backgrounds/footer.png"
 # Members image
