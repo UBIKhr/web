@@ -297,11 +297,19 @@
   </url>
   
   <url>
+    <loc>/members/ampnet/</loc>
+  </url>
+  
+  <url>
+    <loc>/become-a-member/</loc>
+  </url>
+  
+  <url>
     <loc>/members/belma-gutlic/</loc>
   </url>
   
   <url>
-    <loc>/members/boris-agatic/</loc>
+    <loc>/members/bitfalls/</loc>
   </url>
   
   <url>
@@ -313,7 +321,19 @@
   </url>
   
   <url>
-    <loc>/members/ivan-glavas/</loc>
+    <loc>/members/druga-kozmicka/</loc>
+  </url>
+  
+  <url>
+    <loc>/members/edi-sinovcic/</loc>
+  </url>
+  
+  <url>
+    <loc>/members/electrocoin/</loc>
+  </url>
+  
+  <url>
+    <loc>/members/ideja-na-kvadrat/</loc>
   </url>
   
   <url>
@@ -325,11 +345,35 @@
   </url>
   
   <url>
+    <loc>/members/node-factory/</loc>
+  </url>
+  
+  <url>
+    <loc>/members/odvjetnik-vlaho-hrdalo/</loc>
+  </url>
+  
+  <url>
     <loc>/members/</loc>
   </url>
   
   <url>
+    <loc>/members/shard-labs/</loc>
+  </url>
+  
+  <url>
     <loc>/members/1-vlaho-hrdalo/</loc>
+  </url>
+  
+  <url>
+    <loc>/members/wespa-spaces/</loc>
+  </url>
+  
+  <url>
+    <loc>/members/whitebridge-asset-management/</loc>
+  </url>
+  
+  <url>
+    <loc>/members/zoran-balkic/</loc>
   </url>
   
 </urlset>
