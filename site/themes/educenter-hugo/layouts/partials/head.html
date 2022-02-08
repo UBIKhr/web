@@ -18,7 +18,7 @@
   {{ end }}
 
   {{ "<!-- Open Graph data / Facebook Card data -->" | safeHTML }}
-  {{ $image := print "https://ubik.hr/" site.Params.logo }}
+  {{ $image := print "https://ubik.hr/" site.Params.webpreview }}
   {{ if .Params.image }}
   {{ $image = print "https://ubik.hr/" .Params.image }}
   {{ end }}

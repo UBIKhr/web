@@ -1,0 +1,151 @@
+.pricingTable {
+    text-align: center;
+    box-shadow: 0 0 4px #d4617c;
+    padding-bottom: 0.5rem;
+    border-radius: 10px;
+    color: #cad0de;
+    transform: scale(1);
+    transition: all .5s ease 0s;
+}
+
+.pricingTable:hover {
+    transform: scale(1.05);
+    z-index: 1
+}
+
+.pricingTable .pricingTable-header {
+    margin-bottom: 20px;
+    padding: 40px 0;
+    border-radius: 10px 10px 15% 15%;
+    transition: all .5s ease 0s;
+}
+
+.pricingTable:hover .pricingTable-header {
+    background: $text-color-accent
+}
+
+.pricingTable .pricingTable-header i {
+    font-size: 50px;
+    color: #858c9a;
+    margin-bottom: 10px;
+    transition: all .5s ease 0s
+}
+
+.pricingTable .price-value {
+    font-size: 35px;
+    color: $text-color-accent;
+    transition: all .5s ease 0s
+}
+
+.pricingTable .month {
+    display: block;
+    font-size: 14px;
+    color: $text-color;
+}
+
+.pricingTable:hover .month,
+.pricingTable:hover .price-value,
+.pricingTable:hover .pricingTable-header i {
+    color: $text-color;
+}
+
+.pricingTable .heading {
+    font-size: 24px;
+    color: $text-color-accent;
+    margin-bottom: 20px;
+    text-transform: uppercase
+}
+
+.pricingTable .pricingTable-signup a {
+    display: inline-block;
+    font-size: 15px;
+    color: $text-color;
+    padding: 10px 35px;
+    border-radius: 20px;
+    background: transparent;
+    text-transform: uppercase;
+    transition: all .3s ease 0s;
+    box-shadow: 0 0 10px $text-color-accent;
+    border: 2px solid $text-color-accent;
+}
+
+.pricingTable .pricingTable-signup a:hover {
+    background-color: $text-color-accent;
+}
+
+.pricingTable.light-blue .heading,
+.pricingTable.light-blue .price-value {
+    color: $light-blue;
+}
+
+.pricingTable.light-blue .pricingTable-signup a {
+    box-shadow: 0 0 10px $light-blue;
+    border: 2px solid $light-blue;
+}
+
+.pricingTable.light-blue:hover .pricingTable-header {
+    background: $light-blue;
+}
+
+.pricingTable.light-blue .pricingTable-signup a:hover {
+    background-color: $light-blue;
+}
+
+.pricingTable.pink .heading,
+.pricingTable.pink .price-value {
+    color: $pink;
+}
+
+.pricingTable.pink .pricingTable-signup a {
+    box-shadow: 0 0 10px $pink;
+    border: 2px solid $pink;
+}
+
+.pricingTable.pink:hover .pricingTable-header {
+    background: $pink;
+}
+
+.pricingTable.pink .pricingTable-signup a:hover {
+    background-color: $pink;
+
+}
+
+.pricingTable.pink:hover .price-value,
+.pricingTable.light-blue:hover .price-value {
+    color: #fff
+}
+
+@media screen and (max-width:990px) {
+    .pricingTable {
+        margin: 0 0 20px
+    }
+}
+
+.pricing-content {
+    ul {
+        line-height: 1.5em;
+        margin: 5px 0 15px;
+        padding: 0 1rem;
+    }
+
+    li {
+        text-align: left;
+        list-style: none;
+        position: relative;
+        padding: 0 0 0 20px;
+        line-height: 2.5rem;
+        color: $text-color;
+
+        &::before {
+            content: "";
+            position: absolute;
+            left: 2px;
+            top: 0.8rem;
+            width: 5px;
+            height: 11px;
+            border: solid white;
+            border-width: 0 2px 2px 0;
+            transform: rotate(45deg);
+        }
+    }
+}

@@ -1,8 +1,9 @@
 ---
+role: 
 title: "Bruno Škvorc"
 draft: false
 image: "images/members/bruno_skvorc.jpeg"
-description: "Bruno Škvorc je blockchain developer i konzultant, vlasnik popularnog kriptoportala Bitfalls i trenutno technical educator u Web3 Foundationu."
+description: "Bruno Škvorc je osnivač RMRK, NFT protokola na Kusama blockchain mreži."
 type: upravni-odbor
 # contact info
 contact:

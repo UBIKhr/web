@@ -8,8 +8,6 @@ tags: ["uvod", "kriptovalute", "edukacija"]
 type: "post"
 ---
 
-# Nov sam u kriptovalutama - gdje početi?
-
 Kriptovalute i blockchain su dva termina kojima se u ovo doba novog _bull marketa_ mnogi razbacuju.
 Kako bismo vas zaštitili od potencijalnih prijevara (vidi
 [Pi](https://ubik.hr/blog/pi-coin-nije-kriptovaluta-i-potencijalno-je-opasan/),

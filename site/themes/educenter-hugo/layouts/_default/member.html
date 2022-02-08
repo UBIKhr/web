@@ -1,14 +1,26 @@
-<div class="card border-0 rounded-0 hover-shadow mb-5 member">
-  <img class="card-img-top rounded-0" src="{{ .Params.image | relURL }}" alt="{{ .Title }}">
-  <div class="card-body">
-    <h4 class="card-title">{{ .Title }}</h4>
-    <p>{{ .Params.Description }}</p>
-    <ul class="list-inline">
-      {{ range .Params.Contact }}
-      <li class="list-inline-item">
-        <a class="text-color" href="{{ .link | safeURL }}"><i class="{{ .icon }}"></i></a>
-      </li>
-      {{ end }}
-    </ul>
+{{ if eq .Params.Type "temeljni-clanovi"}}
+  <a href="{{ .Params.Contact | safeURL }}">
+    <div class="card border-0 rounded-0 hover-shadow member foundational">
+      <img class="card-img-top rounded-0" src="{{ .Params.image | relURL }}" alt="{{ .Title }}"
+           style="background-color: {{ .Params.background }}" />
+    </div>
+  </a>
+{{ else }}
+
+  <div class="card border-0 rounded-0 hover-shadow mb-5 member">
+    <img class="card-img-top rounded-0" src="{{ .Params.image | relURL }}" alt="{{ .Title }}">
+    <div class="card-body">
+      <div class="card-role">{{ .Params.Role }}</div>
+      <h4 class="card-title">{{ .Title }}</h4>
+      <p>{{ .Params.Description }}</p>
+      <ul class="list-inline">
+        {{ range .Params.Contact }}
+        <li class="list-inline-item">
+          <a class="text-color contact-icon" href="{{ .link | safeURL }}"><i class="{{ .icon }}"></i></a>
+        </li>
+        {{ end }}
+      </ul>
+    </div>
   </div>
-</div>
+
+{{ end }}
