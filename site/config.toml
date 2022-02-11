@@ -44,12 +44,34 @@ link = "plugins/google-map/gmap.js"
 #################### default parameters ################################
 [params]
 logo = "images/logo.png"
+webpreview = "images/logo-bg.jpeg"
+# Footer image
+footer_background_image = "images/backgrounds/footer.png"
+# Members image
+members_background_image = "images/backgrounds/members_page.png"
+# Dotted background image
+dotted_background_image = "images/backgrounds/dotted.png"
+# Pattern background image
+pattern_background_image = "images/backgrounds/pattern.png"
+# Dotted blog background image
+homepage_blog_section_background_image = "images/backgrounds/blog.png"
+# Blog text background image
+blogtext_background_image = "images/backgrounds/blogtext.png"
+# Blog text left background image
+blogtextleft_background_image = "images/backgrounds/blogtextleft.png"
+# Lines background image
+lines_background_image = "images/backgrounds/lines.png"
 # Meta data
 author = "UBIK"
 description = "Zajednica ljudi uključena u blockchain i kripto domenu u Hrvatskoj i regiji."
 # contact info
+ubik = "Udruga za blockchain i kriptovalute - UBIK"
 address = "Medulićeva 4, 10000 Zagreb, Hrvatska"
-email = "info@ubik.hr"
+email = "Email: info@ubik.hr"
+phone = "Kontakt telefon: 01/4106-456"
+oib = "OIB: 49493768738"
+regbr = "Registarski broj: 21012855"
+account = "Transakcijski račun: HR0324020061100858697"
 # contact form action
 contact_form_action = "https://formspree.io/f/mjvpjgyj" # contact form works with https://formspree.io
 # Google Analitycs
@@ -59,15 +81,15 @@ top_header = false
 
 # Preloader
 [params.preloader]
-enable = true 
+enable = true
 preloader = "images/preloader.gif" # use jpg, png, svg or gif format.
 
 # Subscription
 [params.subscription]
 enable = true
 # mailchimp subsciption
-mailchimp_form_action = "https://ubik.us17.list-manage.com/subscribe/post" 
-mailchimp_id = "a28ed76483" 
+mailchimp_form_action = "https://ubik.us17.list-manage.com/subscribe/post"
+mailchimp_id = "a28ed76483"
 mailchimpuser = "" ## Overridden by env variable
 
 # cookies
@@ -78,24 +100,38 @@ expire_days = 30
 ############################# social site ########################
 [[params.social]]
 icon = "ti-facebook" # themify icon : https://themify.me/themify-icons
-link = "https://www.facebook.com/UBIK.hr" 
-title = "facebook" 
+link = "https://www.facebook.com/UBIK.hr"
+title = "facebook"
 
 [[params.social]]
 icon = "ti-twitter-alt" # themify icon : https://themify.me/themify-icons
-link = "#" 
-title = "twitter" 
+link = "https://twitter.com/ubikhr"
+title = "twitter"
 
 [[params.social]]
 icon = "ti-github" # themify icon : https://themify.me/themify-icons
-link = "https://github.com/ubikhr" 
-title = "github" 
+link = "https://github.com/ubikhr"
+title = "github"
 
 [[params.social]]
 icon = "ti-linkedin" # themify icon : https://themify.me/themify-icons
-link = "https://www.linkedin.com/company/ubik-udruga-za-blockchain-i-kriptovalute/" 
-title = "linkedin" 
+link = "https://www.linkedin.com/company/ubik-udruga-za-blockchain-i-kriptovalute/"
+title = "linkedin"
 
+[[params.social]]
+icon = "ti-youtube" # themify icon : https://themify.me/themify-icons
+link = "https://www.youtube.com/channel/UCkGBfraJol0oLQEYmkxb_ug"
+title = "youtube"
+
+[[params.social]]
+icon = "/icons/icons8-telegram-app.svg" # icons8 icon : https://icons8.com/icons/set/telegram
+link = "https://t.me/ubikcommunity"
+title = "telegram"
+
+[[params.member]]
+name = "Postani član"
+url = "become-a-member"
+weight = 5
 ################################### English language #####################################
 [Languages.en]
 contentDir = "content/english"
@@ -157,6 +193,13 @@ weight = 3
 name = "kontakt"
 url = "contact"
 weight = 4
+
+[[Languages.hr.menu.main]]
+name = "Postani član"
+url = "become-a-member"
+weight = 5
+
+
 
 [markup.goldmark.renderer]
 unsafe = true

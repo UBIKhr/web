@@ -1,8 +1,8 @@
 <!-- header -->
-<header class="fixed-top header">
+<header class="not-fixed-top header">
   <!-- top header -->
   {{ if site.Params.top_header }}
-  <div class="top-header py-2 bg-white">
+  <div class="top-header py-2">
     <div class="container">
       <div class="row no-gutters align-items-center">
         <div class="col-lg-4 text-center text-lg-left">
@@ -19,13 +19,14 @@
   <!-- navbar -->
   <div class="navigation w-100 {{ if site.Params.top_header }} top-hider {{ end }}">
     <div class="container">
-      <nav class="navbar navbar-expand-lg navbar-light p-0">
+      <nav class="navbar navbar-expand-lg navbar-dark">
         <a class="navbar-brand" href="{{ site.BaseURL | relLangURL }}">
           <img class="logo"
             src="{{ site.Params.logo | absURL }}" alt="{{ site.Title }}"></a>
-        <button class="navbar-toggler rounded-0" type="button" data-toggle="collapse" data-target="#navigation"
+        <button class="navbar-toggler rounded-0 border-0" type="button" data-toggle="collapse" data-target="#navigation"
           aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+          <span class="navbar-toggler-icon">
+          </span>
         </button>
 
         <div class="collapse navbar-collapse text-center" id="navigation">
@@ -45,13 +46,22 @@
                 {{ end }}
               </div>
             </li>
-            {{ else }}
-            <li class="nav-item">
+            {{ else if ne .URL "become-a-member"}}
+              <li class="nav-item">
+                <a class="nav-link" href="{{ .URL | absLangURL }}">{{ .Name }}</a>
+              </li>
+            {{ end }}
+            {{ if eq .URL "become-a-member"}}
+            <li class="nav-item show">
               <a class="nav-link" href="{{ .URL | absLangURL }}">{{ .Name }}</a>
             </li>
             {{ end }}
             {{ end }}
           </ul>
+
+          <div>
+            <a ></a>
+          </div>
 
           <!-- Language List -->
           {{ if .IsTranslated }}
@@ -75,6 +85,11 @@
           </select>
           {{ end }}
         </div>
+        {{ range site.Menus.main }}
+        {{if eq .URL "become-a-member"}}
+        <div class="become-a-member"><a href="{{ .URL | absLangURL }}">{{ .Name }}</a></div>
+        {{ end }}
+        {{ end }}
       </nav>
     </div>
   </div>

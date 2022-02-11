@@ -1,9 +1,25 @@
+/* eslint-disable */
 (function ($) {
   'use strict';
 
   // Preloader js
   $(window).on('load', function () {
     $('.preloader').fadeOut(100);
+  });
+
+  // Current navigation link
+  $(document).ready(function ($) {
+    var url = window.location.pathname;
+    if(url.length > 1) {
+      url = window.location.pathname.replace(/\/+$/, '');
+    }
+    var activePage = url;
+    $('.nav-item').each(function () {
+      var linkPage = $(this).find('.nav-link').attr('href');
+        if (activePage == linkPage) {
+            $(this).find('.nav-link').addClass("current");
+        }
+    });
   });
 
   // Sticky Menu
@@ -19,8 +35,6 @@
       $('.navigation').css('margin-top','-'+0+'px');
     }
   });
-
-
 
   // Background-images
   $('[data-background]').each(function () {
@@ -49,16 +63,17 @@
     $('.venobox').venobox();
   });
 
-  // filter
+  // // filter
   $(document).ready(function () {
     var containerEl = document.querySelector('.filtr-container');
     if (containerEl) {
       $('.filtr-container').filterizr({
         layout: 'sameWidth',
         animationDuration: 0,
+        filter: 'upravni-odbor',
       });
     }
-    //Active changer
+    // Active changer
     $('.filter-controls li').on('click', function () {
       $('.filter-controls li').removeClass('active');
       $(this).addClass('active');
@@ -105,5 +120,6 @@
     });
   });
 
-
 })(jQuery);
+
+

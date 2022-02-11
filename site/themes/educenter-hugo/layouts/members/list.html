@@ -1,27 +1,26 @@
 {{ define "main" }}
 
 <!-- members -->
-<section class="section">
+<section class="section overlay" >
+  <div class="bg-members-image" data-background="{{ site.Params.members_background_image | absURL }}"></div>
+  <div class="bg-dotted" data-background="{{ site.Params.dotted_background_image | absURL }}"></div>
+  <div class="bg-lines-members" data-background="{{ site.Params.lines_background_image | absURL }}"></div>
   <div class="container">
     <!-- member category list -->
     <div class="row">
-      <div class="col-12">
+      <div class="col-md-6"><h2 class="members-title">{{ i18n "our_members" }}</h2></div>
+      <div class="col-sm-6">
         <ul class="list-inline text-center filter-controls mb-5">
-          <li class="list-inline-item m-3 text-uppercase active" data-filter="all">{{ i18n "all" }}</li>
-          {{ $categories := slice }}
-          {{ range .Data.Pages }}
-          {{ $categories = $categories | append .Params.Type }}
-          {{ end }}
-          {{ range ( $categories | uniq ) }}
-          <li class="list-inline-item m-3 text-uppercase" data-filter="{{ . | urlize }}">{{ i18n . | humanize }}</li>
-          {{ end }}
+          <li class="list-inline-item m-3 text-uppercase active" data-filter="upravni-odbor">
+            {{ i18n "upravni-odbor" }}</li>
+          <li class="list-inline-item m-3 text-uppercase" data-filter="temeljni-clanovi">{{ i18n "temeljni-clanovi" }}</li>
         </ul>
       </div>
     </div>
     <!-- members list -->
     <div class="row filtr-container">
       <!-- member -->
-      {{ range .Data.Pages.Reverse }}
+      {{ range .Data.Pages.ByTitle }}
       <div data-category="{{ .Params.Type | urlize }}" class="col-lg-4 col-sm-6 filtr-item">
         {{ .Render "member" }}
       </div>

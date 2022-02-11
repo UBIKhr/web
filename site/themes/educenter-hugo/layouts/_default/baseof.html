@@ -6,7 +6,6 @@
 	{{- partial "preloader.html" . -}}
 	{{- partial "header.html" . -}}
 	{{ if not .IsHome }}
-	{{ partial "page-header.html" . }}
 	{{ end }}
 	{{- block "main" . }}{{- end }}
 	{{- partial "footer.html" . -}}

@@ -1,14 +1,15 @@
 /* Button style */
 .btn {
-  font-size: 16px;
+  font-size: $font-size-button;
   font-family: $primary-font;
-  padding: 15px 40px;
+  line-height: $line-height-button;
+  padding: 20px 70px;
   border-radius: 0;
   font-weight: 500;
   border: 0;
   position: relative;
   z-index: 1;
-  transition: .2s ease;
+  transition: 0.2s ease;
   overflow: hidden;
   white-space: nowrap;
 
@@ -20,7 +21,7 @@
     left: 0;
     bottom: 10%;
     z-index: -1;
-    transition: transform .2s ease-in-out;
+    transition: transform 0.2s ease-in-out;
     transform-origin: top;
     transform: scaleY(0);
   }
@@ -41,21 +42,36 @@
 }
 
 .btn-sm {
-  font-size: 14px;
-  padding: 10px 35px;
+  font-size: $font-size-button-sm;
+  padding: 14px 40px;
+  text-transform: uppercase;
+
+  &:active,
+  &:hover,
+  &.focus,
+  &:focus,
+  &.active {
+    outline: 0;
+    box-shadow: none !important;
+    color: $light;
+  }
 }
 
 .btn-xs {
-  font-size: 12px;
-  padding: 5px 15px;
+  font-size: $font-size-button-xs;
+  padding: 10px 20px;
 }
 
 .btn-primary {
   color: $white;
-  background-color: $primary-color;
+  text-transform: uppercase;
+  background-color: transparent;
+  border: 2px solid $border-color;
+  box-sizing: border-box;
+  border-radius: 100px;
 
   &::before {
-    background-color: $white;
+    background-color: $border-color;
   }
 
   &:active,
@@ -64,8 +80,8 @@
   &:focus,
   &.active {
     color: $primary-color !important;
-    background-color: darken($color: $primary-color, $amount: 10) !important;
-    border-color: darken($color: $primary-color, $amount: 10) !important;
+    background-color: darken($color: $border-color, $amount: 10) !important;
+    border-color: darken($color: $border-color, $amount: 10) !important;
   }
 }
 

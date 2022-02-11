@@ -12,12 +12,12 @@
       {{ range .slider_item }}
       <div class="hero-slider-item">
         <div class="row">
-          <div class="col-md-8">
-            <h1 class="text-white" data-animation-out="fadeOut{{.animation_out | title }}" data-delay-out="5" data-duration-in=".3"
+          <div class="col-md-10">
+            <h1 class="hero-heading" data-animation-out="fadeOut{{.animation_out | title }}" data-delay-out="5" data-duration-in=".3"
               data-animation-in="fadeIn{{.animation_in | title }}" data-delay-in=".1">{{ .title | markdownify }}</h1>
-            <p class="text-muted mb-4" data-animation-out="fadeOut{{.animation_out | title }}" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeIn{{.animation_in | title }}" data-delay-in=".4">{{ .content | markdownify }}</p>
+            <p class="text-hero mb-70" data-animation-out="fadeOut{{.animation_out | title }}" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeIn{{.animation_in | title }}" data-delay-in=".4">{{ .content | markdownify }}</p>
             {{ if .button.enable }}
-            <a href="{{ .button.link | absLangURL }}" target="_blank" rel="noopener noreferrer" class="btn btn-primary" data-animation-out="fadeOut{{.animation_out | title }}" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeIn{{.animation_in | title }}" data-delay-in=".7">{{ .button.label }}</a>
+            <a href="/become-a-member" target="_self" rel="noopener noreferrer" class="btn btn-primary become-a-member-btn" data-animation-out="fadeOut{{.animation_out | title }}" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeIn{{.animation_in | title }}" data-delay-in=".7">{{ .button.label }}</a>
             {{ end }}
           </div>
         </div>
@@ -33,16 +33,23 @@
 <!-- banner-feature -->
 {{ if $data.homepage.banner_feature.enable }}
 {{ with $data.homepage.banner_feature }}
-<section class="bg-gray overflow-md-hidden">
+<section class="bg-primary overflow-md-hidden">
   <div class="container-fluid p-0">
     <div class="row no-gutters">
       <div class="col-lg-10 offset-lg-1 col-sm-12">
-        <div class="row feature-blocks bg-gray justify-content-center">
+        <div class="row feature-blocks bg-primary justify-content-center">
           {{ range .feature_item }}
-          <div class="col-sm-4 mb-lg-3 mb-4 text-center text-sm-left">
-            <i class="{{ .icon }} mb-xl-4 mb-lg-3 mb-4 feature-icon"></i>
-            <h3 class="mb-xl-4 mb-lg-3 mb-4">{{ .name | markdownify }}</h3>
-            <p>{{ .content | markdownify }}</p>
+          <div class="col-sm-12 col-md-4 col-lg-4 mb-lg-3 mb-4 banner">
+            {{ with .image }}
+              <div>
+              <img class="img-banner" src="{{ . | absURL }}" alt="about image">
+              </div>
+            {{ end }}
+            <div class="text-banner">
+              <h3 class="mb-xl-4 mb-lg-3 mb-4 text-center">{{ .name | markdownify }}</h3>
+              <p class="text-center">{{ .content | markdownify }}</p>
+            </div>
+
           </div>
           {{ end }}
         </div>
@@ -57,21 +64,21 @@
 <!-- about us -->
 {{ if $data.homepage.about.enable }}
 {{ with $data.homepage.about }}
-<section class="section">
+<section class="bg-about section about-section" style="padding-bottom: 320px;" data-background="{{ .bg_image | absURL }}" >
   <div class="container">
-    <div class="row align-items-center">
-      <div class="col-md-6 order-2 order-md-1">
+    <div class="row">
+      <div class="col-sm-12 col-md-12 col-lg-6 order-2 order-md-1">
         <h2 class="section-title">{{ .title | markdownify }}</h2>
-        <p>{{ .content | markdownify }}</p>
+        <p style="margin-bottom: 30px;">{{ .content | markdownify }}</p>
         {{ if .button.enable }}
         {{ with .button }}
-        <a href="{{ .link | absLangURL }}" class="btn btn-outline-primary" target="_blank" rel="noopener noreferrer">{{ .label }}</a>
+        <a href="/become-a-member" class="become-a-member-btn btn btn-primary" target="_self" rel="noopener noreferrer">{{ .label }}</a>
         {{ end }}
         {{ end }}
       </div>
       {{ with .image }}
       <div class="col-md-6 order-1 order-md-2 mb-4 mb-md-0">
-        <img class="img-fluid w-100" src="{{ . | absURL }}" alt="about image">
+        <img class="img-about" src="{{ . | absURL }}" alt="about image">
       </div>
       {{ end }}
     </div>
@@ -84,15 +91,22 @@
 <!-- cta -->
 {{ if $data.homepage.cta.enable }}
 {{ with $data.homepage.cta }}
-<section class="section bg-primary">
+<section class="section bg-cta cta-section" data-background="{{ .bg_image | absURL }}" >
+  <div class="bg-lines-home" data-background="{{ site.Params.lines_background_image | absURL }}"></div>
   <div class="container">
     <div class="row">
-      <div class="col-12 text-center">
-        <h6 class="text-white font-secondary mb-0">{{ .subtitle | markdownify }}</h6>
-        <h2 class="section-title text-white">{{ .title | markdownify }}</h2>
+      <div class="col-12 text-sm-left text-lg-left cta-col">
+        <h6 class="text-accent text-uppercase font-secondary mb-0">{{ .subtitle | markdownify }}</h6>
+        <h2 class="section-title">{{ .title | markdownify }}</h2>
         {{ if .button.enable }}
         {{ with .button }}
-        <a href="{{ .link | absLangURL }}" target="_blank" rel="noopener noreferrer" class="btn btn-light">{{ .label }}</a>
+        <a href="{{ .link | absLangURL }}" target="_blank" rel="noopener noreferrer" class="btn btn-primary">{{ .label }}</a>
+        {{ end }}
+        {{ end }}
+
+        {{ if .buttont.enable }}
+        {{ with .buttont }}
+        <a href="{{ .link | absLangURL }}" target="_blank" rel="noopener noreferrer" class="btn btn-primary buttont">{{ .label }}</a>
         {{ end }}
         {{ end }}
       </div>
@@ -105,17 +119,19 @@
 
 <!-- blog -->
 {{ if $data.homepage.blog.enable }}
-<section class="section">
+<section class="bg-blog section">
+  <div class="bg-blog-section" data-background="{{ site.Params.homepage_blog_section_background_image | absURL }}"></div>
+  <div class="bg-blogtextleft" data-background="{{ site.Params.blogtextleft_background_image | absURL }}"></div>
   <div class="container">
     <div class="row">
       <div class="col-12">
-        <h2 class="section-title">{{ $data.homepage.blog.title }}</h2>
+        <h2 class=" section-title blog-section-title text-uppercase" style="font-size: 24px; font-weight: 600;">{{ $data.homepage.blog.title }}</h2>
       </div>
     </div>
     <div class="row justify-content-center">
       <!-- blog post -->
-      {{ range first 3 (where site.RegularPages "Type" "post")}}
-      <article class="col-lg-4 col-sm-6 mb-5 mb-lg-0">
+      {{ range first 2 (where site.RegularPages "Type" "post")}}
+      <article class="col-12 mb-5 mb-lg-5">
         {{ .Render "post" }}
       </article>
       {{ end }}
