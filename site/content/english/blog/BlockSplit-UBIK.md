@@ -1,5 +1,5 @@
 ---
-title: "BlockSplit Konferencija"
+title: "Povratak BlockSplit konferencije"
 date: 2022-02-16
 draft: false
 image: "images/blog/blocksplit3.png"
