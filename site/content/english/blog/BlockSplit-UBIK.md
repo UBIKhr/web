@@ -17,4 +17,5 @@ Napominjemo da članovi UBIK-a ostvaruju popust na karte kada one krenu u prodaj
 
 Ovo je jedan novi početak za BlockSplit koji će vratiti Hrvatsku na kartu blockchain evenata i, nadamo se, postati tradicionalno mjesto okupljanja hrvatske blockchain zajednice u godinama koje dolaze.
 
-Za više informacija posjetite https://blocksplit.net/ i zapratite twitter https://twitter.com/blocksplit
+Za više informacija posjetite [https://blocksplit.net](https://blocksplit.net) i zapratite Twitter [https://twitter.com/blocksplit](https://twitter.com/blocksplit)
+
