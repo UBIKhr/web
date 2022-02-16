@@ -4,7 +4,8 @@ date: 2022-02-16
 draft: false
 image: "images/blog/blocksplit3.png"
 author: "Ivan Piton"
-tags: ["Blockchain", "Event", "Conference", "Workshop"]
+tags: ["blockchain", "event", "konferencija", "edukacija"]
+
 type: "post"
 ---
 
