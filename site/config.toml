@@ -132,6 +132,7 @@ title = "telegram"
 name = "Postani član"
 url = "become-a-member"
 weight = 5
+
 ################################### English language #####################################
 [Languages.en]
 contentDir = "content/english"
@@ -185,20 +186,19 @@ url = "members"
 weight = 2
 
 [[Languages.hr.menu.main]]
-name = "Forum"
-url = "https://forum.ubik.hr"
-weight = 3
-
-[[Languages.hr.menu.main]]
 name = "kontakt"
 url = "contact"
-weight = 4
+weight = 3
 
 [[Languages.hr.menu.main]]
 name = "Postani član"
 url = "become-a-member"
-weight = 5
+weight = 4
 
+[[Languages.hr.menu.main]]
+name = "Privatnost"
+url = "https://ubik.hr/Politika_privatnosti.pdf"
+weight = 5
 
 
 [markup.goldmark.renderer]
