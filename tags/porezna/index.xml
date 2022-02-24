@@ -1,12 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Porezna on UBIK | Udruga za blockchain i kriptovalute</title>
+    <title>porezna on UBIK | Udruga za blockchain i kriptovalute</title>
     <link>/tags/porezna/</link>
-    <description>Recent content in Porezna on UBIK | Udruga za blockchain i kriptovalute</description>
+    <description>Recent content in porezna on UBIK | Udruga za blockchain i kriptovalute</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>hr</language>
-    <lastBuildDate>Thu, 01 Mar 2018 15:27:17 +0600</lastBuildDate><atom:link href="/tags/porezna/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 22 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="/tags/porezna/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Česta pitanja o porezu</title>
+      <link>/blog/faq_porez/</link>
+      <pubDate>Tue, 22 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/faq_porez/</guid>
+      <description>Potaknuti raznim upitima vezanima uz porez, u nastavku donosimo pregled najčešćih pitanja i odgovora u pojedinim situacijama.</description>
+    </item>
+    
     <item>
       <title>UBIK održao sastanak s Poreznim USKOK-om</title>
       <link>/blog/ubik-odr%C5%BEao-sastanak-s-poreznim-uskok-om/</link>

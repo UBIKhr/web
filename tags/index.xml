@@ -6,13 +6,58 @@
     <description>Recent content in Tags on UBIK | Udruga za blockchain i kriptovalute</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>hr</language>
-    <lastBuildDate>Wed, 16 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 22 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Blockchain</title>
       <link>/tags/blockchain/</link>
-      <pubDate>Wed, 16 Feb 2022 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 22 Feb 2022 00:00:00 +0000</pubDate>
       
       <guid>/tags/blockchain/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>FAQ</title>
+      <link>/tags/faq/</link>
+      <pubDate>Tue, 22 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/faq/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ministarstvo financija</title>
+      <link>/tags/ministarstvo-financija/</link>
+      <pubDate>Tue, 22 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/ministarstvo-financija/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pitanja</title>
+      <link>/tags/pitanja/</link>
+      <pubDate>Tue, 22 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/pitanja/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>porezi</title>
+      <link>/tags/porezi/</link>
+      <pubDate>Tue, 22 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/porezi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>porezna</title>
+      <link>/tags/porezna/</link>
+      <pubDate>Tue, 22 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/porezna/</guid>
       <description></description>
     </item>
     
@@ -220,15 +265,6 @@
       <pubDate>Fri, 20 Apr 2018 15:27:17 +0600</pubDate>
       
       <guid>/tags/posao/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Porezna</title>
-      <link>/tags/porezna/</link>
-      <pubDate>Thu, 01 Mar 2018 15:27:17 +0600</pubDate>
-      
-      <guid>/tags/porezna/</guid>
       <description></description>
     </item>
     
