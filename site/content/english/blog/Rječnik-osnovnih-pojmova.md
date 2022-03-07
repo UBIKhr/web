@@ -8,7 +8,7 @@ tags: ["blockchain", "riječnik", "osnovnih", "pojmova", "FAQ"]
 type: "post"
 ---
 
-- Za sve koje muči terminologija koja se koristi u kriptosferi napravili smo kratki riječnik najčešće korištenih termina.
+- Za sve koje muči terminologija koja se koristi u kriptosferi napravili smo kratki rječnik najčešće korištenih termina.
 
 
 
