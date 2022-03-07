@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>pojmova on UBIK | Udruga za blockchain i kriptovalute</title>
+    <link>/tags/pojmova/</link>
+    <description>Recent content in pojmova on UBIK | Udruga za blockchain i kriptovalute</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>hr</language>
+    <lastBuildDate>Mon, 07 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="/tags/pojmova/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Rječnik osnovnih pojmova</title>
+      <link>/blog/rje%C4%8Dnik-osnovnih-pojmova/</link>
+      <pubDate>Mon, 07 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/rje%C4%8Dnik-osnovnih-pojmova/</guid>
+      <description>Za sve koje muči terminologija koja se koristi u kriptosferi napravili smo kratki rječnik najčešće korištenih termina.</description>
+    </item>
+    
+  </channel>
+</rss>
