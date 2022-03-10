@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>obavijest on UBIK | Udruga za blockchain i kriptovalute</title>
+    <link>/tags/obavijest/</link>
+    <description>Recent content in obavijest on UBIK | Udruga za blockchain i kriptovalute</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>hr</language>
+    <lastBuildDate>Thu, 10 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="/tags/obavijest/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Obavijest o skupštini</title>
+      <link>/blog/skup%C5%A1tina-2022/</link>
+      <pubDate>Thu, 10 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/skup%C5%A1tina-2022/</guid>
+      <description>Poštovani članovi Skupštine,
+Ovime vas obavještavamo da će se Skupština Udruge za Blockchain i Kriptovalute održati u petak, 25.</description>
+    </item>
+    
+  </channel>
+</rss>
