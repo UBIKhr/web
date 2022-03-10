@@ -2,7 +2,7 @@
 title: "Prva međunarodna blockchain konferencija u Splitu"
 date: 2018-04-02T15:27:17+06:00
 draft: false
-image: "images/blog/blocksplit-702x336.png"
+image: "/images/blog/blocksplit-702x336.png"
 author: "Ivan Vuk"
 tags: ["Blockchain", "Event"]
 type: "post"
