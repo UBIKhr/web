@@ -10,7 +10,7 @@ type: "post"
 
 Poštovani članovi Skupštine,
 
-Ovime vas obavještavamo da će se Skupština Udruge za Blockchain i Kriptovalute održati u utorak, 24. ožujka 2022. u digitalnom obliku s početkom u 13h. Link za video konferenciju biti će poslan članovima skupštine dan prije početka skupštine.
+Ovime vas obavještavamo da će se Skupština Udruge za Blockchain i Kriptovalute održati u utorak, 25. ožujka 2022. u digitalnom obliku s početkom u 13h. Link za video konferenciju biti će poslan članovima skupštine dan prije početka skupštine.
 
 Dnevni red skupštine:
 
