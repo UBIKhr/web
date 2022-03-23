@@ -17,6 +17,7 @@ Dnevni red skupštine:
 1.    Otvaranje skupštine i pozdravni govor Predsjednika
 2.    Izbor radnih tijela skupštine: predsjedništva, zapisničara i 2 ovjerovitelja zapisnika
 3.    Izbor Predsjednika i članova Upravnog odbora
-4.    Završna riječ novoizabranog Predsjednika UBIK-a
+4.    Izmjena statuta
+5.    Završna riječ novoizabranog Predsjednika UBIK-a
 
 Vaš UBIK
