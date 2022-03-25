@@ -14,10 +14,15 @@ Ovime vas obavještavamo da će se Skupština Udruge za Blockchain i Kriptovalut
 
 Dnevni red skupštine:
 
-1.    Otvaranje skupštine i pozdravni govor Predsjednika
-2.    Izbor radnih tijela skupštine: predsjedništva, zapisničara i 2 ovjerovitelja zapisnika
-3.    Izbor Predsjednika i članova Upravnog odbora
-4.    Izmjena statuta
-5.    Završna riječ novoizabranog Predsjednika UBIK-a
+1. Otvaranje skupštine i pozdravni govor Predsjednika
+2. Izbor Radnih tijela Skupštine:
+izbor Predsjedništva;
+izbor Zapisničara;
+izbor Ovjerovitelja zapisnika;
+3. Izbor članova Upravnog odbora
+4. Izmjena Statuta
+5. Izvješća o radu UBIK-a:
+financijsko izvješće,
+6. Završna riječ novoizabranog Predsjednika UBIK-a
 
 Vaš UBIK
