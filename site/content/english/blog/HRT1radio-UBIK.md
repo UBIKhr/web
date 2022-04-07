@@ -9,7 +9,7 @@ tags: ["blockchain", "HRT1", "radio", "edukativni", "video", "decentralizacija",
 type: "post"
 ---
 
-U intervjuu za HRT1 član organizacijskog odbora UBIK-a Ivan Piton donosi kratki pregled kriptografije unutar 4. industrijske revolucije. Razgovor sa Sunčanom Prezime dotiče se open source tehnologije, geopolitičke moći, uloge kripto mjenjačnica, ali i raznih prijevara s kojima se građani susreću radi nedovoljne edukacije o financijskoj pismenosti.
+U intervjuu za HRT1 član organizacijskog odbora UBIK-a Ivan Piton donosi kratki pregled kriptografije unutar 4. industrijske revolucije. Razgovor sa Sunčanom Pražić dotiče se open source tehnologije, geopolitičke moći, uloge kripto mjenjačnica, ali i raznih prijevara s kojima se građani susreću radi nedovoljne edukacije o financijskoj pismenosti.
 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Zir5rlJ7iWg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
