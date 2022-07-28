@@ -3,7 +3,7 @@ role:
 title: "Luka Sučić"
 draft: false
 image: "images/members/luka_sucic.jpeg"
-description: "An entrepreneur who likes new and unexplored things. He is actively working on product and ecosystem development and as a partner in the blockchain startup fund MCC."
+description: "Poduzetnik koji voli nove i neistražene stvari. Aktivno radi na razvoju proizvoda i ekosustava te kao partner u fondu za blockchain startupe MCC."
 type: upravni-odbor
 # contact info
 contact:

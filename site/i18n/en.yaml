@@ -49,11 +49,11 @@
 - id: all
   translation: All
 
-- id: upravni_odbor
-  translation: Executive board
+- id: upravni-odbor
+  translation: Management
 
-- id: temeljni_clanovi
-  translation: Foundation members
+- id: temeljni-clanovi
+  translation: Core members
 
 - id: latest_article
   translation: Latest articles
@@ -78,3 +78,15 @@
 
 - id: annualy
   translation: annualy
+
+- id: name-and-surname
+  translation: Name and surname
+
+- id: e-mail-address
+  translation: E-mail address
+
+- id: subject
+  translation: Subject
+
+- id: message
+  translation: Message

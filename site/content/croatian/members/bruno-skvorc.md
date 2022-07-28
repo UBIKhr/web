@@ -3,7 +3,7 @@ role:
 title: "Bruno Škvorc"
 draft: false
 image: "images/members/bruno_skvorc.jpeg"
-description: " Bruno Škvorc is the founder of RMRK, an NFT protocol on the Kusama blockchain network."
+description: "Bruno Škvorc je osnivač RMRK, NFT protokola na Kusama blockchain mreži."
 type: upravni-odbor
 # contact info
 contact:

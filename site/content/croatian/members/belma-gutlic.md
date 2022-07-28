@@ -3,7 +3,7 @@ role:
 title: "Belma Gutlić"
 draft: false
 image: "images/members/belma_gutlic.jpg"
-description: "Belma Gutlić is the co-founder of acquisition company NodeFactory, and head of the Solutions division at ChainSafe."
+description: "Belma Gutlić je suosnivačica akvizirane tvrtke NodeFactory, voditeljica Solutions odjela u ChainSafeu."
 type: upravni-odbor
 # contact info
 contact:
