@@ -136,12 +136,15 @@ weight = 5
 ################################### English language #####################################
 [Languages.en]
 contentDir = "content/english"
-home = "Home"
 languageCode = "en-us"
 languageName = "En"
 weight = 2
 
 ################### English navigation ####################
+[[Languages.en.menu.main]]
+name = "home"
+url = "/en"
+weight = 2
 
 
 
@@ -156,9 +159,10 @@ url = "contact"
 weight = 4
 
 [[Languages.en.menu.main]]
-name = "Privacy"
-url = "https://ubik.hr/Politika_privatnosti_en.pdf"
-weight = 5
+name = "Become a member"
+url = "become-a-member"
+weight = 4
+
 
 ################################### Croatian language #####################################
 [Languages.hr]

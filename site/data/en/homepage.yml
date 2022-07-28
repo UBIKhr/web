@@ -38,7 +38,7 @@ about:
   enable : true
   title : "About UBIK"
   bg_image : "images/about/about.png"
-  image : "images/about/Rectangle.png"
+ # image : "images/about/Rectangle.png"
   content : "Croatian Association for Blockchain and Cryptocurrency (UBIK) was founded in 2017 with the aim of bringing together a growing community of interests in this new technology. From the very beginning, UBIK concentrated on organizing educational workshops and meetups with the aim of bringing matters closer to the general audience, but at the same time conducting discussions with regulators to ensure the smooth development of the ecosystem. 
 Since its establishment, the number of members has been steadily increasing, while operational functioning is based on the support of the core members. Even during the challenging period of the coronavirus pandemic, UBIK was able to regularly hold meetings with members, thus maintaining presence and relevance.
 "

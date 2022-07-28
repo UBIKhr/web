@@ -41,7 +41,10 @@
   translation: Category
 
 - id: join
-  translation: Join
+  translation: Join 
+
+- id: join-us
+  translation: Join us
 
 - id: enter_email
   translation: Enter your email…
@@ -59,13 +62,13 @@
   translation: Latest articles
 
 - id: student
-  translation: Student
+  translation: Student 
 
 - id: member
-  translation: Members
+  translation: Basic 
 
 - id: foundation_member
-  translation: Foundation member
+  translation: Core 
 
 - id: student_pricing
   translation: 150 HRK

@@ -43,6 +43,9 @@
 - id: join
   translation: Pridruži se
 
+- id: join-us
+  translation: Pridruži se
+
 - id: enter_email
   translation: Upiši svoju email adresu…
 
