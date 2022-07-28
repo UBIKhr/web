@@ -43,6 +43,9 @@
 - id: join
   translation: Pridruži se
 
+- id: join-us
+  translation: Pridruži se
+
 - id: enter_email
   translation: Upiši svoju email adresu…
 
@@ -78,3 +81,15 @@
 
 - id: annualy
   translation: godišnje
+
+- id: name-and-surname
+  translation: Ime i prezime
+
+- id: e-mail-address
+  translation: E-mail adresa
+
+- id: subject
+  translation: Naslov
+
+- id: message
+  translation: Poruka

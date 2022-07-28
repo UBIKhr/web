@@ -1,11 +1,9 @@
 ---
 role: 
-title: "Edi Sinovčić"
+title: "Zoran Balkić"
 draft: false
-image: "images/members/edi_sinovcic.jpeg"
-description: "Founder of blockchain development studio Shard Labs specializing in the development of distributed scalable systems, until recently a collaborator at the Ethereum Foundation.
-"
-type: upravni-odbor
+image: "images/members/zoran_balkic.jpeg"
+description: "Profesor na FERIT-u u Osijeku, stručnjak za Bitcoin i rudarenje te osnivač tvrtke Base58."
 type: upravni-odbor
 # contact info
 contact:

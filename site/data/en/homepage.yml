@@ -4,7 +4,7 @@ slider:
   bg_image : "images/hero.png"
   slider_item:
     # slider item loop
-    - title : "Union for blockchain and cryptocurrencies"
+    - title : "UBIK – Croatian Association for Blockchain and Cryptocurrency"
       content : "Education, research, information and raising awareness on blockchain technologies"
       animation_in : "left"
       animation_out : "right"
@@ -20,25 +20,28 @@ banner_feature:
   feature_item:
     # feature item loop
     - name : "Community"
-      icon : "ti-user" # icon pack : https://themify.me/themify-icons
+      image : "images/banner/community.png"
       content : "Create a focused and strong community of people involved in blockchain and crypto domain in Croatia and the surrounding area."
 
     # feature item loop
     - name : "Information"
-      icon : "ti-info" # icon pack : https://themify.me/themify-icons
+      image : "images/banner/information.png"
       content : "Provide relevant information, education and knowledge within blockchain technology, cryptocurrency mechanics and the overall market."
 
     # feature item loop
     - name : "Support"
-      icon : "ti-support" # icon pack : https://themify.me/themify-icons
+      image : "images/banner/support.png"
       content : "Provide legal, financial and technological support in developing regulatory frameworks and strategic blockchain projects."
 
 ############################## about ##################################
 about:
   enable : true
   title : "About UBIK"
-  image : "images/about/about-illustration.jpg"
-  content : "Udruga za blockchain i kriptovalute (UBIK) osnovana je 13.12.2017. usvajanjem Statuta Udruge na sjednici osnivačke Skupštine. Udruga je upisana u Registar udruga 18.01.2018. te sukladno ciljevima djeluje na području obrazovanja, znanosti i istraživanja. Rad Udruge je javan i svi članovi Udruge imaju pravo sudjelovati u radu Udruge sukladno odredbama Statuta i Zakona te pravo uvida u rad tijela i odluke koje njena tijela donose. Rad Udruge usmjeren je ka ispunjavanju ciljeva Udruge. Plan rada, stoga, logično proizlazi iz ciljeva."
+  bg_image : "images/about/about.png"
+ # image : "images/about/Rectangle.png"
+  content : "Croatian Association for Blockchain and Cryptocurrency (UBIK) was founded in 2017 with the aim of bringing together a growing community of interests in this new technology. From the very beginning, UBIK concentrated on organizing educational workshops and meetups with the aim of bringing matters closer to the general audience, but at the same time conducting discussions with regulators to ensure the smooth development of the ecosystem. 
+Since its establishment, the number of members has been steadily increasing, while operational functioning is based on the support of the core members. Even during the challenging period of the coronavirus pandemic, UBIK was able to regularly hold meetings with members, thus maintaining presence and relevance.
+"
   button:
     enable : true
     label : "Join us"
@@ -54,6 +57,10 @@ cta:
     enable : true
     label : "Join"
     link : "https://forum.ubik.hr"
+  buttont:
+    enable: true
+    label: "Telegram"
+    link: "https://t.me/ubikcommunity"
 
 
 ######################## Success story #############################
@@ -95,6 +102,6 @@ funfacts:
 
 ############################# blog ################################
 blog:
-  enable : true
+  enable : false
   title : "Blog and News"
   # blog item comes from "content/**/blog" folder.

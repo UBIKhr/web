@@ -1,16 +1,20 @@
 {{ define "main" }}
 
+{{ $data := index site.Data site.Language.Lang }}
+
 <section class="section mt-100 overlay">
   <div class="container">
     <div class="container">
       <div class="row">
+        {{ with $data.membership.about }}
         <div class="col-lg-12">
-          <h1>Postani član</h1>
-          <p class="text-hero mb-70">Odaberite svoje članstvo ako želite sudjelovati u našim aktivnostima, podržati
-            rad te dati svoj doprinos u razvoju i rastu blockchain i crypto scene u Hrvatskoj.</p>
+          <h1>{{ .title | markdownify }}</h1>
+          <p class="text-hero mb-70">{{ .description | markdownify }}</p>
         </div>
+        {{ end }}
       </div>
       <div class="row">
+        {{ with $data.membership.student }}
         <div class="col-md-4 col-sm-12">
           <div class="pricingTable">
             <div class="pricingTable-header">
@@ -22,15 +26,17 @@
             <h3 class="heading">{{ i18n "student" }}</h3>
             <div class="pricing-content">
               <ul>
-                <li>Prilika za učenjem i upoznavanjem najvećih stručnjaka u ekosustavu</li>
-                <li>Popust od 50% na sve UBIK komercijalne projekte</li>
-                <li>Prednost prilikom prijave na sve meetupe, edukacije i slične djelatnosti</li>
-                <li>UBIK promotivna majica, jedinstvena za svakog člana uz pripadajući NFT token</li>
+                <li>{{ .content.line1 | markdownify }}</li>
+                <li>{{ .content.line2 | markdownify }}</li>
+                <li>{{ .content.line3 | markdownify }}</li>
+                <li>{{ .content.line4 | markdownify }}</li>
               </ul>
             </div>
           </div>
         </div>
+        {{ end }}
 
+        {{ with $data.membership.member }}
         <div class="col-md-4 col-sm-12">
           <div class="pricingTable pink">
             <div class="pricingTable-header">
@@ -42,15 +48,18 @@
             <h3 class="heading">{{ i18n "member" }}</h3>
             <div class="pricing-content">
               <ul>
-                <li>Popust od 25% na sve UBIK komercijalne projekte</li>
-                <li>Prednost prilikom prijave na sve meetupe, edukacije i slične djelatnosti</li>
-                <li>Mogućnost ulaza na organizirane poslovne networking evente za redovne i temeljne članove</li>
-                <li>Umrežavanje i uspostavljanje novih poslovnih partnerstava</li>
-                <li>UBIK promotivna majica, jedinstvena za svakog člana uz pripadajući NFT token</li>
+                <li>{{ .content.line1 | markdownify }}</li>
+                <li>{{ .content.line2 | markdownify }}</li>
+                <li>{{ .content.line3 | markdownify }}</li>
+                <li>{{ .content.line4 | markdownify }}</li>
+                <li>{{ .content.line5 | markdownify }}</li>
               </ul>
             </div>
           </div>
         </div>
+        {{ end }}
+
+        {{ with $data.membership.foundationalmember }}
         <div class="col-md-4 col-sm-12">
           <div class="pricingTable light-blue">
             <div class="pricingTable-header">
@@ -63,18 +72,19 @@
             <h3 class="heading">{{ i18n "foundation_member" }}</h3>
             <div class="pricing-content">
               <ul>
-                <li>Ograničen broj: 20</li>
-                <li>Logotip na web stranici udruge</li>
-                <li>Pravo na dodatne marketinške aktivnosti (pisanti intervju ili članak, korištenje UBIK member badge)</li>
-                <li>Pravo prvenstva prilikom sudjelovanja na meetupima, edukacijama i ostalim aktivnostima</li>
-                <li>Mogućnost ulaza na organizirane poslovne networking evente za redovne i temeljne članove</li>
-                <li>Umrežavanje i uspostavljanje novih poslovnih partnerstava</li>
-                <li>Istaknuti član poslovne zajednice koji je aktivno uključen u razvoj UBIK-a i ekosustava, te automatski postaje dijelom savjetodavnog odbora UBIK-a</li>
-                <li>UBIK promotivna hoodica, jedinstvena za svakog člana uz pripadajući NFT token</li>
+                <li>{{ .content.line1 | markdownify }}</li>
+                <li>{{ .content.line2 | markdownify }}</li>
+                <li>{{ .content.line3 | markdownify }}</li>
+                <li>{{ .content.line4 | markdownify }}</li>
+                <li>{{ .content.line5 | markdownify }}</li>
+                <li>{{ .content.line6 | markdownify }}</li>
+                <li>{{ .content.line7 | markdownify }}</li>
+                <li>{{ .content.line8 | markdownify }}</li>
               </ul>
             </div>
           </div>
         </div>
+        {{ end }}
       </div>
       <div class="row flex-center mt-100">
           <div>
@@ -86,7 +96,7 @@
               data-delay-out="5"
               data-duration-in=".3"
               data-delay-in=".7"
-              >Postani član</a
+              >{{ i18n "join-us" }}</a
             >
           </div>
       </div>
