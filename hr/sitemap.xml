@@ -5,11 +5,31 @@
   <url>
     <loc>/tags/blockchain/</loc>
     <lastmod>2022-04-07T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/tags/blockchain/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="hr"
+                href="/tags/blockchain/"
+                />
   </url>
   
   <url>
     <loc>/blog/</loc>
     <lastmod>2022-04-07T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/blog/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="hr"
+                href="/blog/"
+                />
   </url>
   
   <url>
@@ -165,11 +185,31 @@
   <url>
     <loc>/tags/event/</loc>
     <lastmod>2022-02-16T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/tags/event/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="hr"
+                href="/tags/event/"
+                />
   </url>
   
   <url>
     <loc>/tags/konferencija/</loc>
     <lastmod>2022-02-16T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/tags/konferencija/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="hr"
+                href="/tags/konferencija/"
+                />
   </url>
   
   <url>

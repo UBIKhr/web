@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>event on UBIK | Udruga za blockchain i kriptovalute</title>
+    <link>/en/tags/event/</link>
+    <description>Recent content in event on UBIK | Udruga za blockchain i kriptovalute</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 07 Jun 2022 00:00:00 +0000</lastBuildDate><atom:link href="/en/tags/event/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>BlockSplit 3</title>
+      <link>/en/blog/blocksplit3-recap/</link>
+      <pubDate>Tue, 07 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/en/blog/blocksplit3-recap/</guid>
+      <description>Split bids farewell to the amazing web3 crowd!  We’ve come to the end of yet another BlockSplit conference!</description>
+    </item>
+    
+  </channel>
+</rss>
