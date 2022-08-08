@@ -2,7 +2,7 @@
 title: "BlockSplit 3"
 date: 2022-06-07
 draft: false
-image: "https://miro.medium.com/max/1400/0*yXZPgVCpuKh2WiXc"
+image: "images/blog/blocksplit_article_title.png"
 author: "BlockSplit"
 tags: ["blockchain", "konferencija", "BlockSplit", "Split", "meetup", "event"]
 
@@ -16,14 +16,13 @@ Overall, it was a blockchain & chill kind of conference, an all-week program tha
 
 For those who couldn’t be there or those who want to remember it forever (not because it is forgettable, but because of all the booze maybe), we thought it would be good to create a BlockSplit 3 recap and immortalize it. Let’s check what happened in Split 👇
 
-- May 23rd — Where it all began
+### May 23rd — Where it all began
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Workshop Day in <a href="https://twitter.com/blocksplit?ref_src=twsrc%5Etfw">@blocksplit</a> <a href="https://twitter.com/Aleph__Zero?ref_src=twsrc%5Etfw">@Aleph__Zero</a> <a href="https://twitter.com/AntoniZolciak?ref_src=twsrc%5Etfw">@AntoniZolciak</a> <a href="https://twitter.com/hashtag/AZERO?src=hash&amp;ref_src=twsrc%5Etfw">#AZERO</a> <a href="https://twitter.com/search?q=%24AZERO&amp;src=ctag&amp;ref_src=twsrc%5Etfw">$AZERO</a> <a href="https://t.co/eEqhV5TLw9">pic.twitter.com/eEqhV5TLw9</a></p>&mdash; Nick Fisher (@nickfisher_eio) <a href="https://twitter.com/nickfisher_eio/status/1528671324503252992?ref_src=twsrc%5Etfw">May 23, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 On May 23rd, the workshops took place in PICS, which were hosted by renowned web3 professionals from around the world.
 
 ![](https://miro.medium.com/max/1400/0*W392I94sGfqpCIW-)
-
 
 The workshops we had were “Intro to Web3 Design”, “Building Full-stack dApps”, “Oracles and Contracts”, “Oh Snap! It’s Metamask!”, and “Legal Challenges in Blockchain Space”. Thus, a lot of valuable information was shared, from learning web3 design to understanding how legal aspects affect the blockchain space.
 
@@ -37,7 +36,7 @@ NEAR Balkans Hub’s NEARby meetup was the place to be that evening!
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Even though the time we spent in <a href="https://twitter.com/hashtag/Split?src=hash&amp;ref_src=twsrc%5Etfw">#Split</a> was short, it&#39;s been an unforgettable experience 😎<br><br>And as we waved goodbye to this beautiful city, we said hello to numerous activities that await us – the future is NEAR 🚀<a href="https://twitter.com/hashtag/NEARbalkans?src=hash&amp;ref_src=twsrc%5Etfw">#NEARbalkans</a> <a href="https://twitter.com/hashtag/BlockSplit3?src=hash&amp;ref_src=twsrc%5Etfw">#BlockSplit3</a> <a href="https://twitter.com/hashtag/NEARby?src=hash&amp;ref_src=twsrc%5Etfw">#NEARby</a> <a href="https://t.co/GjZX8zs6r1">pic.twitter.com/GjZX8zs6r1</a></p>&mdash; NEAR Balkans Hub ⋈ (@NEARbalkan) <a href="https://twitter.com/NEARbalkan/status/1532035892851970049?ref_src=twsrc%5Etfw">June 1, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-- May 24th — The first day of the conference
+### May 24th — The first day of the conference
 
 After the very insightful and busy workshop day, we were ready to take the next step at Hrvatski Dom! May 24th was the day for panels, talks, and discussions.
 
@@ -73,7 +72,7 @@ After the VIP dinner, all people needed was some summer sea breeze, and a drink 
 
 ![](https://miro.medium.com/max/1400/0*6vHUsdvTjLi0nyQ2)
 
-- May 25th — We went full blockchain
+### May 25th — We went full blockchain
 
 The house party may have burned the roof off, but we still managed to catch the talks and panels on May 25th too.
 
@@ -85,11 +84,11 @@ To the current state of DeFi and privacy, the last day of BlockSplit 3 conferenc
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Our <a href="https://twitter.com/GagolAdam?ref_src=twsrc%5Etfw">@GagolAdam</a> delivering an overview on the current state of <a href="https://twitter.com/hashtag/DeFi?src=hash&amp;ref_src=twsrc%5Etfw">#DeFi</a> and <a href="https://twitter.com/hashtag/privacy?src=hash&amp;ref_src=twsrc%5Etfw">#privacy</a>—and what Aleph Zero is doing to improve on the state of the art with MPC- and ZK-based solutions. <a href="https://t.co/JW32CBXEK8">pic.twitter.com/JW32CBXEK8</a></p>&mdash; Aleph Zero (@Aleph__Zero) <a href="https://twitter.com/Aleph__Zero/status/1529445428739067906?ref_src=twsrc%5Etfw">May 25, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-After the last day of the conference, we felt like dancing, because who doesn’t? That’s when the Freak Show Electronic came running for help!
+After the last day of the conference, we felt like dancing, because who doesn’t? That’s when the Freak Show Electronic came running for help, thanks to AMPnet!
 
 ![](https://miro.medium.com/max/1400/0*HdZ1YnCtSL6CC6Da)
 
-May 26th — The cooldown
+### May 26th — The cooldown
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">What a blueness! 😍 <a href="https://twitter.com/blocksplit?ref_src=twsrc%5Etfw">@blocksplit</a>, this is all we needed. 👌 <a href="https://twitter.com/hashtag/blocksplit3?src=hash&amp;ref_src=twsrc%5Etfw">#blocksplit3</a> <a href="https://t.co/CGQaTTqp2c">pic.twitter.com/CGQaTTqp2c</a></p>&mdash; Trapesys (hiring!) (@trapesys) <a href="https://twitter.com/trapesys/status/1529796564943765504?ref_src=twsrc%5Etfw">May 26, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
