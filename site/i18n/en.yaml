@@ -11,7 +11,7 @@
   translation: Contact Info
 
 - id: subscribe_newsletter
-  translation: Subscribe Newsletter
+  translation: Subscribe to our Newsletter
 
 - id: contact_us
   translation: Contact Us
@@ -80,7 +80,7 @@
   translation: 2500 HRK
 
 - id: annualy
-  translation: annualy
+  translation: annually
 
 - id: name-and-surname
   translation: Name and surname

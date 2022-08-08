@@ -146,23 +146,25 @@ name = "home"
 url = "/en"
 weight = 2
 
-
+[[Languages.en.menu.main]]
+name = "blog"
+url = "blog"
+weight = 3
 
 [[Languages.en.menu.main]]
 name = "members"
 url = "members"
-weight = 2
+weight = 4
 
 [[Languages.en.menu.main]]
 name = "Contact"
 url = "contact"
-weight = 4
+weight = 5
 
 [[Languages.en.menu.main]]
 name = "Become a member"
 url = "become-a-member"
-weight = 4
-
+weight = 6
 
 ################################### Croatian language #####################################
 [Languages.hr]
