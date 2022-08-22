@@ -1,8 +1,8 @@
 ---
 role: 
-title: "ODVJETNIK VLAHO HRDALO"
+title: "Hrdalo & Krnic Law Firm"
 draft: false
-image: "images/members/foundational/odvjetnikvlaho.png"
+image: "images/members/foundational/hrdalo and krnic.png"
 description: 
 type: temeljni-clanovi
 # contact info
