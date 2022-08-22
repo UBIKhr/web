@@ -2,7 +2,7 @@
 title: "BlockSplit 3"
 date: 2022-06-07
 draft: false
-image: "images/blog/blocksplit_article_title.png"
+image: "images/blocksplit_article_title.png"
 author: "BlockSplit"
 tags: ["blockchain", "konferencija", "BlockSplit", "Split", "meetup", "event"]
 
