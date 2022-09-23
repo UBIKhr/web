@@ -613,6 +613,20 @@
   </url>
   
   <url>
+    <loc>/members/odvjetnik-vlaho-hrdalo/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/members/odvjetnik-vlaho-hrdalo/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="hr"
+                href="/members/odvjetnik-vlaho-hrdalo/"
+                />
+  </url>
+  
+  <url>
     <loc>/members/ideja-na-kvadrat/</loc>
     <xhtml:link
                 rel="alternate"
@@ -665,20 +679,6 @@
                 rel="alternate"
                 hreflang="hr"
                 href="/members/node-factory/"
-                />
-  </url>
-  
-  <url>
-    <loc>/members/odvjetnik-vlaho-hrdalo/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/members/odvjetnik-vlaho-hrdalo/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="hr"
-                href="/members/odvjetnik-vlaho-hrdalo/"
                 />
   </url>
   
