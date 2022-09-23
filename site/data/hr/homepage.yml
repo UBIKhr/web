@@ -38,7 +38,7 @@ about:
   enable : true
   title : "O udruzi"
   bg_image : "images/about/about.png"
-  image : "images/about/Rectangle.png"
+ # image : "images/about/Rectangle.png"
   content : "Udruga za blockchain i kriptovalute osnovana je 2017. godine s ciljem okupljanja rastuće zajednice interesenata za ovu novu tehnologiju. Od samog početka UBIK se koncentrirao na organiziranje radionica i edukacija s ciljem približavanja materije općoj publici, ali istovremeno vodeći razgovore s regulatorima kako bi se osigurao nesmetan razvoj ekosustava. Od osnivanja broj članova kontinuirano raste, kako fizičkih tako i pravnih dok operativno funkcioniranje počiva na potpori temeljnih članova. I u izazovnom periodu pandemije koronavirusa UBIK je uspijevao redovito održavati susrete s članovima i tako zadržati prisutnost i relevantnost."
   button:
     enable : true

@@ -3,7 +3,7 @@ role:
 title: "Zoran Balkić"
 draft: false
 image: "images/members/zoran_balkic.jpeg"
-description: "Profesor na FERIT-u u Osijeku, stručnjak za Bitcoin i rudarenje te osnivač tvrtke Base58."
+description: "Professor at FERIT in Osijek, an expert in Bitcoin and mining, and founder of Base58."
 type: upravni-odbor
 # contact info
 contact:

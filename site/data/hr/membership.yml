@@ -1,0 +1,33 @@
+about:
+  title: "Postani član"
+  description: "Odaberite svoje članstvo ako želite sudjelovati u našim aktivnostima, podržati rad te dati svoj doprinos u razvoju i rastu blockchain i crypto scene u Hrvatskoj."
+  
+
+################################# Student #####################################
+student:
+  content:
+    line1: "Prilika za učenjem i upoznavanjem najvećih stručnjaka u ekosustavu"
+    line2: "Popust od 50% na sve UBIK komercijalne projekte"
+    line3: "Prednost prilikom prijave na sve meetupe, edukacije i slične djelatnosti"
+    line4: "UBIK promotivna majica, jedinstvena za svakog člana uz pripadajući NFT token"
+
+################################# Member #####################################
+member:
+  content:
+    line1: "Popust od 25% na sve UBIK komercijalne projekte"
+    line2: "Prednost prilikom prijave na sve meetupe, edukacije i slične djelatnosti"
+    line3: "Mogućnost ulaza na organizirane poslovne networking evente za redovne i temeljne članove"
+    line4: "Umrežavanje i uspostavljanje novih poslovnih partnerstava"
+    line5: "UBIK promotivna majica, jedinstvena za svakog člana uz pripadajući NFT token"
+
+################################# Foundational member #####################################
+foundationalmember:
+  content:
+    line1: "Ograničen broj: 20"
+    line2: "Logotip na web stranici udruge"
+    line3: "Pravo na dodatne marketinške aktivnosti (pisanti intervju ili članak, korištenje UBIK member badge)"
+    line4: "Pravo prvenstva prilikom sudjelovanja na meetupima, edukacijama i ostalim aktivnostima"
+    line5: "Mogućnost ulaza na organizirane poslovne networking evente za redovne i temeljne članove"
+    line6: "Umrežavanje i uspostavljanje novih poslovnih partnerstava"
+    line7: "Istaknuti član poslovne zajednice koji je aktivno uključen u razvoj UBIK-a i ekosustava, te automatski postaje dijelom savjetodavnog odbora UBIK-a"
+    line8: "UBIK promotivna hoodica, jedinstvena za svakog člana uz pripadajući NFT token"
