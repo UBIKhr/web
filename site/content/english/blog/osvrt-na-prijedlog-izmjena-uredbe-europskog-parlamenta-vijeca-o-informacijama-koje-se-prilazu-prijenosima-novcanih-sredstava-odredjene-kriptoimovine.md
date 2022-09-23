@@ -1,8 +1,8 @@
 ---
-title: "Osvrt na prijedlog izmjena Uredbe Europskog Parlamenta i Vijeća o informacijama koje se prilažu prijenosima novčanih sredstava i određene kriptoimovine"
+title: "Osvrt na uredbu ˝Transfer of Funds˝"
 date: 2022-09-22
 draft: false
-image: "images/blog/europski-parlament.jpeg"
+image: "images/blog/europski-parlament.jpg"
 author: "UBIK UO"
 tags: ["Europski Parlament", "Transfer of Funds", "TRF"]
 type: "post"
@@ -27,9 +27,9 @@ Obujam tako prikupljenih osobnih  podataka presumira i pitanje njihove zaštite.
 
 Zakonodavac kao primarni razlog za donošenje regulacije navodi „potencijalni“ rizik. Odnosno, ne navodi konkretne podatke ili razloge zašto bi bilo opravdano gore spomenuto teško zadiranje u privatnost građana EU, već se poziva na to da postoje značajne „opasnosti“ i „mogućnosti“ da bi se kriptoimovina „mogla“ koristiti za pranje novca i financiranje terorizma. Ujedno se spominje i opasnost za integritet financijskog sustava. S obzirom da, prema analitičkoj kompaniji Chainalisys svega 0,05% svih transakcija kriptmoimovine potpada pod pranje novca, tvrdnje o postojanju navedenog rizika su apsurdne, posebno uzevši u obzir i ove razloge:
 
-- - a)	Vrlo je teško ostati anoniman na blockchainu. Primarni razlog za to je činjenica da svi podaci o svim transakcijama ostaju „zapisani“ zauvijek. Čak i kako danas postoje određeni načini i metode za ostati anoniman i potencijalno provoditi anonimne transakcije koje imaju element kriminaliteta, to ne znači da će tako ostati zauvijek. Daljnjim tehnološkim razvojem nije nezamislivo da, uz ponešto truda, bude moguće identificirati praktički sve transakcije na blockchainu unatrag nekoliko godina (vidi stare tvrdnje o Bitcoinu kao anonimnom obliku plaćanja i stotine ljudi koje je Chainalisys identificirao u svrhe kaznenog progona za razna kaznena djela povezana sa npr. Silk Road).
+- a)	Vrlo je teško ostati anoniman na blockchainu. Primarni razlog za to je činjenica da svi podaci o svim transakcijama ostaju „zapisani“ zauvijek. Čak i kako danas postoje određeni načini i metode za ostati anoniman i potencijalno provoditi anonimne transakcije koje imaju element kriminaliteta, to ne znači da će tako ostati zauvijek. Daljnjim tehnološkim razvojem nije nezamislivo da, uz ponešto truda, bude moguće identificirati praktički sve transakcije na blockchainu unatrag nekoliko godina (vidi stare tvrdnje o Bitcoinu kao anonimnom obliku plaćanja i stotine ljudi koje je Chainalisys identificirao u svrhe kaznenog progona za razna kaznena djela povezana sa npr. Silk Road).
 
-- - b)	Blockchain tehnologija je prisutna već više od desetljeća, a od toga barem 5-6 godina u mainstreamu ili polu-mainstreamu. No, do sada nije otkriven niti jedan large-scale incident organiziranog pranja novca. Niti jedna organizirana kriminalna skupina u svijetu (koje su i inače poznate pri prihvaćanju inovacija) nije koristila blockchain tehnologiju za pranje novca na nekoj velikoj razini. A imali su dovoljno vremena da se obrazuju o tome kako i zašto bi se to moglo raditi. 
+- b)	Blockchain tehnologija je prisutna već više od desetljeća, a od toga barem 5-6 godina u mainstreamu ili polu-mainstreamu. No, do sada nije otkriven niti jedan large-scale incident organiziranog pranja novca. Niti jedna organizirana kriminalna skupina u svijetu (koje su i inače poznate pri prihvaćanju inovacija) nije koristila blockchain tehnologiju za pranje novca na nekoj velikoj razini. A imali su dovoljno vremena da se obrazuju o tome kako i zašto bi se to moglo raditi. 
 Pitanje je zašto? Odgovor je pod a) 
 
 **GEOGRAFSKO PODRUČJE PRIMJENE**
