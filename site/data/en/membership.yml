@@ -1,0 +1,32 @@
+about:
+  title: "Become a member"
+  description: "Choose your membership if you want to participate in our activities, support the work and contribute to the development and growth of the blockchain and crypto scene in Croatia."
+
+################################# Student #####################################
+student:
+  content:
+    line1: "Opportunity to learn and meet the greatest experts in the ecosystem"
+    line2: "50% discount on all UBIK commercial projects"
+    line3: "An advantage when applying for all meetups, educational workshops, and similar activities"
+    line4: "UBIK promotional T-shirt, unique for each member with the associated NFT token"
+
+################################# Member #####################################
+member:
+  content:
+    line1: "25% discount on all UBIK commercial projects"
+    line2: "An advantage when applying for all meetups, educational workshops, and similar activities"
+    line3: "Possibility of entering organized business networking events for basic and core members"
+    line4: "Networking and establishing new business partnerships"
+    line5: "UBIK promotional T-shirt, unique for each member with the associated NFT token"
+
+################################# Foundational member #####################################
+foundationalmember:
+  content:
+    line1: "Limited number: 20"
+    line2: "Logo on the association's website"
+    line3: "A prominent member of the business community who is actively involved in the development of UBIK and ecosystems, and automatically becomes part of the advisory board of UBIK"
+    line4: "Right to additional marketing activities (written interview or article, use of UBIK member badge)"
+    line5: "The right of priority when participating in meetups, educational workshops, and other activities"
+    line6: "Possibility of entering organized business networking events for basic and core members"
+    line7: "Networking and establishing new business partnerships"
+    line8: "UBIK promotional hoodie, unique for each member with the associated NFT token"

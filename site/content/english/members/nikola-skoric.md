@@ -3,7 +3,7 @@ role:
 title: "Nikola Škorić"
 draft: false
 image: "images/members/nikola_skoric.jpeg"
-description: "Nikola Škorić je osnivač i direktor Electrocoin d.o.o., u sastavu kojeg posluje vodeća hrvatska mjenjačnica kriptovaluta i platni sustav Paycek."
+description: "Nikola Škorić is the founder and CEO of Electrocoin Ltd., which is part of which is operated by the leading Croatian cryptocurrency exchange and payment system Paycek."
 type: upravni-odbor
 # contact info
 contact:

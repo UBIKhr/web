@@ -43,6 +43,9 @@
 - id: join
   translation: Pridruži se
 
+- id: join-us
+  translation: Pridruži se
+
 - id: enter_email
   translation: Upiši svoju email adresu…
 
@@ -68,13 +71,25 @@
   translation: Temeljni član
 
 - id: student_pricing
-  translation: 150 HRK
+  translation: HRK 150 (EUR 19.91)
 
 - id: member_pricing
-  translation: 500 HRK
+  translation: HRK 500 (EUR 66.36)
 
 - id: foundation_member_pricing
-  translation: 2500 HRK
+  translation: HRK 2500 (EUR 331.81)
 
 - id: annualy
   translation: godišnje
+
+- id: name-and-surname
+  translation: Ime i prezime
+
+- id: e-mail-address
+  translation: E-mail adresa
+
+- id: subject
+  translation: Naslov
+
+- id: message
+  translation: Poruka
