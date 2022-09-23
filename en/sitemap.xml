@@ -253,7 +253,17 @@
   </url>
   
   <url>
-    <loc>/en/members/odvjetnik-vlaho-hrdalo/</loc>
+    <loc>/en/members/hrdalo-and-krnic-law-firm/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="hr"
+                href="/members/hrdalo-and-krnic-law-firm/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/members/hrdalo-and-krnic-law-firm/"
+                />
   </url>
   
   <url>
