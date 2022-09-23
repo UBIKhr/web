@@ -3,91 +3,6 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/en/blog/</loc>
-    <lastmod>2022-09-22T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="hr"
-                href="/blog/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/blog/"
-                />
-  </url>
-  
-  <url>
-    <loc>/en/tags/crypto-assets/</loc>
-    <lastmod>2022-09-22T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/en/tags/europski-parlament/</loc>
-    <lastmod>2022-09-22T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/en/tags/mica/</loc>
-    <lastmod>2022-09-22T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/en/blog/osvrt-na-prijedlog-izmjena-uredbe-europskog-parlamenta-vijeca-o-informacijama-koje-se-prilazu-prijenosima-novcanih-sredstava-odredjene-kriptoimovine/</loc>
-    <lastmod>2022-09-22T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/en/tags/regulation/</loc>
-    <lastmod>2022-09-22T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/en/blog/regulation-on-markets-in-crypto-asset/</loc>
-    <lastmod>2022-09-22T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/en/tags/</loc>
-    <lastmod>2022-09-22T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="hr"
-                href="/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/tags/"
-                />
-  </url>
-  
-  <url>
-    <loc>/en/tags/transfer-of-funds/</loc>
-    <lastmod>2022-09-22T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/en/tags/trf/</loc>
-    <lastmod>2022-09-22T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/en/</loc>
-    <lastmod>2022-09-22T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="hr"
-                href="/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/"
-                />
-  </url>
-  
-  <url>
     <loc>/en/tags/blockchain/</loc>
     <lastmod>2022-06-07T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -110,6 +25,21 @@
   <url>
     <loc>/en/blog/blocksplit3-recap/</loc>
     <lastmod>2022-06-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/en/blog/</loc>
+    <lastmod>2022-06-07T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="hr"
+                href="/blog/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/blog/"
+                />
   </url>
   
   <url>
@@ -150,6 +80,36 @@
   <url>
     <loc>/en/tags/split/</loc>
     <lastmod>2022-06-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/en/tags/</loc>
+    <lastmod>2022-06-07T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="hr"
+                href="/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>/en/</loc>
+    <lastmod>2022-06-07T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="hr"
+                href="/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/"
+                />
   </url>
   
   <url>
