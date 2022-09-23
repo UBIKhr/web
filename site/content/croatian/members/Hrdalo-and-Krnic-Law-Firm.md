@@ -6,7 +6,7 @@ image: "images/members/foundational/hrdalo and krnic.png"
 description: 
 type: temeljni-clanovi
 # contact info
-contact: http://www.hok-cba.eu/imenik/pregled/9305
+contact: https://www.hkod.hr/
 background: "white"
 ---
 
