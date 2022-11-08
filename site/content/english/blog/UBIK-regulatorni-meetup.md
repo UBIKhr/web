@@ -4,7 +4,7 @@ date: 2022-11-04
 draft: false
 image: "images/blog/regulatorni-vlaho.jpg"
 author: "UBIK UO"
-tags: ["Regulacija", "MiCA", "ZIDZSPNFT", "TFR", "AML"]
+tags: ["regulation", "MiCA", "ZIDZSPNFT", "TFR", "AML", "event"]
 type: "post"
 ---
 
@@ -16,7 +16,7 @@ Uvodno su **Karla Krmpotić**, odvjetnička vježbenica u Hrdalo & Krnic Law Fir
 
 <img src = "/images/blog/regulatorni-speakers.jpg" style="width: 100%">
 
-**TL;DW panela:**
+**Ukratko o panelu:**
 
 \* Regulatori su pojasnili postupak registracije CASP-ova i razloge uvođenja niskog praga za provođenje dubinske analize (1.000,00 EUR),
 
@@ -33,4 +33,4 @@ Uvodno su **Karla Krmpotić**, odvjetnička vježbenica u Hrdalo & Krnic Law Fir
 
 Kapacitet dvorane Algebra kampusa bio je u potpunosti popunjen – ukupno 120 zainteresiranih slušatelja pratilo je panel te imalo priliku postaviti pitanja predstavnicima regulatora. Posjećenost panela dokaz je koliko je ovakav meetup bio potreban i koliko je tema regulacije kripto industrije važna svima koji su dio te industrije, bez obzira je li riječ o pravnicima, konzultantima ili samim tehničkim stručnjacima koji stvaraju Web3.
 
-Nakon regulatornog meetupa i panela održanog u okviru BlockSplit3 konferencije u Splitu u svibnju 2022., UBIK - Udruga za blockchain i kriptovalute je još jednom pokazala da ima kvalitetne odnose s regulatorima te da zastupa interese industrije pred svim relevantnim tijelima u Republici Hrvatskoj.
+Nakon regulatornog meetupa i panela održanog u okviru [BlockSplit3](https://blocksplit.net/) konferencije u Splitu u svibnju 2022., UBIK - Udruga za blockchain i kriptovalute je još jednom pokazala da ima kvalitetne odnose s regulatorima te da zastupa interese industrije pred svim relevantnim tijelima u Republici Hrvatskoj.
