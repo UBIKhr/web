@@ -25,5 +25,5 @@ contact:
     # contact item loop
   - name : "Vlaho Hrdalo"
     icon : "ti-twitter"
-    link : "https://twitter.com/VlahoHrdalo?s=20&t=IKG613-TwWSvK-aO_GNv5w"
+    link : "https://twitter.com/VlahoHrdalo"
 ---
