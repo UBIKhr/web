@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>TFR on UBIK | Udruga za blockchain i kriptovalute</title>
+    <link>/en/tags/tfr/</link>
+    <description>Recent content in TFR on UBIK | Udruga za blockchain i kriptovalute</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 04 Nov 2022 00:00:00 +0000</lastBuildDate><atom:link href="/en/tags/tfr/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>UBIK Regulatorni Meetup</title>
+      <link>/en/blog/ubik-regulatorni-meetup/</link>
+      <pubDate>Fri, 04 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/en/blog/ubik-regulatorni-meetup/</guid>
+      <description>U ponedjeljak 24.10.2022. održan je meetup i regulatorni panel u organizaciji Udruge za blockchain i kriptovalute.</description>
+    </item>
+    
+  </channel>
+</rss>

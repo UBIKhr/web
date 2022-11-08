@@ -3,8 +3,23 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/tags/aml/</loc>
+    <lastmod>2022-11-04T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/tags/aml/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="hr"
+                href="/tags/aml/"
+                />
+  </url>
+  
+  <url>
     <loc>/blog/</loc>
-    <lastmod>2022-09-22T00:00:00+00:00</lastmod>
+    <lastmod>2022-11-04T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -18,38 +33,53 @@
   </url>
   
   <url>
-    <loc>/tags/crypto-assets/</loc>
-    <lastmod>2022-09-22T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/europski-parlament/</loc>
-    <lastmod>2022-09-22T00:00:00+00:00</lastmod>
+    <loc>/tags/event/</loc>
+    <lastmod>2022-11-04T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/tags/event/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="hr"
+                href="/tags/event/"
+                />
   </url>
   
   <url>
     <loc>/tags/mica/</loc>
-    <lastmod>2022-09-22T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/blog/osvrt-na-prijedlog-izmjena-uredbe-europskog-parlamenta-vijeca-o-informacijama-koje-se-prilazu-prijenosima-novcanih-sredstava-odredjene-kriptoimovine/</loc>
-    <lastmod>2022-09-22T00:00:00+00:00</lastmod>
+    <lastmod>2022-11-04T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/tags/mica/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="hr"
+                href="/tags/mica/"
+                />
   </url>
   
   <url>
     <loc>/tags/regulation/</loc>
-    <lastmod>2022-09-22T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/blog/regulation-on-markets-in-crypto-asset/</loc>
-    <lastmod>2022-09-22T00:00:00+00:00</lastmod>
+    <lastmod>2022-11-04T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/tags/regulation/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="hr"
+                href="/tags/regulation/"
+                />
   </url>
   
   <url>
     <loc>/tags/</loc>
-    <lastmod>2022-09-22T00:00:00+00:00</lastmod>
+    <lastmod>2022-11-04T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -63,18 +93,38 @@
   </url>
   
   <url>
-    <loc>/tags/transfer-of-funds/</loc>
-    <lastmod>2022-09-22T00:00:00+00:00</lastmod>
+    <loc>/tags/tfr/</loc>
+    <lastmod>2022-11-04T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/tags/tfr/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="hr"
+                href="/tags/tfr/"
+                />
   </url>
   
   <url>
-    <loc>/tags/trf/</loc>
-    <lastmod>2022-09-22T00:00:00+00:00</lastmod>
+    <loc>/blog/ubik-regulatorni-meetup/</loc>
+    <lastmod>2022-11-04T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/blog/ubik-regulatorni-meetup/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="hr"
+                href="/blog/ubik-regulatorni-meetup/"
+                />
   </url>
   
   <url>
     <loc>/</loc>
-    <lastmod>2022-09-22T00:00:00+00:00</lastmod>
+    <lastmod>2022-11-04T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -84,6 +134,111 @@
                 rel="alternate"
                 hreflang="hr"
                 href="/"
+                />
+  </url>
+  
+  <url>
+    <loc>/tags/zidzspnft/</loc>
+    <lastmod>2022-11-04T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/tags/zidzspnft/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="hr"
+                href="/tags/zidzspnft/"
+                />
+  </url>
+  
+  <url>
+    <loc>/tags/crypto-assets/</loc>
+    <lastmod>2022-09-22T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/tags/crypto-assets/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="hr"
+                href="/tags/crypto-assets/"
+                />
+  </url>
+  
+  <url>
+    <loc>/tags/europski-parlament/</loc>
+    <lastmod>2022-09-22T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/tags/europski-parlament/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="hr"
+                href="/tags/europski-parlament/"
+                />
+  </url>
+  
+  <url>
+    <loc>/blog/osvrt-na-uredbu-transfer-of-funds/</loc>
+    <lastmod>2022-09-22T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/blog/osvrt-na-uredbu-transfer-of-funds/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="hr"
+                href="/blog/osvrt-na-uredbu-transfer-of-funds/"
+                />
+  </url>
+  
+  <url>
+    <loc>/blog/regulation-on-markets-in-crypto-asset/</loc>
+    <lastmod>2022-09-22T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/blog/regulation-on-markets-in-crypto-asset/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="hr"
+                href="/blog/regulation-on-markets-in-crypto-asset/"
+                />
+  </url>
+  
+  <url>
+    <loc>/tags/transfer-of-funds/</loc>
+    <lastmod>2022-09-22T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/tags/transfer-of-funds/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="hr"
+                href="/tags/transfer-of-funds/"
+                />
+  </url>
+  
+  <url>
+    <loc>/tags/trf/</loc>
+    <lastmod>2022-09-22T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/tags/trf/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="hr"
+                href="/tags/trf/"
                 />
   </url>
   
@@ -220,21 +375,6 @@
   <url>
     <loc>/tags/edukacija/</loc>
     <lastmod>2022-02-16T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/event/</loc>
-    <lastmod>2022-02-16T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/tags/event/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="hr"
-                href="/tags/event/"
-                />
   </url>
   
   <url>

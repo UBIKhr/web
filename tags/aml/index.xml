@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AML on UBIK | Udruga za blockchain i kriptovalute</title>
+    <link>/tags/aml/</link>
+    <description>Recent content in AML on UBIK | Udruga za blockchain i kriptovalute</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>hr</language>
+    <lastBuildDate>Fri, 04 Nov 2022 00:00:00 +0000</lastBuildDate><atom:link href="/tags/aml/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>UBIK Regulatorni Meetup</title>
+      <link>/blog/ubik-regulatorni-meetup/</link>
+      <pubDate>Fri, 04 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/ubik-regulatorni-meetup/</guid>
+      <description>U ponedjeljak 24.10.2022. održan je meetup i regulatorni panel u organizaciji Udruge za blockchain i kriptovalute.</description>
+    </item>
+    
+  </channel>
+</rss>
