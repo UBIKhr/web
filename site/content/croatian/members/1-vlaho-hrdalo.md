@@ -18,7 +18,12 @@ contact:
     link : "https://www.linkedin.com/in/vlaho-hrdalo-28ab56156/"
 
   # contact item loop
-  - name : "http://odvjetnik-hrdalo.business.site"
+  - name : "https://www.hkod.hr/"
     icon : "ti-world" # icon pack : https://themify.me/themify-icons
-    link : "http://odvjetnik-hrdalo.business.site"
+    link : "https://www.hkod.hr/"
+
+    # contact item loop
+  - name : "Vlaho Hrdalo"
+    icon : "ti-twitter"
+    link : "https://twitter.com/VlahoHrdalo"
 ---
