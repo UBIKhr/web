@@ -144,6 +144,11 @@ weight = 2
 [[Languages.en.menu.main]]
 name = "home"
 url = "/en"
+weight = 1
+
+[[Languages.en.menu.main]]
+name = "consulting"
+url = "/en/consulting"
 weight = 2
 
 [[Languages.en.menu.main]]
@@ -176,6 +181,11 @@ weight = 1
 
 ################### Croatian navigation ####################
 
+[[Languages.hr.menu.main]]
+name = "Savjetovanje"
+url = "consulting"
+weight = 1
+
 # main menu
 [[Languages.hr.menu.main]]
 name = "blog"
@@ -185,22 +195,22 @@ weight = 2
 [[Languages.hr.menu.main]]
 name = "članovi"
 url = "members"
-weight = 2
+weight = 3
 
 [[Languages.hr.menu.main]]
 name = "kontakt"
 url = "contact"
-weight = 3
+weight = 4
 
 [[Languages.hr.menu.main]]
 name = "Postani član"
 url = "become-a-member"
-weight = 4
+weight = 5
 
 [[Languages.hr.menu.main]]
 name = "Privatnost"
 url = "https://ubik.hr/Politika_privatnosti.pdf"
-weight = 5
+weight = 6
 
 
 [markup.goldmark.renderer]
