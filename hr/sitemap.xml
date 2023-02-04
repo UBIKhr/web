@@ -877,6 +877,20 @@
   </url>
   
   <url>
+    <loc>/consulting/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/consulting/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="hr"
+                href="/consulting/"
+                />
+  </url>
+  
+  <url>
     <loc>/members/shard-labs/</loc>
     <xhtml:link
                 rel="alternate"

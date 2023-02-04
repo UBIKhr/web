@@ -391,6 +391,20 @@
   </url>
   
   <url>
+    <loc>/en/consulting/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="hr"
+                href="/consulting/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/consulting/"
+                />
+  </url>
+  
+  <url>
     <loc>/en/members/druga-kozmicka/</loc>
     <xhtml:link
                 rel="alternate"
