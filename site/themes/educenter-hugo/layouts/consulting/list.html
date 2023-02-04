@@ -2,14 +2,15 @@
 
 {{ $data := index site.Data site.Language.Lang }}
 
+{{ with $data.homepage.consulting }}
+
 <section class="section mt-100 overlay">
     <div class="container">
         <div class="row">
 
             <div class="col-lg-12">
-                <h1>UBIK Savjetovanje</h1>
-                <p class="text-hero mb-70">Nudimo pristup našoj punoj usluzi savjetodavnih resursa, neovisno
-                    o Vašem znanju i prethodnom iskustvu.</p>
+                <h1>{{ .title }}</h1>
+                <p class="text-hero mb-70">{{ .description }}</p>
             </div>
         </div>
     </div>
@@ -21,27 +22,26 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-12 col-md-12 col-lg-6 order-2 order-md-1">
-                <h2 class="section-title">Što nudimo</h2>
+                <h2 class="section-title">{{ .options }}</h2>
 
-                <p><li>Znanje naših temeljnih članova i operativaca</li></p>
-                <p><li>Iskustvo</li></p>
-                <p><li>Edukacije</li></p>
-                <p><li>Sigurnost</li></p>
-                <p><li>Naučite kako zaštititi svoju investiciju koristeći najučinkovitije sigurnosne uređaje i strategije.</li></p>
-                <p><li>Naučite prepoznati "scam" projekte i kako ne nasjesti na prijevare.</li></p>
-                <p><li>Usluge poslovnog i organizacijskog savjetovanja</li></p>
-                <p><li>Pružamo savjetodavne usluge tvrtkama i organizacijama koje žele integrirati
-                        blockchain i kriptovalute u svoje trenutne aktivnosti.</li></p>
-                <p><li>Nudimo sveobuhvatnu podršku i odgovore na upite vezane uz porez i/ili
-                        računovodstvo.</li></p>
+                <p><li>{{ .p1 }}</li></p>
+                <p><li>{{ .p2 }}</li></p>
+                <p><li>{{ .p3 }}</li></p>
+                <p><li>{{ .p4 }}</li></p>
+                <p><li>{{ .p5 }}</li></p>
+                <p><li>{{ .p6 }}</li></p>
+                <p><li>{{ .p7 }}</li></p>
+                <p><li>{{ .p8 }}</li></p>
+                <p><li>{{ .p9 }}</li></p>
 
                 <div class="row flex-center mt-100">
                     <a href="https://5esudghy7c4.typeform.com/to/Ob9P9goK" class="become-a-member-btn btn btn-primary"
-                        target="_blank" rel="noopener noreferrer">Pošalji pitanje</a>
+                        target="_blank" rel="noopener noreferrer">{{ .cta }}</a>
                 </div>
             </div>
         </div>
     </div>
 </section>
 
+{{ end }}
 {{ end }}

@@ -105,3 +105,22 @@ blog:
   enable : true
   title : "Blog and News"
   # blog item comes from "content/**/blog" folder.
+
+
+
+############################# consulting ################################
+consulting:
+  enable : true
+  title : "UBIK Consulting"
+  description : "We offer access to our comprehensive consulting service, regardless of your knowledge and previous experience."
+  options : "What we offer" 
+  p1 : "The knowledge of our core members and operations team"
+  p2 : "Experience"
+  p3 : "Education"
+  p4 : "Security"
+  p5 : "Learn how to protect your investment using the most effective security devices and strategies"
+  p6 : "Learn to recognize scam projects and how to avoid fraud"
+  p7 : "Business and organizational consulting services"
+  p8 : "Providing advisory services to companies and organizations that want to integrate blockchain and cryptocurrencies into their current activities"
+  p9 : "We offer comprehensive support and answers to questions related to taxes and/or accounting"
+  cta : "Send your question"
