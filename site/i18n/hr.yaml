@@ -71,13 +71,13 @@
   translation: Temeljni član
 
 - id: student_pricing
-  translation: HRK 150 (EUR 19.91)
+  translation: EUR 20
 
 - id: member_pricing
-  translation: HRK 500 (EUR 66.36)
+  translation: EUR 65
 
 - id: foundation_member_pricing
-  translation: HRK 2500 (EUR 331.81)
+  translation: EUR 330
 
 - id: annualy
   translation: godišnje

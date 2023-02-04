@@ -104,3 +104,20 @@ blog:
   enable : true
   title : "Blog i novosti"
   # blog item comes from "content/**/blog" folder.
+
+
+consulting:
+  enable : true
+  title : "UBIK Savjetovanje"
+  description : "Nudimo pristup našoj cjelovitoj usluzi savjetovanja, neovisno o Vašem znanju i prethodnom iskustvu."
+  options : "Što nudimo" 
+  p1 : "Znanje naših temeljnih članova i operativaca"
+  p2 : "Iskustvo"
+  p3 : "Edukacije"
+  p4 : "Sigurnost"
+  p5 : "Naučite kako zaštititi svoju investiciju koristeći najučinkovitije sigurnosne uređaje i strategije."
+  p6 : "Naučite prepoznati \"scam\" projekte i kako ne nasjesti na prijevare."
+  p7 : "Usluge poslovnog i organizacijskog savjetovanja"
+  p8 : "Pružamo savjetodavne usluge tvrtkama i organizacijama koje žele integrirati blockchain i kriptovalute u svoje trenutne aktivnosti."
+  p9 : "Nudimo sveobuhvatnu podršku i odgovore na upite vezane uz porez i/ili računovodstvo."
+  cta : "Pošalji pitanje"

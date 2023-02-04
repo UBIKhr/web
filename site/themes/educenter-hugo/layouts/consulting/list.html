@@ -1,0 +1,47 @@
+{{ define "main" }}
+
+{{ $data := index site.Data site.Language.Lang }}
+
+{{ with $data.homepage.consulting }}
+
+<section class="section mt-100 overlay">
+    <div class="container">
+        <div class="row">
+
+            <div class="col-lg-12">
+                <h1>{{ .title }}</h1>
+                <p class="text-hero mb-70">{{ .description }}</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="bg-about about-section mb-70"
+    style="padding-bottom: 320px; background-image: url('/images/about/about.png');"
+    data-background="/images/about/about.png">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-6 order-2 order-md-1">
+                <h2 class="section-title">{{ .options }}</h2>
+
+                <p><li>{{ .p1 }}</li></p>
+                <p><li>{{ .p2 }}</li></p>
+                <p><li>{{ .p3 }}</li></p>
+                <p><li>{{ .p4 }}</li></p>
+                <p><li>{{ .p5 }}</li></p>
+                <p><li>{{ .p6 }}</li></p>
+                <p><li>{{ .p7 }}</li></p>
+                <p><li>{{ .p8 }}</li></p>
+                <p><li>{{ .p9 }}</li></p>
+
+                <div class="row flex-center mt-100">
+                    <a href="https://5esudghy7c4.typeform.com/to/Ob9P9goK" class="become-a-member-btn btn btn-primary"
+                        target="_blank" rel="noopener noreferrer">{{ .cta }}</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+{{ end }}
+{{ end }}
