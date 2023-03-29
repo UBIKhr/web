@@ -105,6 +105,7 @@ blog:
   title : "Blog i novosti"
   # blog item comes from "content/**/blog" folder.
 
+############################# consulting ################################
 
 consulting:
   enable : true
@@ -120,4 +121,13 @@ consulting:
   p7 : "Usluge poslovnog i organizacijskog savjetovanja"
   p8 : "Pružamo savjetodavne usluge tvrtkama i organizacijama koje žele integrirati blockchain i kriptovalute u svoje trenutne aktivnosti."
   p9 : "Nudimo sveobuhvatnu podršku i odgovore na upite vezane uz porez i/ili računovodstvo (nije usluga poreznog savjetovanja)."
+  cta : "Pošalji pitanje"
+
+
+############################# arbitration ################################
+
+arbitration:
+  enable : true
+  title : "UBIK Arbitraža"
+  description : "UBIK održava stalni arbitražni sud u skladu sa Zakonom o arbitraži. UBIK-ova arbitraža je prije svega usmjerena na sporove koji proizlaze iz novih tehnologija (blockchain, AI...), ali prihvaća svaki predmet koji se podnese."
   cta : "Pošalji pitanje"

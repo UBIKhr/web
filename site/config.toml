@@ -151,24 +151,30 @@ url = "/en/consulting"
 weight = 2
 
 [[Languages.en.menu.main]]
+name = "arbitration"
+url = "/en/arbitration"
+weight = 3
+
+
+[[Languages.en.menu.main]]
 name = "blog"
 url = "blog"
-weight = 3
+weight = 4
 
 [[Languages.en.menu.main]]
 name = "members"
 url = "members"
-weight = 4
+weight = 5
 
 [[Languages.en.menu.main]]
 name = "Contact"
 url = "contact"
-weight = 5
+weight = 6
 
 [[Languages.en.menu.main]]
 name = "Become a member"
 url = "become-a-member"
-weight = 6
+weight = 7
 
 ################################### Croatian language #####################################
 [Languages.hr]
@@ -180,16 +186,21 @@ weight = 1
 
 ################### Croatian navigation ####################
 
-[[Languages.hr.menu.main]]
-name = "Savjetovanje"
-url = "consulting"
-weight = 1
-
 # main menu
 [[Languages.hr.menu.main]]
 name = "blog"
 url = "blog"
+weight = 1
+
+[[Languages.hr.menu.main]]
+name = "Savjetovanje"
+url = "consulting"
 weight = 2
+
+[[Languages.hr.menu.main]]
+name = "Arbitraža"
+url = "arbitration"
+weight = 3
 
 [[Languages.hr.menu.main]]
 name = "članovi"
