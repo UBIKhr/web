@@ -681,6 +681,20 @@
   </url>
   
   <url>
+    <loc>/arbitration/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/arbitration/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="hr"
+                href="/arbitration/"
+                />
+  </url>
+  
+  <url>
     <loc>/become-a-member/</loc>
     <xhtml:link
                 rel="alternate"
