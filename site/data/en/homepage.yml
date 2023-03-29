@@ -124,3 +124,13 @@ consulting:
   p8 : "Providing advisory services to companies and organizations that want to integrate blockchain and cryptocurrencies into their current activities"
   p9 : "We offer comprehensive support and answers to questions related to taxes and/or accounting (not tax consulting)"
   cta : "Send your question"
+
+
+
+############################# arbitration ################################
+
+arbitration:
+  enable : true
+  title : "UBIK Arbitration"
+  description : "UBIK maintains a permanent arbitration court in accordance with the Law on arbitration. UBIK’s arbitration is first and foremost aimed at disputes arising from new technologies (blockchain, AI…) but accepts any matter brought before it."
+  cta : "Send your question"
