@@ -3,6 +3,41 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/blog/</loc>
+    <lastmod>2023-05-20T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/blog/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="hr"
+                href="/blog/"
+                />
+  </url>
+  
+  <url>
+    <loc>/blog/priopcenje-za-javnost-bitlucky/</loc>
+    <lastmod>2023-05-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2023-05-20T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="hr"
+                href="/"
+                />
+  </url>
+  
+  <url>
     <loc>/tags/aml/</loc>
     <lastmod>2022-11-04T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -14,21 +49,6 @@
                 rel="alternate"
                 hreflang="hr"
                 href="/tags/aml/"
-                />
-  </url>
-  
-  <url>
-    <loc>/blog/</loc>
-    <lastmod>2022-11-04T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/blog/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="hr"
-                href="/blog/"
                 />
   </url>
   
@@ -119,21 +139,6 @@
                 rel="alternate"
                 hreflang="hr"
                 href="/blog/ubik-regulatorni-meetup/"
-                />
-  </url>
-  
-  <url>
-    <loc>/</loc>
-    <lastmod>2022-11-04T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="hr"
-                href="/"
                 />
   </url>
   
