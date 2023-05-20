@@ -217,11 +217,5 @@ name = "Postani član"
 url = "become-a-member"
 weight = 5
 
-[[Languages.hr.menu.main]]
-name = "Privatnost"
-url = "https://ubik.hr/Politika_privatnosti.pdf"
-weight = 6
-
-
 [markup.goldmark.renderer]
 unsafe = true
