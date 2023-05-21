@@ -130,4 +130,12 @@ arbitration:
   enable : true
   title : "UBIK Arbitraža"
   description : "UBIK održava stalni arbitražni sud u skladu sa Zakonom o arbitraži. UBIK-ova arbitraža je prije svega usmjerena na sporove koji proizlaze iz novih tehnologija (blockchain, AI...), ali prihvaća svaki predmet koji se podnese."
+  t2 : "Arbitražna Pravila:"
+  p1 : "Svi sporovi, nesuglasice ili zahtjevi koji proizlaze iz ovog ugovora i u vezi s njim, uključujući i sporove koji se odnose na pitanja njegovog kršenja, prestanka ili ništetnosti, konačno će se riješiti arbitražom u skladu s UBIKourt Arbitražnim Pravilima. Pozivanjem na ovu odredbu odabranim se smatraju trenutno važeća Arbitražna Pravila."
+  p2 : "Arbitraža će se voditi pred arbitražnim sudištem UBIKourt."
+  p3 : "Ovlaštenik za imenovanje biti će UBIKourt."
+  p4 : "Broj arbitara biti će [jedan ili tri]."
+  p5 : "Mjesto arbitraže biti će [Zagreb, Croatia] [ili izabrati drugo mjesto]."
+  p6 : "Jezik/jezici arbitražnog postupka biti će [hrvatski, engleski]."
+  options : "Znanje naših temeljnih članova i operativaca"
   cta : "Pošalji pitanje"
