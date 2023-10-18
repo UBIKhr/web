@@ -587,20 +587,6 @@
   </url>
   
   <url>
-    <loc>/en/members/whitebridge-asset-management/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="hr"
-                href="/members/whitebridge-asset-management/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/members/whitebridge-asset-management/"
-                />
-  </url>
-  
-  <url>
     <loc>/en/members/zoran-balkic/</loc>
     <xhtml:link
                 rel="alternate"
