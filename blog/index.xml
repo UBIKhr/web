@@ -6,7 +6,16 @@
     <description>Recent content in Blog on UBIK | Udruga za blockchain i kriptovalute</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>hr</language>
-    <lastBuildDate>Sat, 20 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 29 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Testiramo novi CMS </title>
+      <link>/blog/testiramo-novi-cms/</link>
+      <pubDate>Wed, 29 Apr 2026 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/testiramo-novi-cms/</guid>
+      <description>da vidimo kako ovo radi</description>
+    </item>
+    
     <item>
       <title>Priopćenje za javnost povodom napisa o tvrtki BitLucky d.o.o.</title>
       <link>/blog/priopcenje-za-javnost-bitlucky/</link>
