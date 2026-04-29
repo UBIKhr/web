@@ -140,41 +140,37 @@ languageName = "En"
 weight = 2
 
 ################### English navigation ####################
+# Non-blog pages live on the main Gatsby site at https://ubik.hr.
+# Only /blog/ is hosted on this Hugo deploy (blog.ubik.hr).
 [[Languages.en.menu.main]]
 name = "home"
-url = "/en"
+url = "https://ubik.hr/en"
 weight = 1
 
 [[Languages.en.menu.main]]
-name = "consulting"
-url = "/en/consulting"
+name = "arbitration"
+url = "https://ubik.hr/en/arbitraza"
 weight = 2
 
 [[Languages.en.menu.main]]
-name = "arbitration"
-url = "/en/arbitration"
-weight = 3
-
-
-[[Languages.en.menu.main]]
 name = "blog"
-url = "blog"
-weight = 4
+url = "/en/blog"
+weight = 3
 
 [[Languages.en.menu.main]]
 name = "members"
-url = "members"
-weight = 5
+url = "https://ubik.hr/en/members"
+weight = 4
 
 [[Languages.en.menu.main]]
 name = "Contact"
-url = "contact"
-weight = 6
+url = "https://ubik.hr/en/contact"
+weight = 5
 
 [[Languages.en.menu.main]]
 name = "Become a member"
-url = "become-a-member"
-weight = 7
+url = "https://ubik.hr/en/join"
+weight = 6
 
 ################################### Croatian language #####################################
 [Languages.hr]
@@ -185,6 +181,8 @@ languageName = "Hr"
 weight = 1
 
 ################### Croatian navigation ####################
+# Non-blog pages live on the main Gatsby site at https://ubik.hr.
+# Only /blog/ is hosted on this Hugo deploy (blog.ubik.hr).
 
 # main menu
 [[Languages.hr.menu.main]]
@@ -193,28 +191,23 @@ url = "blog"
 weight = 1
 
 [[Languages.hr.menu.main]]
-name = "Savjetovanje"
-url = "consulting"
+name = "Arbitraža"
+url = "https://ubik.hr/arbitraza"
 weight = 2
 
 [[Languages.hr.menu.main]]
-name = "Arbitraža"
-url = "arbitration"
-weight = 3
-
-[[Languages.hr.menu.main]]
 name = "članovi"
-url = "members"
+url = "https://ubik.hr/members"
 weight = 3
 
 [[Languages.hr.menu.main]]
 name = "kontakt"
-url = "contact"
+url = "https://ubik.hr/contact"
 weight = 4
 
 [[Languages.hr.menu.main]]
 name = "Postani član"
-url = "become-a-member"
+url = "https://ubik.hr/join"
 weight = 5
 
 [markup.goldmark.renderer]
