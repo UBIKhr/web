@@ -658,20 +658,6 @@
   </url>
   
   <url>
-    <loc>/contact/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/contact/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="hr"
-                href="/contact/"
-                />
-  </url>
-  
-  <url>
     <loc>/members/ampnet/</loc>
     <xhtml:link
                 rel="alternate"
@@ -682,34 +668,6 @@
                 rel="alternate"
                 hreflang="hr"
                 href="/members/ampnet/"
-                />
-  </url>
-  
-  <url>
-    <loc>/arbitration/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/arbitration/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="hr"
-                href="/arbitration/"
-                />
-  </url>
-  
-  <url>
-    <loc>/become-a-member/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/become-a-member/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="hr"
-                href="/become-a-member/"
                 />
   </url>
   
@@ -882,16 +840,30 @@
   </url>
   
   <url>
-    <loc>/members/</loc>
+    <loc>/arbitration/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/members/"
+                href="/en/arbitration/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="hr"
-                href="/members/"
+                href="/arbitration/"
+                />
+  </url>
+  
+  <url>
+    <loc>/become-a-member/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/become-a-member/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="hr"
+                href="/become-a-member/"
                 />
   </url>
   
@@ -906,6 +878,34 @@
                 rel="alternate"
                 hreflang="hr"
                 href="/consulting/"
+                />
+  </url>
+  
+  <url>
+    <loc>/contact/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/contact/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="hr"
+                href="/contact/"
+                />
+  </url>
+  
+  <url>
+    <loc>/members/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/members/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="hr"
+                href="/members/"
                 />
   </url>
   

@@ -293,20 +293,6 @@
   </url>
   
   <url>
-    <loc>/en/contact/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="hr"
-                href="/contact/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/contact/"
-                />
-  </url>
-  
-  <url>
     <loc>/en/members/ampnet/</loc>
     <xhtml:link
                 rel="alternate"
@@ -317,34 +303,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="/en/members/ampnet/"
-                />
-  </url>
-  
-  <url>
-    <loc>/en/arbitration/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="hr"
-                href="/arbitration/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/arbitration/"
-                />
-  </url>
-  
-  <url>
-    <loc>/en/become-a-member/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="hr"
-                href="/become-a-member/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/become-a-member/"
                 />
   </url>
   
@@ -401,20 +359,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="/en/categories/"
-                />
-  </url>
-  
-  <url>
-    <loc>/en/consulting/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="hr"
-                href="/consulting/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/consulting/"
                 />
   </url>
   
@@ -527,6 +471,62 @@
                 rel="alternate"
                 hreflang="en"
                 href="/en/members/node-factory/"
+                />
+  </url>
+  
+  <url>
+    <loc>/en/arbitration/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="hr"
+                href="/arbitration/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/arbitration/"
+                />
+  </url>
+  
+  <url>
+    <loc>/en/become-a-member/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="hr"
+                href="/become-a-member/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/become-a-member/"
+                />
+  </url>
+  
+  <url>
+    <loc>/en/consulting/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="hr"
+                href="/consulting/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/consulting/"
+                />
+  </url>
+  
+  <url>
+    <loc>/en/contact/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="hr"
+                href="/contact/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/contact/"
                 />
   </url>
   
