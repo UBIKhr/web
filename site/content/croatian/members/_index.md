@@ -1,5 +1,7 @@
 ---
-title: "Our members"
-draft: false
-description : ""
+title: "Redirecting…"
+type: "redirect"
+layout: "redirect"
+redirect_to: "https://ubik.hr/members/"
+sitemap_exclude: true
 ---
