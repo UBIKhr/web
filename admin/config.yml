@@ -5,10 +5,8 @@ backend:
   name: github
   repo: UBIKhr/web
   branch: master
-  # OAuth proxy for GitHub login. Replace with the URL of the deployed
-  # Cloudflare Worker / Render / Vercel proxy once it's live.
-  # Example: https://decap-oauth.<your-account>.workers.dev
-  base_url: https://REPLACE_WITH_OAUTH_PROXY_URL
+  # OAuth proxy (Cloudflare Worker) handling GitHub login.
+  base_url: https://decap-proxy.lusucic.workers.dev
   auth_endpoint: /auth
 
 # Open editorial workflow (drafts go through PRs instead of pushing
