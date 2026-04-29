@@ -21,13 +21,10 @@ jobs:
 
       - name: Install dependencies
         run: yarn install --frozen-lockfile --non-interactive --ignore-optional --network-timeout 600000
-        env:
-          NODE_OPTIONS: --openssl-legacy-provider
 
       - name: Build
         run: yarn build
         env:
-          NODE_OPTIONS: --openssl-legacy-provider
           HUGO_PARAMS_SUBSCRIPTION_mailchimpuser: ${{ secrets.HUGO_PARAMS_MAILCHIMP_U }}
 
       - name: Deploy 🚀
