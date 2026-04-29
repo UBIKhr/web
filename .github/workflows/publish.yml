@@ -9,42 +9,34 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
         with:
-          submodules: true # Fetch Hugo themes (true OR recursive)
-          fetch-depth: 0 # Fetch all history for .GitInfo and .Lastmod
+          submodules: true # Fetch Hugo themes
+          fetch-depth: 0   # Fetch all history for .GitInfo and .Lastmod
 
-      - uses: actions/setup-node@v1
+      - uses: actions/setup-node@v4
         with:
-          node-version: "12.x"
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          node-version: "16"
+          cache: "yarn"
 
-      - name: Cache node modules
-        id: cache-deps
-        uses: actions/cache@v2
+      - name: Install dependencies
+        run: yarn install --frozen-lockfile --non-interactive --ignore-optional --network-timeout 600000
         env:
-          cache-name: cache-node-modules
-        with:
-          path: "./node_modules"
-          key: ${{ runner.os }}-node_modules_cache-${{ hashFiles('./yarn.lock') }}
-      - run: yarn install --frozen-lockfile --non-interactive --ignore-optional
-        if: steps.cache-deps.outputs.cache-hit != 'true'
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NODE_OPTIONS: --openssl-legacy-provider
 
       - name: Build
         run: yarn build
         env:
+          NODE_OPTIONS: --openssl-legacy-provider
           HUGO_PARAMS_SUBSCRIPTION_mailchimpuser: ${{ secrets.HUGO_PARAMS_MAILCHIMP_U }}
 
       - name: Deploy 🚀
-        uses: JamesIves/github-pages-deploy-action@3.7.1
+        uses: JamesIves/github-pages-deploy-action@v4
         with:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          BRANCH: gh-pages
-          FOLDER: dist # The folder the action should deploy.
-          CLEAN: true # Automatically remove deleted files from the deploy branch
+          token: ${{ secrets.GITHUB_TOKEN }}
+          branch: gh-pages
+          folder: dist
+          clean: true
 
       - name: Notify deployment
         uses: appleboy/telegram-action@master
@@ -52,6 +44,5 @@ jobs:
           to: ${{ secrets.TELEGRAM_TO }}
           token: ${{ secrets.TELEGRAM_TOKEN }}
           format: markdown
-          
           message:
             Blog je ažuriran. [Vidi promjene](https://github.com/UBIKhr/web/commit/${{ github.sha }}).
