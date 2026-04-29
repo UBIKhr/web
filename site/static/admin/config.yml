@@ -1,0 +1,67 @@
+# Decap CMS configuration for the UBIK blog
+# Docs: https://decapcms.org/docs/
+
+backend:
+  name: github
+  repo: UBIKhr/web
+  branch: master
+  # OAuth proxy for GitHub login. Replace with the URL of the deployed
+  # Cloudflare Worker / Render / Vercel proxy once it's live.
+  # Example: https://decap-oauth.<your-account>.workers.dev
+  base_url: https://REPLACE_WITH_OAUTH_PROXY_URL
+  auth_endpoint: /auth
+
+# Open editorial workflow (drafts go through PRs instead of pushing
+# directly to master). Recommended — gives an approval step.
+publish_mode: editorial_workflow
+
+# Where uploaded images go (relative to repo root) and how Hugo serves them.
+media_folder: "site/static/images/blog"
+public_folder: "/images/blog"
+
+# Site URL shown in the editor preview pane.
+site_url: https://blog.ubik.hr
+display_url: https://blog.ubik.hr
+logo_url: https://blog.ubik.hr/images/logo-bg.jpeg
+
+# Locale of the CMS UI (the editor interface, not the content).
+locale: "en"
+
+collections:
+  - name: "blog_hr"
+    label: "Blog (Hrvatski)"
+    label_singular: "Objava"
+    folder: "site/content/croatian/blog"
+    create: true
+    slug: "{{slug}}"
+    extension: "md"
+    format: "yaml-frontmatter"
+    summary: "{{title}} — {{date | date('YYYY-MM-DD')}}"
+    fields:
+      - { label: "Naslov", name: "title", widget: "string" }
+      - { label: "Datum", name: "date", widget: "datetime", date_format: "YYYY-MM-DD", time_format: false, picker_utc: false }
+      - { label: "Autor", name: "author", widget: "string", default: "UBIK" }
+      - { label: "Skica (draft)", name: "draft", widget: "boolean", default: true }
+      - { label: "Naslovna slika", name: "image", widget: "image", required: false, hint: "Sprema se u /images/blog/" }
+      - { label: "Tagovi", name: "tags", widget: "list", required: false, hint: "Pojedinačni tagovi, npr. blockchain, regulativa" }
+      - { label: "Type", name: "type", widget: "hidden", default: "post" }
+      - { label: "Tijelo", name: "body", widget: "markdown" }
+
+  - name: "blog_en"
+    label: "Blog (English)"
+    label_singular: "Post"
+    folder: "site/content/english/blog"
+    create: true
+    slug: "{{slug}}"
+    extension: "md"
+    format: "yaml-frontmatter"
+    summary: "{{title}} — {{date | date('YYYY-MM-DD')}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Date", name: "date", widget: "datetime", date_format: "YYYY-MM-DD", time_format: false, picker_utc: false }
+      - { label: "Author", name: "author", widget: "string", default: "UBIK" }
+      - { label: "Draft", name: "draft", widget: "boolean", default: true }
+      - { label: "Cover image", name: "image", widget: "image", required: false, hint: "Saved under /images/blog/" }
+      - { label: "Tags", name: "tags", widget: "list", required: false }
+      - { label: "Type", name: "type", widget: "hidden", default: "post" }
+      - { label: "Body", name: "body", widget: "markdown" }
