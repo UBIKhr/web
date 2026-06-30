@@ -1,5 +1,5 @@
 ---
-title: UBIK radionica „Osnove pismenosti u kriptovalutama“ u okviru projekta TROPHY
+title: "Projekt TROPHY: UBIK radionica „Osnove pismenosti u kriptovalutama“"
 date: 2025-12-02
 author: UBIK
 draft: false
