@@ -1,6 +1,5 @@
 ---
-title: UBIK Workshop “Fundamentals of Cryptocurrency Literacy” within the TROPHY
-  Project
+title: "Project TROPHY: UBIK Workshop “Fundamentals of Cryptocurrency Literacy”"
 date: 2025-12-02
 author: UBIK
 draft: false
