@@ -1,6 +1,6 @@
 ---
 title: UBIK partner u projektu TROPHY za razvoj liderstva u području deep tehnologija
-date: 2025-01-07
+date: 2025-07-01
 author: UBIK
 draft: false
 image: /images/blog/eit-1-objava.jpg
