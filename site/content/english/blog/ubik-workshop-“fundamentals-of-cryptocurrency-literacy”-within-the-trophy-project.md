@@ -1,7 +1,7 @@
 ---
 title: UBIK Workshop “Fundamentals of Cryptocurrency Literacy” within the TROPHY
   Project
-date: 2025-12-05
+date: 2025-12-02
 author: UBIK
 draft: false
 image: /images/blog/os-radionica.jpg
