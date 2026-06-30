@@ -6,7 +6,7 @@ draft: false
 image: /images/blog/summer-school-2025.jpg
 type: post
 ---
-During September and October, the TROPHY project implemented a series of key activities, and we provide a brief overview below.
+
 
 One of the highlights was the Summer School “E-Business Technologies 2025”, hosted online by the University of Belgrade, Faculty of Organizational Sciences, from 3 to 19 September, with final project presentations held on 27 September.
 
