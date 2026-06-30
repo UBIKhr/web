@@ -1,6 +1,5 @@
 ---
-title: "Deep Tech Intro Program 2025 u okviru projekta TROPHY: Napredne
-  tehnologije u fokusu"
+title: "Projekt TROPHY: Deep Tech Intro Program 2025"
 date: 2025-12-17
 author: UBIK
 draft: false
