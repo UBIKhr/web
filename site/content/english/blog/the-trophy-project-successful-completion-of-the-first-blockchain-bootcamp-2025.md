@@ -1,6 +1,5 @@
 ---
-title: "The TROPHY Project: Successful Completion of the First Blockchain
-  Bootcamp 2025"
+title: "Project TROPHY: Successful Completion of the First Blockchain Bootcamp 2025"
 date: 2025-12-04
 author: UBIK
 draft: false
