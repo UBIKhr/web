@@ -1,5 +1,5 @@
 ---
-title: Summer School “E-Business Technologies 2025” within the TROPHY Project
+title: "Project TROPHY: Summer School “E-Business Technologies 2025”"
 date: 2025-12-04
 author: UBIK
 draft: false
