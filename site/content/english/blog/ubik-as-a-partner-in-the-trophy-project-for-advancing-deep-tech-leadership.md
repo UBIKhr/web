@@ -2,7 +2,7 @@
 title: UBIK as a Partner in the TROPHY Project for Advancing Deep Tech Leadership
 date: 2025-07-01
 author: UBIK
-draft: true
+draft: false
 image: /images/blog/eit-1-objava.jpg
 type: post
 ---
